@@ -1,15 +1,9 @@
-1,1
-20,20
-30,30
-50,50
-123,123
-200,200
 " Transaction ID: ""%1""","Transaktions-ID: ""%1"""
 -- All --,-- Alle --
 -- First Please Select a Website --,-- Wählen Sie bitte zunächst eine Website --
 -- No Theme --,-- Kein Theme --
 -- None --,-- Keine --
--- Please Select --,-- Bitte auswählen --
+-- Please Select --,-- Bitte auswählen --Dateiwe
 -- Please select --,-- Bitte auswählen --
 -- Please Select a Category --,-- Bitte wählen Sie eine Kategorie --
 -- Please Select Billing Agreement--,-- Bitte wählen Sie die Abrechnungsvereinbarung --
@@ -1295,7 +1289,7 @@ Catalog Rewrites,Katalogüberschreibungen
 Catalog Rule Product,Katalog Regel Produkt
 Catalog Search,Katalogsuche
 "Catalog, Search","Katalog, Suche"
-Categories,Kategoriename
+Categories,Kategorien
 Categories Options,Kategorieoptionen
 Category,Kategorie
 Category Data,Kategoriedaten
@@ -8337,7 +8331,7 @@ We don't have enough information to save the parent transaction ID.,"Wir haben n
 We don't have some of the products you want.,"Wir haben einige der Produkte nicht, die Sie wollen."
 We don't recognize or support the file extension in shipment %1.,Die Dateiendung in Lieferung %1 ist uns nicht bekannt oder wird von uns nicht unterstützt.
 We don't recognize or support the file extension in this shipment: %1.,Wir erkennen oder unterstützen die Dateierweiterung in dieser Sendung nicht: %1.
-We don't recognize or support this file extension type.,Dieser Dateierweiterungstyp kann nciht erkannt werden.
+We don't recognize or support this file extension type.,Dieser Dateierweiterungstyp kann nicht erkannt werden.
 "We don't recognize the draw line data. Please define the ""lines"" array.","Die ""draw line"" Daten konnten nicht identifiziert werden. Bitte definieren Sie die ""lines"" Array."
 We don't recognize this file extension.,Diese Dateierweiterung kann nicht erkannt werden.
 "We fetched %1 report rows from ""%2@%3.""","Wir haben %1 Berichtszeilen aus ""%2 @% 3."" abgerufen."
