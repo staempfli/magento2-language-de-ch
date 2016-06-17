@@ -2908,9 +2908,9 @@ Gateway URL,Gateway-URL
 Gateway validation error,Gateway-Validierungsfehler
 Gateway XML URL,Gateway XML URL
 Gender,Geschlecht
-General,Allgemeine
-General (Authorization),Allgemein (Autorisierung)
-General (Dividend),Allgemein (Dividende)
+General,Allgemein
+General (Authorization),Allgemeine (Autorisierung)
+General (Dividend),Allgemeine (Dividende)
 General (Funds Transfer from PayPal Account to Another),Allgemein (Kapitaltransfer von einem PayPal-Konto auf ein anderes)
 General (Purchase with a credit card),Allgemein (Kauf mit Kreditkarte)
 General Adjustment without businessrelated event,Allgemeine Einstellung ohne unternehmensbezogenes Ereignis
