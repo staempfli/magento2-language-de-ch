@@ -4326,6 +4326,7 @@ No ordered items,Keine bestellten Artikel
 No packages for request,Keine Pakete zur Anfrage
 No partners were found,Es wurden keine Partner gefunden
 No Payment Methods,Keine Zahlungsmethoden
+No Payment Information Required,Keine Zahlungsinformationen erforderlich
 No permissions requested,Keine Berechtigungen angefordert
 No Product Exception.,Keine Artikelausnahme.
 No records found.,Keine Aufzeichnungen gefunden
@@ -5397,6 +5398,7 @@ Product Attributes,Produktattribute
 Product availability,Produktverfügbarkeit
 Product Categories,Produktkategorien
 Product Details and Comment,Produktdetails und Kommentar
+Product Details,Produktdetails
 Product EAV,Produkt-EAV
 Product Eav Attributes,Produkt-EAV-Attribute
 Product Exception.,Produkt-Ausnahme
@@ -5846,7 +5848,7 @@ Reversal of Points Usage,Aufhebung der Punkteverwendung
 Reverted,Zurückgekehrt
 Reverted from incomplete order #%1,Zurückgekehrt von unvollendeter Bestellung #%1
 Review,Bewertung
-Review &amp; Payments,Übersicht und Zahlung
+Review & Payments,Übersicht und Zahlung
 Review by,Bewertung von
 Review Details,Bewertungsdetails
 Review Order,Bestellung überprüfen
