@@ -1332,6 +1332,7 @@ Check Data,Daten prüfen
 Check Gift Card status and balance,Geschenkkartenstatus und -guthaben überprüfen
 Check here to link an RSS feed to your Wish List.,Einen RSS-Feed mit Ihrem Wunschzettel verknüpfen.
 Check items to add to the cart or,"Markieren Sie die Artikel, um Sie dem Warenkorb hinzuzufügen oder"
+Check out faster,Schneller zur Kasse gehen
 Check out now and earn %1 for this order.,Gehen Sie jetzt zur Kasse und erhalten Sie %1 für diese Bestellung.
 Check Out with Multiple Addresses,Checkout mit mehreren Adressen
 Check status and balance,Status und Guthaben überprüfen
@@ -1340,6 +1341,8 @@ Checkbox Text,Checkbox-Text
 "Checked rows: %1, checked entities: %2, invalid rows: %3, total errors: %4","Geprüfte Zeilen: %1, geprüft Einheiten: %2, ungültige Zeilen: %3, Gesamtfehler: %4"
 Checkout,Kasse
 "Checkout agreement with specified ID ""%1"" not found.","Checkout-Vereinbarung mit angegebener ID ""%1"" nicht gefunden."
+Checkout out as a new customer,Checkout als neuer Kunde
+Checkout out using your account,Checkout als registrierter Kunde
 Checkout Cart Page,Warenkorb-Checkout-Seite
 Checkout Conditions,Checkout-Bedingungen
 Checkout Options,Checkout-Optionen
@@ -1710,6 +1713,7 @@ Created on,Erstellt am
 Created On,Erstellt am
 Created:,Erstellt:
 "Created: %1, Updated: %2, Deleted: %3","Erstellt: %1, Update: %2, Gelöscht: %3"
+Creating an account has many benefits:,Ein Konto zu erstellen hat viele Vorteile:
 "Creating an account has many benefits: check out faster, keep more than one address, track orders and more.","Ein Konto zu erstellen hat viele Vorteile: schneller zur Kasse gehen, mehr als eine Adresse speichern, Bestellungen verfolgen und mehr."
 Creative,Kreativ
 Credit,Kreditkarteninformationen
@@ -6103,6 +6107,7 @@ Security validation of XML document has been failed.,Sicherheits-Validierung von
 See All (,Alles sehen
 See Details,Details ansehen
 see error log for details,Details siehe Fehlerprotokoll
+See order and shipping status,Meine Bestellungen ansehen und mehr.
 See price before order confirmation.,Vor Bestellbestätigung den Preis einsehen
 See terms,Allgemeine Geschäftsbedingungen ansehen
 Segment,Segment
@@ -7549,6 +7554,7 @@ Total: %1<br/>,Gesamt: %1<br/>
 Totals calculation is not applicable to empty cart,Summenberechnung ist nicht für leeren Korb anwendbar.
 Track history,Track-Verlauf
 Track Order,Bestellung verfolgen
+Track order history,Bestellung verfolgen
 Track this shipment,Verfolgen Sie diese Sendung
 track_summary,track_summary
 Track:,Track:
