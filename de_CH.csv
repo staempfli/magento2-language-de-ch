@@ -1313,6 +1313,7 @@ Center,Zentrum
 Centimeters,Zentimeter
 Change,Veränderung
 Change Billing Address,Rechnungsadresse ändern
+Change Email,E-Mail ändern
 Change Encryption Key,Kodierungsschlüssel ändern
 Change Password,Passwort ändern
 Change Shipping Address,Versandadresse ändern
@@ -1331,6 +1332,7 @@ Check Data,Daten prüfen
 Check Gift Card status and balance,Geschenkkartenstatus und -guthaben überprüfen
 Check here to link an RSS feed to your Wish List.,Einen RSS-Feed mit Ihrem Wunschzettel verknüpfen.
 Check items to add to the cart or,"Markieren Sie die Artikel, um Sie dem Warenkorb hinzuzufügen oder"
+Check out faster,Schneller zur Kasse gehen
 Check out now and earn %1 for this order.,Gehen Sie jetzt zur Kasse und erhalten Sie %1 für diese Bestellung.
 Check Out with Multiple Addresses,Checkout mit mehreren Adressen
 Check status and balance,Status und Guthaben überprüfen
@@ -1339,6 +1341,8 @@ Checkbox Text,Checkbox-Text
 "Checked rows: %1, checked entities: %2, invalid rows: %3, total errors: %4","Geprüfte Zeilen: %1, geprüft Einheiten: %2, ungültige Zeilen: %3, Gesamtfehler: %4"
 Checkout,Kasse
 "Checkout agreement with specified ID ""%1"" not found.","Checkout-Vereinbarung mit angegebener ID ""%1"" nicht gefunden."
+Checkout out as a new customer,Checkout als neuer Kunde
+Checkout out using your account,Checkout als registrierter Kunde
 Checkout Cart Page,Warenkorb-Checkout-Seite
 Checkout Conditions,Checkout-Bedingungen
 Checkout Options,Checkout-Optionen
@@ -1709,6 +1713,7 @@ Created on,Erstellt am
 Created On,Erstellt am
 Created:,Erstellt:
 "Created: %1, Updated: %2, Deleted: %3","Erstellt: %1, Update: %2, Gelöscht: %3"
+Creating an account has many benefits:,Ein Konto zu erstellen hat viele Vorteile:
 "Creating an account has many benefits: check out faster, keep more than one address, track orders and more.","Ein Konto zu erstellen hat viele Vorteile: schneller zur Kasse gehen, mehr als eine Adresse speichern, Bestellungen verfolgen und mehr."
 Creative,Kreativ
 Credit,Kreditkarteninformationen
@@ -2354,7 +2359,7 @@ Element name and destination must be specified.,Elementname- und Ziel muss angeg
 element tooltip,Element-Tooltip
 Element with ID '%1' already exists.,"Elemente mit der ID ""%1"" existieren bereits"
 Element with ID '%1' is already defined.,"Elemente mit der ID ""%1"" sind bereits definiert"
-Email,Email
+Email,E-Mail
 Email address,E-Mail-Adresse
 Email Address,E-Mail-Adresse
 "Email address impact. The customer uses a free email provider, or the email address is risky",E-Mail-Adressen-Auswirkung. Der Kunde verwendet einen kostenlosen E-Mail-Provider oder die E-Mail-Adresse ist riskant.
@@ -2834,6 +2839,7 @@ Forgot Email Template,Vorlage für vergessene E-Mail
 Forgot Password,Passwort vergessen
 Forgot Password Email Template,"Vorlage für ""Passwort vergessen""-E-Mail"
 "Forgot your account password? Click <a href=""%reset_url"">here</a> to reset it.","Haben Sie Ihr Passwort vergessen? Klicken Sie <a href=""%reset_url"">hier</a>,um es zurückzusetzen."
+Forgot Your Password,Passwort vergessen
 Forgot Your Password?,Passwort vergessen?
 Forgot your password?,Haben Sie Ihr Passwort vergessen?
 Form Code,Formularcode
@@ -3962,7 +3968,7 @@ Media Image,Medienbild
 Media Mail,Media Mail
 Media Storage,Medienspeicher
 Medical express,Medical Express
-Medium,Medium
+Medium,Mittel
 Medium Express Box,Medium Express Box
 Memo Total,Gutschriftengesamtanzahl
 Menu,Menü
@@ -4010,12 +4016,15 @@ Minimum,Minimum
 Minimum Advertised Price,Minimaler angezeigter Verkaufspreis
 Minimum Amount,Mindestbetrag
 Minimum Balance in order to redeem: %1.,"Minimaler Saldo, um einzulösen: %1"
+Minimum of different classes of characters in password is %1. Classes of characters: Lower Case, Upper Case, Digits, Special Characters.,Das Passwort muss sich aus Bestandteilen %1 Zeichengruppen zusammensetzen. Zeichengruppen sind: Buchstaben von a-z, A-Z, Ziffern von 0 bis 9 und Sonderzeichen.
 Minimum Order Amount,Mindestbestellmenge
 Minimum order amount is %1,Mindestbestellmenge ist %1
 Minimum Order Total,Mindestbestellsumme
 Minimum Package Weight (Please consult your shipping carrier for minimum supported shipping weight),Mindestpaketgewicht (Bitte konsultieren Sie Ihren Versandanbieter bezüglich des minimal unterstützten Versandgewichts)
 Minimum Qty,Minimalanzahl
 Minimum Qty Allowed in Shopping Cart,Erlaubte Minimalmenge im Einkaufswagen
+Minimum length of this field must be equal or greater than %1 symbols. Leading and trailing spaces will be ignored.,Die Länge des Passwortes sind %1 oder mehr Zeichen.
+Minimum length of this field must be equal or greater than 8 symbols. Leading and trailing spaces will be ignored.,rest
 Minimum Search query length is %1,Minimale Länge der Suchanfrage ist %1
 Minimum Text Length,Minimale Textlänge
 Minimum: %1,Minimum: %1
@@ -4324,6 +4333,7 @@ No order(s) were released from on hold status.,Keine Bestellung(en) wurde(n) aus
 No ordered items,Keine bestellten Artikel
 No packages for request,Keine Pakete zur Anfrage
 No partners were found,Es wurden keine Partner gefunden
+No Password,kein Password
 No Payment Methods,Keine Zahlungsmethoden
 No Payment Information Required,Keine Zahlungsinformationen erforderlich
 No permissions requested,Keine Berechtigungen angefordert
@@ -4690,6 +4700,7 @@ Password Help,Passwort-Hilfe
 Password is required field.,Passwort ist ein Pflichtfeld.
 Password Lifetime (days),Passwort-Lebensdauer (Tage)
 Password Options,Passwortoptionen
+Password Strength,Passwortsicherheit
 Password Template Email Sender,Passwortvorlage für E-Mail-Absender
 Password you set when creating account,"Passwort, das Sie während der Kontoeinrichtung gesetzt haben"
 Password:,Passwort:
@@ -5785,6 +5796,7 @@ Required to display a banner,"Erforderlich, um einen Banner einzubinden"
 Reset,Zurücksetzen
 Reset a Password,Passwort zurücksetzen
 Reset Filter,Filter zurücksetzen
+Reset My Password,Passwort zurücksetzen
 Reset Password,Passwort zurücksetzen
 Reset Password Template,Passwortvorlage zurücksetzen
 Reset password token expired.,Passwortzurücksetzungs-Token abgelaufen.
@@ -6095,6 +6107,7 @@ Security validation of XML document has been failed.,Sicherheits-Validierung von
 See All (,Alles sehen
 See Details,Details ansehen
 see error log for details,Details siehe Fehlerprotokoll
+See order and shipping status,Meine Bestellungen ansehen und mehr.
 See price before order confirmation.,Vor Bestellbestätigung den Preis einsehen
 See terms,Allgemeine Geschäftsbedingungen ansehen
 Segment,Segment
@@ -6740,6 +6753,7 @@ string with placeholder in escaped single quotes '%1',"String mit Platzhalter in
 string with placeholder in single quotes '%1',"String mit Platzhalter in einfachen Anführungszeichen ""%1"""
 String with translate,String mit Übersetzung
 Strip HTML Tags,HTML Schlagwörter abziehen
+Strong,Stark
 Sub-items,Unter-Artikelt
 Subject,Betreff
 Submit,Absenden
@@ -7540,6 +7554,7 @@ Total: %1<br/>,Gesamt: %1<br/>
 Totals calculation is not applicable to empty cart,Summenberechnung ist nicht für leeren Korb anwendbar.
 Track history,Track-Verlauf
 Track Order,Bestellung verfolgen
+Track order history,Bestellung verfolgen
 Track this shipment,Verfolgen Sie diese Sendung
 track_summary,track_summary
 Track:,Track:
@@ -7966,6 +7981,7 @@ Version Label,Versions Etikett
 Version Revisions,Version Revisionen
 Version:,Version:
 Versions,Versionen
+Very Strong,Sehr stark
 Video cant be shown due to the following reason:,Video kann aufgrund von folgenden Gründen nicht angezeigt werden:
 Video Error,Videofehler
 Video not found,Video nicht gefunden
@@ -8408,6 +8424,7 @@ We'll use the default error above if you leave this empty.,"Wir werden den obige
 "We're sorry, an error has occurred while generating this email.",Bei der Generierung dieser E-Mail ist ein Fehler aufgetreten.
 We're unable to delete the segement.,Wir sind nicht in der Lage diesen Abschnitt zu löschen.
 We're unable to send the password reset email.,"Wir sind nicht in der Lage, die E-Mail für die Passwortzurücksetzung zu schicken."
+Weak,Schwach
 Web,Web
 Web Services Configuration,Konfiguration von Web Services
 Web Site,Website
@@ -8544,6 +8561,7 @@ You applied the custom currency symbols.,Sie haben die benutzerdefinierten Währ
 You are about to delete all products in this attribute set. Are you sure you want to do that?,"Sie sind dabei, alle Produkte dieses Attributsets zu löschen. Sind Sie sicher, dass Sie dies tun wollen?"
 You are about to delete all products in this product template. ' 'Are you sure you want to do that?,Sie sind dabei alle Produkte in dieser Produktvorlagen zu löschen. Möchten Sie dies wirklich tun?
 You are not using store credit in your shopping cart.,Sie benutzen kein Shopguthaben in Ihrem Einkaufswagen.
+You are signed out,Sie haben sich ausgeloggt
 You are signed out.,Sie haben sich ausgeloggt.
 You are trying to add a quantity for some products that doesn't match the quantity that was shipped.,"Sie versuchen, eine Menge für einige Produkte hinzuzufügen, die nicht mit der Menge übereinstimmt, die geliefert wurde."
 You assigned the order status.,Sie haben den Auftragsstatus zugeordnet.
