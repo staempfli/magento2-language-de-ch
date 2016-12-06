@@ -3,7 +3,7 @@
 -- First Please Select a Website --,-- Wählen Sie bitte zunächst eine Website --
 -- No Theme --,-- Kein Theme --
 -- None --,-- Keine --
--- Please Select --,-- Bitte auswählen --Dateiwe
+-- Please Select --,-- Bitte auswählen --
 -- Please select --,-- Bitte auswählen --
 -- Please Select a Category --,-- Bitte wählen Sie eine Kategorie --
 -- Please Select Billing Agreement--,-- Bitte wählen Sie die Abrechnungsvereinbarung --
@@ -145,14 +145,18 @@
 %1 order(s) have been released from on hold status.,%1 Bestellung(en) wurde(n) aus der Wartestellung freigegeben.
 %1 order(s) were not put on hold.,%1 Bestellung(en) wurden nicht auf Wartestellung gesetzt.
 %1 order(s) were not released from on hold status.,%1 Bestellung(en) wurde(n) nicht aus der Wartestellung freigegeben.
+%1 out of %2 visible,%1 von %2 sichtbar
 %1 product requires your attention.,%1 Produkt erfordert Ihre Aufmerksamkeit.
 %1 product(s) have been added to shopping cart: %2.,%1 Produkt(e) wurde/n in den Warenkorb gelegt:% 2.
 %1 products require your attention.,%1 Produkte erfordert Ihre Aufmerksamkeit.
+%1 records found,%1 Datensätze gefunden
+%1 records found,%1 gefundene Datensätze
 %1 Review(s),%1 Bewertung(en)
 %1 Reward points,%1 Belohnungspunkte
 %1 Reward points (%2),%1 Belohnungspunkte (%2)
 %1 RMA (s) have been closed.,%1 RMA(s) wurde(n) geschlossen.
 %1 RMA(s) cannot be closed,%1 RMA(s) kann/können nicht geschlossen werden.
+%1 selected,%1 ausgewählt
 %1 should be an iterator,%1 sollte ein Iterator sein
 %1 spent = %2 earned,%1 ausgegeben = %2 verdient
 %1 store reward points available,%1 Shop-Belohnungspunkte verfügbar
@@ -176,7 +180,6 @@
 "%name,","%name,"
 %operation_name - Scheduled Export Failed,%operation_name - Geplanter Export fehlgeschlagen
 %operation_name - Scheduled Import Failed,%operation_name - Geplanter Import fehlgeschlagen
-"%sender has sent you a gift card for use at <a href=""%store_url"">%store_name</a> and it is now ready to be used for purchases.",
 %sender_name wants to share this product with you:,%sender_name möchte dieses Produkt mit Ihnen teilen:
 %store_name offers limited time sales of products only to members.,%store_name bietet einen zeitlich begrenzten Ausverkauf für seine Kunden an
 "%value%' appears to be a DNS hostname, but the given punycode notation cannot be decoded.","%value% scheint ein DNS-Hostname zu sein, aber die gegebene Punycode-Notation kann nicht decodiert werden."
@@ -221,6 +224,8 @@
 <span>Item %1</span> of %2,<span>Artikel %1</span> von %2
 "<strong style=""""color:red"""">Warning!</strong> By default this feature restricts all categories.","<strong style=""""color:red"""">Warnung!</strong> Diese Eigenschaft schränkt alle Kategorien automatisch ein."
 "<strong style=""""color:red"""">Warning!</strong> When using Store Code in URLs in some cases system may not work properly if URLs without Store Codes are specified in the third party services (e.g. PayPal etc.).","<strong style=""""color:red"""">Warnung!</strong> Sollten Sie Shopcode in URLs benutzen kann es dazu kommen, dass das System in einigen Fällen nicht richtig funktioniert wenn der Shopcode nicht auch bei den Drittanbieter-Services angegeben wird. (z.B PayPal etc.)."
+"<strong style=""color:red"">Warning!</strong> Do not set to ""No"". User security could be compromised.","<strong style=""color:red"">Warnung!</strong> Nicht auf ""Nein"" setzen. Die Sicherheit der Nutzer könnte beeinträchtigt werden."
+"<strong style=""color:red"">Warning!</strong> Enabling MAP by default will hide all product prices on Storefront.","<strong style=""color:red"">Warnung!</strong> Wenn MAP als Standard aktiviert ist, werden Produktpreise im Frontend nicht angezeigt."
 "<strong style=""color:red"">Warning!</strong> When using Store Code in URLs, in some cases system may not work properly if URLs without Store Codes are specified in the third party services (e.g. PayPal etc.).","<strong style=""color:red"">Warnung!</strong> Wenn Sie den Storecode in URLs verwenden, könnte das System in einigen Fällen nicht sauber arbeiten, wenn URLs ohne Storecodes in Third-Party-Services angegeben sind (z.B. PayPal etc.)."
 <strong>%1 item</strong> were found using the following search criteria,<strong>%1 Artikel</strong> wurden mit den folgenden Suchkriterien gefunden
 <strong>%1 items</strong> were found using the following search criteria,<strong>%1 Artikel</strong> wurden mit den folgenden Suchkriterien gefunden
@@ -236,6 +241,7 @@ $attributes must be an array,$attributes muss ein Array sein.
 1 Hour,1 Stunde
 1 item,1 Artikel
 1 item in wish list,1 Artikel in Wunschliste
+10 by default. Max – 10000,Standardmässig 10. Maximal 10000.
 10 minutes,10 Minuten
 12 Hours,12 Stunden
 12h AM/PM,12h AM/PM
@@ -251,6 +257,7 @@ $attributes must be an array,$attributes muss ein Array sein.
 200 OK,200 OK
 24 Hours,24 Stunden
 24h,24h
+255 by default,Standardmässig 255.
 2nd Day Air,2nd Day Air
 2nd Day Air AM,2nd Day Air AM
 2nd Day Air AM Letter,2nd Day Air AM Letter
@@ -322,6 +329,8 @@ About Your Invoice,Über Ihre Rechnung
 About Your Order,Über Ihre Bestellung
 About Your Refund,Über Ihre Rückerstattung
 About Your Shipment,Über Ihre Sendung
+Accept credit card and PayPal payments securely.,Akzeptieren Sie Kreditkarten und PayPal-Zahlungen sicher.
+Accept credit/debit cards and PayPal in your Magento store. No setup or monthly fees and your customers never leave your store to complete the purchase.,"Akzeptieren Sie Kreditkarten und PayPal in Ihrem Magento-Shop. Keine Installation oder monatlichen Kosten und Ihre Kunden verlassen nie Ihren Shop, um ihren Einkauf abzuschliessen."
 Accept Payment,Zahlung akzeptieren
 Accept payments with a completely customizable checkout page.,Akzeptieren Sie Zahlungen mit einer vollständig anpassbaren Checkout-Seite.
 Accept payments with a PCI compliant checkout that keeps customers on your site.,"Akzeptieren Sie Zahlungen mit einer PCI-konformen Kasse, sodass die Kunden auf Ihrer Website bleiben."
@@ -354,10 +363,12 @@ Account Dashboard,Benutzerkonto-Übersicht
 Account ID,Konto-ID
 Account Information,Kontoinformationen
 Account Number,Kontonummer
+Account owner,Kontoinhaber
 Account Setting,Kontoeinstellung
 Account Sharing Options,Konto-Teilungsoptionen
 Account Status,Kontostatus
 Account type,Kontotyp
+Account will be unlocked after provided time.,Konto wird nach angegebener Zeit entsperrt.
 "Account-to-Account Payment, initiated by PayPal",Konto-an-Konto Zahlung durch PayPal eingeleitet
 ACH Deposit (Hold for Dispute or Other Investigation),ACH-Kaution (Halten für Streitschlichtung oder andere Untersuchungen)
 ACH Deposit (Reversal),ACH-Kaution (Storno)
@@ -370,6 +381,8 @@ Actions for Acquiring Reward Points by Customers,"Aktionen, mit denen Kunden Bel
 actions' 'label,Aktionsbezeichnung
 Activate,Aktivieren
 Active,Aktiv
+Active From,Aktiv ab
+Active To,Aktiv bis
 Actual Price,Aktueller Preis
 Adapter must be an instance of \Magento\ImportExport\Model\Import\AbstractSource,Adapter muss eine Instanz sein von \Magento\ImportExport\Model\Import\AbstractSource
 Add,Hinzufügen
@@ -384,12 +397,14 @@ Add Attribute Set,Attributset hinzufügen
 Add Banner,Banner hinzufügen
 Add Block Names to Hints,Block-Namen den Vorschlägen hinzufügen
 Add Catalog Event,Katalogereignis hinzufügen
+Add CMS Block,CMS-Block hinzufügen
 "Add configurable attributes to the current Attribute Set (""%1"")","Konfigurierbare Attribute dem aktuellen Attributset (""%1"") hinzufügen"
 "Add configurable attributes to the current set (""<span data-role=""name-container"">%1</span>"")","Konfigurierbare Attribute zum aktuellen Set hinzufügen ((""<span data-role=""name-container"">%1</span>"")"
 Add configurable attributes to the existing Attribute Set,Konfigurierbare Attribute dem bestehenden Attributset hinzufügen
 Add configurable attributes to the new Attribute Set based on current,Konfigurierbare Attribute dem neuen Attributset anhand des derzeitigen hinzufügen.
 Add configurable attributes to the new set based on current,"Konfigurierbare Attribute dem neuen Set, basierend auf dem aktuellen, hinzufügen"
 Add Credit Card,Kreditkarte hinzufügen
+Add Cross-Sell Products,Cross-Sell-Artikel hinzufügen
 Add Date,Datum hinzufügen
 Add Design Change,Designänderung hinzufügen
 Add Details,Details hinzufügen
@@ -416,6 +431,7 @@ Add New,Neu hinzufügen
 Add New,Neu hinzufügen
 Add New ' .,Neu hinzufügen ' .
 Add New Address,Neue Adresse hinzufügen
+Add New Addresses,Neue Adressen hinzufügen
 Add New Attribute,Neues Attribut hinzufügen
 Add New Attribute Set,Neues Attributset hinzufügen
 Add New Block,Neuen Block hinzufügen
@@ -444,6 +460,7 @@ Add New Tax Rule,Neue Steuerregel hinzufügen
 Add New Template,Neue Vorlage hinzufügen
 Add New URL Rewrite,Neuen URL-Rewrite hinzufügen
 Add New User,Neuen Benutzer hinzufügen
+Add New User Agent Rule,Neue Benutzer-Agent-Regel hinzufügen
 Add New Variable,Neue Variable hinzufügen
 Add Node...,Node hinzufügen...
 Add Option,Option hinzufügen
@@ -465,6 +482,7 @@ Add Products to Option,Produkte zu Option hinzufügen
 Add Products to Order,Produkte zur Bestellung hinzufügen
 Add Products to Package,Artikel zu Paket hinzufügen
 Add Registrant,Registrant hinzufügen
+Add Related Products,Verwandte Artikel hinzufügen
 Add Reward Points,Belohnungspunkte hinzufügen
 Add Root Category,Hauptkategorie hinzufügen
 Add Row,Zeile hinzufügen
@@ -499,6 +517,7 @@ Add to tree.,Zu Struktur hinzufügen
 Add to Wish List,Zur Wunschliste hinzufügen
 Add to:,Hinzufügen zu:
 Add Tracking Number,Tracking-Nummer hinzufügen
+Add Up-Sell Products,Up-Sell-Artikel hinzufügen
 Add URL Rewrite,URL-Rewrite hinzufügen
 Add URL Rewrite for a Category,URL-Rewrite für eine Kategorie hinzufügen
 Add URL Rewrite for a Product,URL-Rewrite für ein Produkt hinzufügen
@@ -537,6 +556,7 @@ Adjustment Fee,Angepasste Gebühr
 Adjustment Refund,Angepasste Rückerstattung
 Admin,Admin
 Admin 1column,Admin 1 Spalte
+Admin Account Sharing,Gemeinsame Nutzung von Adminkonten
 Admin Actions Archive,Adminaktionen-Archiv
 Admin Actions Log,Adminaktionen-Log
 Admin Actions Log Archive,Adminaktionen-Logarchiv
@@ -564,6 +584,7 @@ Advanced Attribute Properties,Erweiterte Attributeigenschaften
 Advanced Braintree Settings,Erweiterte Braintree-Einstellungen
 Advanced Fraud Protection,Erweiterter Betrugs-Schutz
 Advanced Inventory,Erweitertes Inventar
+Advanced Pricing,Erweiterte Preisgestaltung
 Advanced Search,Erweiterte Suche
 Advanced Settings,Erweiterte Einstellungen
 Advertise PayPal Credit,Für PayPal Credit werben
@@ -589,6 +610,7 @@ All Configurable Cron Jobs,Alle konfigurierbaren Cron-Jobs
 All Countries,Alle Länder
 All countries,Alle Länder
 All Customer Groups,Alle Kundengruppen
+All Customers,Alle Kunden
 All Eav Attributes,Alle EAV-Attribute
 All Empty Layout Pages,Alle leeren Layout-Seiten
 All Files,Alle Dateien
@@ -596,6 +618,7 @@ All Forms,Alle Formulare
 All Global Cron Jobs,Alle globalen Cron-Jobs
 ALL GROUPS,ALLE GRUPPEN
 All Items,Alle Artikel
+All other open sessions for this account were terminated.,Alle anderen offenen Sessions für dieses Konto wurden beendet.
 All Pages,Alle Seiten
 All processes should be complete,Alle Prozesse sollten abgeschlossen sein
 All Product Types,Alle Produkttypen
@@ -605,6 +628,7 @@ All Reviews,Alle Bewertungen
 All Reviews of Customer `%1`,"Alle Bewertungen von Kunden ""%1"""
 All Reviews of Product `%1`,Alle Bewertungen des Produkts `%1'
 All Store Views,Alle Store Views
+All Stores,Alle Stores
 All the address information matched,Alle Adressinformationen übereinstimmend
 All Themes,Alle Themes
 All Users,Alle Benutzer
@@ -616,6 +640,7 @@ Allow Adding to Cart,Hinzufügen zum Einkaufswagen erlauben
 Allow Alert When Product Comes Back in Stock,"Alarm erlauben, wenn Produkt wieder auf Lager ist"
 Allow Alert When Product Price Changes,Alarm bei Produktpreisänderung erlauben
 Allow All Products per Page,Alle Artikel pro Seite erlauben
+Allow Anonymous Guest Access,Anonymen Gastzugang erlauben
 Allow Browsing Category,Durchsuchen von Kategorien erlauben
 Allow Cookies,Cookies zulassen
 Allow Countries,Erlaubte Länder
@@ -654,7 +679,9 @@ Allowed Errors Count,Erlaubte Fehleranzahl
 Allowed file types *.css.,Erlaubte Dateitypen *.css.
 Allowed file types *.js.,Erlaubte Dateitypen *.js.
 "Allowed file types: ICO, PNG, GIF, JPG, JPEG, APNG, SVG. Not all browsers support all these formats!","Erlaubte Dateitypen: ICO, PNG, GIF, JPG, JPEG, APNG, SVG. Nicht alle Browser unterstützen alle diese Formate!"
+"Allowed file types: jpeg, gif, png.","Erlaubte Dateitypen: JPEG, GIF, PNG"
 "Allowed file types: jpg, jpeg, gif, png. To optimize logo for high-resolution displays, upload an image that is 3x normal size and then specify 1x dimensions in width/height fields below.","Erlaubte Dateitypen: jpg, jpeg, gif, png. Um das Logo für hochauflösende Displays zu optimieren, laden Sie ein Bild hoch, dass 3x der normalen Grösse hat und geben Sie dann 1x Abmessungen in Breite / Höhe in die unteren Felder ein."
+"Allowed file types:PNG, GIF, JPG, JPEG, SVG.","Erlaubte Dateitypen: PNG, GIF, JPG, JPEG, SVG."
 Allowed IPs (comma separated),Erlaubte IPs (Komma-getrennt)
 Allowed Methods,Erlaubte Methoden
 Allowed Scopes,Erlaubte Geltungsbereiche
@@ -715,6 +742,7 @@ An error occurred while the system report was being created. Please review the l
 An error occurred. The email template can not be opened for preview.,Ein Fehler ist aufgetreten. Die E-Mail-Vorlage kann nicht für die Vorschau geöffnet werden.
 An item object is not specified.,Ein Artikel-Objekt ist nicht bestimmt.
 An item option with code %1 already exists.,Eine Artikeloption mit dem Code %1 existiert bereits.
+An up-sell item is offered to the customer as a pricier or higher-quality alternative to the product the customer is looking at.,"Ein Up-Sell-Artikel wird den Kunden als teurere oder hochwertigere Alternative zu dem Artikel angeboten, den sie sich anschauen."
 Anchor Categories,Anker-Kategorien
 Anchor Custom Text,Benutzerdefinierter Ankertext
 Anchor Custom Title,Benutzerdefinierter Ankertitel
@@ -728,6 +756,7 @@ Answers,Antworten
 Any,Beliebig
 ANY,BELIEBIG
 Any Banner Type,Beliebiger Bannertyp
+Any of the fields allow fully qualified URLs that end with '/' (slash) e.g. http://example.com/magento/,D. h.: diese Felder erlauben vollqualifizierte URLs mit einem Slash ('/') am Ende – z. B. http://example.com/magento/
 API,API
 API Authentication Methods,API-Authentifizierungsmethoden
 API Certificate,API-Zertifikat
@@ -742,6 +771,7 @@ Append Comments,Kommentare hinzufügen
 "Applicable only if restriction mode is set to ""Website Closed"". The landing page is rendered as raw HTML.","Nur anwendbar, wenn Beschränkungsmodus auf ""Website geschlossen"" gesetzt ist. Die Startseite wird nur in HTML angezeigt."
 Applied,Angewandt
 Applied Coupon,Angewandter Gutschein
+Applied Theme,Angewandtes Theme
 Applies To,Gilt für
 Applies to All of the Specified Customer Segments,Gilt für alle angegebenen Kundensegmente
 Applies to Any of the Specified Order Statuses except canceled orders,Gilt für eine der angegebenen Auftragsstatus ausser stornierte Aufträge
@@ -752,11 +782,14 @@ Apply Coupon,Coupon anwenden
 Apply Coupon Code,Gutscheincode anwenden
 Apply custom Shipping Policy,Benutzerdefinierte Versandbedingungen anwenden
 Apply Customer Tax,Verwende Kundensteuerklasse
+Apply Design to Products,Design auf Produkte anwenden
 Apply Discount,Rabatt anwenden
 Apply Discount Code,Rabattcode anwenden
 "Apply discount on price including tax is calculated based on store tax if ""Apply Tax after Discount"" is selected.","""Wende Rabatt auf Preise inklusive Steuern an"" basiert auf der eingestellten Shop-Steuer, wenn 'Wende Steuern nach Rabatt an' ausgewählt ist."
 Apply Discount On Prices,Wende Rabatt auf Preise an
-Apply Layered Navigation if Search Results are Less Than,"Gestufte Navigation anwenden, wenn Suchergebnisse weniger sind als"
+Apply Filters,Filter anwenden
+"Apply filters in order to get results. Only first 100 records will be displayed in the grid, you will be able to download full version of the report in .csv format.","Verwenden Sie Filter, um Ergebnisse zu erhalten. Es werden nur die ersten 100 Einträge angezeigt. Die vollständige Version können Sie im .csv-Format herunterladen."
+Apply Layered Navigation if Search Results are Less Than,"Filternavigation anwenden, wenn Suchergebnisse weniger sind als"
 Apply Rules,Regeln anwenden
 Apply single price to all SKUs,Einheitspreis auf alle SKUs anwenden
 Apply single quantity to each SKUs,Eine Menge auf jede SKU anwenden
@@ -767,6 +800,7 @@ Apply the rule only if the following conditions are met (leave blank for all pro
 Apply the rule only to cart items matching the following conditions ' '(leave blank for all items).,"Regel nur auf Wagenartikel anwenden, die die folgenden Bedingungen erfüllen (leer lassen für alle Artikel)"
 Apply the rule only to cart items matching the following conditions (leave blank for all items).,"Regel nur anwenden, wenn Artikel des Warenkorbs mit folgenden Bedingungen übereinstimmen (frei lassen für alle Artikel)."
 Apply To,Anwenden auf:
+Apply To Products, Auf Produkte anwenden
 Apply to Shipping Amount,Anwenden auf Versandbetrag
 Apply to the Selected Customer Segments,Auf die ausgewählten Kundensegmente anwenden
 Apply unique images by attribute to each SKU,Einzelne Bilder nach Attributen auf jede SKU anwenden
@@ -858,6 +892,7 @@ Assigned,Zugewiesen
 Assigned Options,Zugeordnete Optionen
 Assigned to Website,der Website zugeordnet
 Assignment Information,Zuweisungsinformationen
+Associate to Website,Website zuordnen
 Associated Products,Zugehörige Produkte
 Associative and numeric keys must not be mixed at one level.,Assoziate und numerische Schlüssel dürfen nicht vermischt werden
 Associative key must not be the same as its parent associative key.,Assoziativer Schlüssel darf nicht mit dem Ursprungsschlüssel übereinstimmen
@@ -907,6 +942,7 @@ Authentication storage is incorrect.,Authentifizierungsspeicher ist falsch.
 Author,Autor
 Author:,Autor:
 Authorised,Autorisiert
+Authority (ECG),Behörde gem. ECG (E-Commerce-Gesetz)
 Authorization,Autorisierung
 Authorization Honor Period (days),Autorisierungs-Honorierungs-Zeitraum (Tage)
 authorize,Autorisieren
@@ -930,7 +966,9 @@ Automatic (equalize price ranges),Automatisch (Preisklassen angleichen)
 Automatic (equalize product counts),Automatisch (Produktanzahlen angleichen)
 Automatically,Automatisch
 Automatically Invoice All Items,Alle Artikel automatisch berechnen
+"Automatically merges synonyms in groups that share the same scope. If you check this box and you add one or more of the same terms to different synonym groups in the same scope, automatically merges all the terms to one group. If this isn't what you want, uncheck the box and an error displays if you try to add the same terms.","Fügt automatisch Synonyme in Gruppen zusammen, die den gleichen Geltungsbereich haben. Wenn Sie diesen Haken setzen und gleiche Begriffe verschiedenen Synonymgruppen im gleichen Geltungsbereich zuweisen, werden die Begriffe automatisch in einer einzigen Gruppe zusammengefügt. Setzen Sie den Haken nicht, erhalten Sie einen Fehler, wenn Sie versuchen, den gleichen Begriff hinzuzufügen. "
 Automatically Return Credit Memo Item to Stock,Gutschrift-Artikel automatisch zum Bestand zurückgeben
+Autosettings,Auto-Einstellungen
 Autostart base video,Autostart Basis-Video
 AutoSweep,AutoSweep
 Availability,Verfügbarkeit
@@ -940,6 +978,7 @@ available,Verfügbar
 Available,Verfügbar
 Available APIs,Verfügbare APIs
 Available Balance,Verfügbares Guthaben
+Available Product Listing Sort By,Produkte sortierbar nach
 Available to All,Verfügbar für alle
 Average,Durschschnitt
 Average (Approved),Durchschnitt (bestätigt)
@@ -991,6 +1030,8 @@ Balance History,Guthabenverlauf
 Balance limit is %1.,Guthabenlimit ist %1.
 Balance Manager Account Bonus,Ausgleichsmanager-Kontobonus
 Balance Update Email,Guthabenupdate-E-Mail
+Bank name,Name der Bank
+Bank number,BLZ
 Bank Transfer Payment,Zahlung per Banküberweisung
 Banner,Banner
 Banner Block Template,Banner-Blockvorlage
@@ -1074,6 +1115,7 @@ Binary,Binär
 bla,bla
 Block,Block
 Block %1 throws exception and cannot be rendered.,Block %1 kann nicht wiedergegeben werden
+Block after Info Column,Block nach Info-Spalte
 Block Custom Width,Benutzerdefinierte Blockbreite
 Block Information,Blockinformationen
 Block Title,Block-Titel
@@ -1101,11 +1143,12 @@ Built-in Application,Integrierte Anwendung
 Built-in Application (Not Recommended for Production Use),Built-in-Anwendung (nicht empfohlen für den Einsatz in der Produktion)
 Bulk Images &amp; Price,Massenbilder &amp; Preis
 Bundle Items,Bündelartikel
+Bundle Product,Bündelprodukt
 Bundle product could not contain another composite product,Bündelprodukt konnte kein weiteres zusammengefasstes Produkt beinhalten.
 Business Service Center,Business Service Center
 button_label,button_label
 Buy %1 for %2 each,%1 für jeweils %2 kaufen
-"Buy %1 for %2 each and <strong class=""benefit"">save<span class=""percent tier-%3"">&nbsp;%4</span>%</strong>","%1 für jeweils %2 kaufen und <strong> <span class=""percent tier-%3"">&nbsp;%4</span>% class=""benefit"">sparen</strong>"
+"Buy %1 for %2 each and <strong class=""benefit"">save<span class=""percent tier-%3"">&nbsp;%4</span>%</strong>","%1 für jeweils %2 kaufen und <strong class=""benefit""><span class=""percent tier-%3"">&nbsp;%4</span>% sparen</strong>"
 Buy %1 for price %2,Kaufe %1 zum Preis von %2
 Buy %1 for:,%1 kaufen für:
 Buy %1 for:,%1 kaufen für:
@@ -1123,10 +1166,12 @@ Buyer's Tax ID Type,Steuernummer-Typ des Käufers
 by,Von
 By admin: %1.,Von Administrator: %1
 By admin: %1. (%2),Von Administrator: %1. (%2)
+By Customers,Nach Kunden
 "By default it is ""reports.paypal.com"".","Standardmässig ist es ""reports.paypal.com""."
 By Fixed value,Um festen Wert
 By Invitation Only,Nur mit Einladung
 By Percentage,Um Prozentwert
+By Products,Nach Produkten
 Cache Control,Cache-Verwaltung
 Cache Description,Cache-Beschreibung
 Cache Lifetime (Seconds),Cache-Lebensdauer (Sekunden)
@@ -1156,7 +1201,7 @@ Can't unhold order.,Kann Bestellung nicht von der Wartestellung freigeben.
 Can't update wish list,Kann Wunschzettel nicht aktualisieren
 Canada Standard,Canada Standard
 Cancel,Abbrechen
-Cancel Coupon,Coupon stornieren
+Cancel coupon,Gutschein entfernen
 Canceled,Abgebrochen
 Canceled order offline,Bestellung offline storniert.
 Canceled order online,Bestellung online storniert.
@@ -1296,6 +1341,7 @@ Category does not contain specified product,Kategorie enthält angegebenes Produ
 Category Eav Attributes,Kategorie-EAV-Attribute
 Category Flat Data,Kategorie-Flat-Daten
 Category ID,Kategorie-ID
+Category Image,Kategoriebild
 Category is not available for requested store.,Kategorie ist für den angefragten Shop nicht verfügbar.
 Category Link Block Template,Kategorielink-Block-Vorlage
 Category Link Inline Template,Kategorielink-Inline-Vorlage
@@ -1311,9 +1357,10 @@ CAVV Response,CAVV-Antwort
 CC type field should be provided,Kreditkartentyp sollte angegeben werden.
 Center,Zentrum
 Centimeters,Zentimeter
+CEO,Geschäftsführer
 Change,Veränderung
 Change Billing Address,Rechnungsadresse ändern
-Change Email,E-Mail ändern
+Change Email,E-Mail-Adresse ändern
 Change Encryption Key,Kodierungsschlüssel ändern
 Change Password,Passwort ändern
 Change Shipping Address,Versandadresse ändern
@@ -1321,6 +1368,7 @@ Change Status,Status ändern
 Change status,Status ändern
 Changes have been made to this section that have not been saved.,"Es wurden Änderungen an diesem Abschnitt vorgenommen, die nicht gespeichert wurden."
 "Changing address information will not recalculate shipping, tax or other order amount.","Bei Änderung der Adressinformationen werden Versandkosten, Steuern oder andere Bestellwerte nicht neu berechnet."
+Changing can take some time due to processing whole catalog.,"Änderungen können einige Zeit erfordern, da der gesamte Katalog verarbeitet werden muss."
 Chapter,Kapitel
 Chapter/Section,Kapitel/Sektion
 Charge-off,Abbuchung
@@ -1332,7 +1380,6 @@ Check Data,Daten prüfen
 Check Gift Card status and balance,Geschenkkartenstatus und -guthaben überprüfen
 Check here to link an RSS feed to your Wish List.,Einen RSS-Feed mit Ihrem Wunschzettel verknüpfen.
 Check items to add to the cart or,"Markieren Sie die Artikel, um Sie dem Warenkorb hinzuzufügen oder"
-Check out faster,Schneller zur Kasse gehen
 Check out now and earn %1 for this order.,Gehen Sie jetzt zur Kasse und erhalten Sie %1 für diese Bestellung.
 Check Out with Multiple Addresses,Checkout mit mehreren Adressen
 Check status and balance,Status und Guthaben überprüfen
@@ -1341,8 +1388,6 @@ Checkbox Text,Checkbox-Text
 "Checked rows: %1, checked entities: %2, invalid rows: %3, total errors: %4","Geprüfte Zeilen: %1, geprüft Einheiten: %2, ungültige Zeilen: %3, Gesamtfehler: %4"
 Checkout,Kasse
 "Checkout agreement with specified ID ""%1"" not found.","Checkout-Vereinbarung mit angegebener ID ""%1"" nicht gefunden."
-Checkout out as a new customer,Checkout als neuer Kunde
-Checkout out using your account,Checkout als registrierter Kunde
 Checkout Cart Page,Warenkorb-Checkout-Seite
 Checkout Conditions,Checkout-Bedingungen
 Checkout Options,Checkout-Optionen
@@ -1383,7 +1428,7 @@ Clear Price,Preis entfernen
 Clear Shopping Cart,Warenkorb löschen
 "Click ""Save"" to apply the rates we found.","Klicken Sie auf ""Speichern"", um die Kurse anzuwenden."
 "Click <a href=""%1"">here</a> if nothing has happened","Klicken Sie <a href=""%1"">hier</a>, falls nicht geschieht"
-"Click <a href=""%1"">here</a> to continue shopping.","Klicken Sie <a href=""%1""> hier</a>, um den Einkauf fortzusetzen."
+"Click <a href=""%1"">here</a> to continue shopping.","Klicken Sie <a href=""%1"">hier</a>, um den Einkauf fortzusetzen."
 "Click <a href=""%1"">here</a> to see the review.","Klicken Sie <a href=""%1"">hier</a> um die Bewertung zu sehen"
 Click Details for more required fields.,Auf Details klicken für mehr erforderliche Felder
 Click for price,Für Preis klicken
@@ -1395,7 +1440,7 @@ Click on the code(s) above to redeem them into Store Credit.,"Klicken Sie auf de
 "Click on the link to <a href=""%1"">ignore this notification</a>","Klicken Sie auf den Link, um <a href=""%1"">diese Benachrichtung zu ignorieren</a>"
 Click to change shipping method,"Klicken, um Versandmethode zu ändern"
 Click to change shipping method.,"Klicken, um Versandmethode zu ändern"
-Client side less compilation,Weniger Kompilierung auf Clientseite
+Client side less compilation,LESS Kompilierung auf Clientseite
 close,Schliessen
 Close,Schliessen
 Close panel,Panel schliessen
@@ -1444,11 +1489,13 @@ Collection data files.,Datensammlungsdateien
 Collection provider is not registered,Collection-Provider nicht registriert
 Collections Data,Datensammlungen
 Column %1,Spalte %1
+Columns,Spalten
 Combined,Kombiniert
 Coming Soon,Demnächst verfügbar
 Comma separated,Durch Kommas getrennt
-Comma-separated,Durch Komma getrennt
-Comma-separated.,Komma-getrennt.
+Comma-separated,kommagetrennt
+"Comma-separated list of synonyms. The terms entered (separated by commas) will be used as an “OR” search query to search your entire store. For example, if you enter “shoes,footwear”, and user were to search for ""shoes"", the search results will include any product or content with term “shoes"" or ""footwear.”","Komma-getrennte Liste von Synonymen. Die eingegebenen Begriffe (durch Komma getrennt) werden als „ODER“-Suchanfrage verwendet, um Ihren gesamten Shop zu durchsuchen. "
+Comma-separated.,Kommagetrennt.
 Command %1 does not exist.,Befehl %1 existiert nicht.
 command not found,Befehl nicht gefunden
 "Command returned non-zero exit code:
@@ -1462,8 +1509,11 @@ Comment: %comment,Kommentar: %comment
 Comments,Kommentare
 Comments History,Kommentarhistorie
 Commercial,Gewerblich
+Communications,Kommunikation
 Community Edition,Community Edition
 Company,Firma
+Company First,Unternehmen 1
+Company Second,Unternehmen 2
 Comparable,Vergleichbar
 Comparable on Storefront,In Storefront vergleichbar
 Compare,Vergleichen
@@ -1486,37 +1536,25 @@ Conditions (don't add conditions if rule is applied to all products),"Bedingunge
 Conditions Combination,AGB-Kombination
 Conditions combination,Kombination von Bedingungen
 Config form fieldset clone model required to be able to clone fields,"Um Felder zu klonen ist eine Konfiguration des ""fieldset clone model"" erforderlich."
+Configurable Product,Konfigurierbares Produkt
 "Configurable product ""%1"" do not have sub-products","Konfigurierbares Produkt ""%1"" hat keine Teilprodukte."
 Configurable Product Image,Konfigurierbares Produktbild
 "Configurable products allow customers to choose options (Ex: shirt color).
-Connecting to server
-Connection failed! Test again?
-Connection Type
-Constant Value
-Contact Email Address
-Contact Name
-Container Id
-Continue Processing
-Conversion Rate
-Conversion Rate Report
-Converting Invitation to Customer
-Converting Invitation to Order
- Copy
-&copy; Magento Inc.","Konfigurierbare Produkte erlauben es Kunden, Optionen auszuwählen (z.B. Farbe eines Shirts)
-Verbindet zum Server
-Verbindung fehlgeschlagen! Erneut versuchen?
-Verbindungstyp
-Konstanter Wert
-Kontakt-E-Mail-Adresse
-Kontaktname
-Container-ID
-Bearbeitung fortfahren
-Umrechnungskurs
-Umrechnungskursbericht
-Konvertiert Einladung zum Kunden
-Konvertiert Einladung zur Bestellung
-Kopieren
-&copy; Magento Inc."
+Connecting to server,Verbindet zum Server
+Connection failed! Test again?,Verbindung fehlgeschlagen! Erneut versuchen?
+Connection Type,Verbindungstyp
+Constant Value,Konstanter Wert
+Contact Email Address,Kontakt-E-Mail-Adresse
+Contact Name,Kontaktname
+Container Id,Container-ID
+Continue Processing,Bearbeitung fortfahren
+Conversion Rate,Umrechnungskurs
+Conversion Rate Report,Umrechnungskursbericht
+Converting Invitation to Customer,Konvertiert Einladung zum Kunden
+Converting Invitation to Order,Konvertiert Einladung zur Bestellung
+Copy,Kopieren
+&copy; Magento Inc.","&copy; Magento Inc."""
+Configurable products allow customers to choose options (Ex: shirt color). You need to create a simple product for each configuration (Ex: a product for each color).,Konfigurierbare Produkte erlauben Kunden die Wahl zwischen Optionen (z. B. die Farbe eines T-Shirts). Es muss für jede Konfiguration ein einfaches Produkt erstellt werden.
 Configurable products allow customers to choose options (Ex: shirt color).You need to create a simple product for each configuration (Ex: a product for each color).,"Konfigurierbare Produkte erlauben es Kunden, Optionen auszuwählen (z.B. Farbe eines Shirts). Sie müssen für jede Konfiguration ein einfaches Produkt erstellen (z.B. ein Produkt für jede Farbe)."
 Configuration,Konfiguration
 Configuration must have specified attributes,Konfiguration muss angegebene Attribute haben.
@@ -1596,6 +1634,7 @@ Copyright © 2015 Magento. All rights reserved.,Copyright © 2015 Magento. Alle 
 Copyright&copy; %1 Magento Commerce Inc. All rights reserved.,Copyright&copy; %1 Magento Commerce Inc. Alle Rechte vorbehalten.
 Core Configurable Cron Jobs,Konfigurierbare Core-Cronjobs
 Core Global Cron Jobs,Globale Core-Cronjobs
+Cost,Einkaufspreis
 Could not add gift card code,Geschenkkartencode konnte nicht hinzugefügt werden.
 "Could not add gift message to order: ""%1""","Geschenk-Nachricht konnte nicht Bestellung: ""%1"" hinzugefügt werden"
 "Could not add gift message to order's item: ""%1""","Geschenk-Nachricht konnte nicht hinzugefügt werden zum bestellten Artikel: ""%1"""
@@ -1639,6 +1678,7 @@ Countries Payment Applicable From,Länderzahlung anwendbar von
 Country,Land
 Country and Format Type combination should be unique,Kombination von Land und Formattyp sollte eindeutig sein.
 Country comparison check,Ländervergleichscheck
+Country of Manufacture,Herstellungsland
 Country Options,Länderoptionen
 Country Specific Credit Card Types,Länderspezifische Kreditkartentypen
 Country Specific Settings,Länderspezifische Einstellungen
@@ -1713,7 +1753,6 @@ Created on,Erstellt am
 Created On,Erstellt am
 Created:,Erstellt:
 "Created: %1, Updated: %2, Deleted: %3","Erstellt: %1, Update: %2, Gelöscht: %3"
-Creating an account has many benefits:,Ein Konto zu erstellen hat viele Vorteile:
 "Creating an account has many benefits: check out faster, keep more than one address, track orders and more.","Ein Konto zu erstellen hat viele Vorteile: schneller zur Kasse gehen, mehr als eine Adresse speichern, Bestellungen verfolgen und mehr."
 Creative,Kreativ
 Credit,Kreditkarteninformationen
@@ -1744,6 +1783,7 @@ Credit Memo Comments,Gutschriftenkommentare
 Credit Memo Email Sender,Gutschrift E-Mail Absender
 Credit Memo Email Template,Gutschrift E-Mail Vorlage
 Credit Memo Email Template for Guest,Gutschrift E-Mail Vorlage für Gäste
+Credit memo for your %store_name order,Gutschrift für Ihre Bestellung bei %store_name
 Credit memo has not been canceled.,Die Gutschrift wurde nicht abgebrochen.
 Credit Memo History,Gutschriftenhistorie
 Credit Memo Totals,Gutschriftengesamtsumme
@@ -1752,13 +1792,15 @@ critical,Kritisch
 Critical System Messages,Kritische Systemmeldungen
 Cron,Cron
 Cron (Scheduled Tasks) - all the times are in minutes,Cron (Geplante Aufgaben) - Alle Zeiten sind in Minuten
-Cron configuration options for group:,Cron-Konfigurationsoptionen für die Gruppe:
-Cron configuration options for group:,Cron-Konfigurationsoptionen für Gruppe:
+Cron configuration options for group: default,Cron-Konfigurationsoptionen für Gruppe: default
+Cron configuration options for group: index,Cron-Konfigurationsoptionen für die Gruppe: index
 Cron Expression,Cron-Ausdruck
 Cron Schedules by job code,Cron-Zeitpläne nach Jobcode
 Cron Schedules by status code,Cron-Zeitpläne nach Statuscode
 Cron Schedules List,Cron-Zeitplanliste
+Cross-Sell-Products,Cross-Sell-Artikel
 Cross-sells,Cross-sells
+Cross-sells,Cross-Selling
 CSS Editor,CSS-Editor
 CSS inlining error:,CSS Inline Fehler:
 CSS Settings,CSS-Einstellungen
@@ -1787,6 +1829,7 @@ Current Status: %1<br/>,Aktueller Status: %1<br/>
 Current store is not active.,Aktueller Store ist nicht aktiv.
 Current User Identity Verification,Identitätsbestätigung des aktuellen Benutzers
 Current Variations,Aktuelle Variationen
+Currently Active,Zurzeit aktiv
 Currently Published Revision,Aktuell veröffentlichte Revision
 Currently Used For,Derzeitige Verwendung
 Custom,Benutzerdefiniert
@@ -1798,18 +1841,21 @@ Custom CSS,Benutzerdefiniertes CSS
 Custom Design,Benutzerdefiniertes Design
 Custom Design From,Benutzerdefiniertes Design von
 Custom design from,Benutzerdefiniertes Design von
-Custom Design To,Benutzerdefiniertes Design zu
-Custom design to,Benutzerdefiniertes Design an
+Custom Design To,Benutzerdefiniertes Design bis
+Custom design to,Benutzerdefiniertes Design bis
+Custom Design Update,Benutzerdefiniertes Design-Update 
 Custom Email 1,Eigene E-Mail 1
 Custom Email 2,Eigene E-Mail 2
 Custom Endpoint Hostname or IP-Address,Benutzerdefinierter Endpoint-Hostname oder IP-Adresse
 Custom Global Cron Jobs,Benutzerdefinierte globale Cronjobs
 Custom image,Benutzerdefiniertes Bild
 Custom Layout,Benutzerdefiniertes Layout
+Custom Layout Update,Benutzerdefinierte Layout-Änderung
 Custom Layout Update XML,Benutzerdefiniertes Layout XML aktualisieren
 Custom Layouts,Benutzerdefinierte Layouts
 Custom Options,Benutzerdefinierte Optionen
 Custom options have different types.,Benutzerdefinierte Optionen haben unterschiedliche Typen.
+Custom options let customers choose the product variations they want.,"Individualisierungsoptionen lassen den Kunden die Produktvariationen auswählen, die sie möchten."
 Custom Path,Eigener Pfad
 Custom Price,Benutzerdefinierter Preis
 Custom price if available,Benutzerdefinierter Preis wenn verfügbar
@@ -1836,6 +1882,7 @@ Customer Address Attributes,Kundenadressenattribute
 Customer Address Eav Attributes,Kundenadressen-EAV-Attribute
 Customer address id column is not specified,Kundenadressen-ID-Spalte ist nicht angegeben.
 Customer Address Registration,Kundenadressenregistrierung
+Customer Addresses,Kundenadressen
 Customer Attributes,Kundenattribute
 Customer Checkout Register,Kundencheckout-Register
 Customer Configuration,Kunden-Konfiguration
@@ -1889,15 +1936,18 @@ Customer:,Kunde:
 Customer's Activities,Kundenaktivitäten
 Customer's Wish List Report,Kundenwunschzettelbericht
 Customers,Kunden
+Customers and Addresses (single file),Kunden und Adressen (einzelne Datei)
 Customers by number of orders,"Kunden, nach der Anzahl der Bestellungen"
 Customers by Number of Orders,Kunden nach Anzahl der Bestellungen
 Customers by Orders Total,"Kunden, nach Gesamtbestellungen"
+Customers Main File,Kunden Hauptdatei
 Customers May See Reward Points History,Kunden können Belohnungspunktehistorie sehen
 Customers Now Online,Derzeitige Kunden online
 Customers Report,Kundenbericht
 Customers Reviews,Kundenbewertungen
 Customers that have Wish List: %1,"Kunden, die einen Wunschzettel haben: %1"
 Customers that have Wish List: %1%,"Kunden, die einen Wunschzettel haben: %1"
+Customizable Options,Individualisierungsoptionen
 Customize %1,Anpassen %1
 Customize and Add to Cart,Anpassen und in den Warenkorb
 Customize and Add to Gift Registry,Anpassen und zur Geschenkeliste hinzufügen
@@ -1919,6 +1969,7 @@ Data Collector,Datenkollektor
 Data from app/etc/env.php,Daten von app/etc/env.php
 Data integrity: No header row found for attribute,Datenintegrität: Keine Kopfzeile für das Attribut gefunden
 Data saving problem,Datenspeicherungsproblem
+Data Transfer,Datentransfer
 Data Type for Saving in Database,Datentyp zum Speichern in der Datenbank
 Data validation is failed. Please fix errors and re-upload the file.,Datenüberprüfung fehlgeschlagen. Bitte korrigieren Sie Fehler und laden Sie die Datei neu.
 Data validation is failed. Please fix errors and re-upload the file..,Datenüberprüfung fehlgeschlagen. Bitte korrigieren Sie Fehler und laden Sie die Datei ..
@@ -2004,6 +2055,7 @@ Default Post Code,Standard-PLZ
 Default Price,Standardpreis
 Default Price for Printed Card,Standardpreis für gedruckte Karte
 Default Price Navigation Step,Standard-Preisnavigationsschritt
+Default Product Listing Sort By,Produkte standardmässig sortiert nach
 Default Product Listing Sort by does not exist in Available Product Listing Sort By.,Standard-Produktlistingsortierung existiert nicht in Produktlistingsortierung verfügbarer Produkte.
 Default Product Price,Standardproduktpreis
 Default Qty,Standardmenge
@@ -2027,11 +2079,13 @@ Default Tax Class for Customer,Kundensteuerklassen
 Default Tax Class for Product,Artikelsteuerklassen
 Default Tax Destination Calculation,Standardziel für Steuerberechnung
 Default Template,Standardvorlage
+Default Theme,Standard-Theme
 Default Title,Standardtitel
 Default Titles and Description,Standardtitel und -beschreibung
 Default Value,Standardwert
 Default Value for Disable Automatic Group Changes Based on VAT ID,Standardwert für das Deaktivieren der automatischen Gruppen-Änderungen auf Grundlage der MwSt.-ID
 Default Values,Standardwerte
+Default View,Standardansicht
 Default Web URL,Standard-Web-URL
 Default website is not defined,Standard-Webseite ist nicht definiert
 Default Welcome Email,Standard-Willkommens-E-Mail
@@ -2041,6 +2095,7 @@ Defines the default product price,Definiert den Standardproduktpreis
 Defines this node as Chapter/Section,Definiert diesen Node als Kapitel/Sektion
 Defines whether a link to My Account,"Legt fest, ob ein Link auf Ihr Konto zeigen soll"
 Defines whether a link to My Account &gt; Order by SKU page will be displayed on the widget,"Definiert, ob ein Link zur ""Mein Konto &gt; Bestellung nach SKU""-Seite im Widget angezeigt wird"
+Delay in minutes between password reset requests. Use 0 to disable.,Verzögerung zwischen Passwort-Reset-Anfragen in Minuten. 0 für Deaktivierung.
 Delete,Löschen
 "Delete ""%1""","""%1"" löschen"
 "Delete ""${ $.$data.title }""","""${$.$data.title}"" löschen"
@@ -2112,9 +2167,12 @@ Description Message,Beschreibungsmeldung
 Deselect All,Auswahl aufheben
 Design,Design
 Design Change,Designänderung
+Design Config Grid,Designkonfigurationstabelle 
 Design config must have area and store.,Design-Konfiguration muss einen Bereich und Store haben.
+Design Configuration,Design-Konfiguration
 Design Package/Theme,Design-Paket/Theme
 Design params must be set before calling this method,Design-Parameter muss vor dem Aufrufen dieser Methode festgelegt werden
+Design Rule,Design-Regel
 Design Theme,Design Theme
 Destination file is not writable,Die Zieldatei ist nicht beschreibbar.
 Destination Type,Adresstyp
@@ -2136,6 +2194,7 @@ Directory %1 is not under storage root path.,Verzeichnis %1 liegt nicht im Stamm
 Directory %s should have writable & readable permissions,Verzeichnis %s sollte Schreib- und Leserechte haben
 "Directory separator ""\ is prohibited in fixture declaration.""","Verzeichnisseparator ""\"" ist in Fixture-Deklaration unzulässig."
 Disable,Deaktivieren
+Disable Automatic Group Change Based on VAT ID,Automatische Gruppenänderung basierend auf Ust-IdNr. Deaktivieren
 Disable Email Communications,E-Mail-Kommunikation deaktivieren
 Disable Guest Checkout if Cart Contains Downloadable Items,"Gäste-Checkout deaktivieren, wenn der Einkaufswagen herunterladbare Artikel enthält."
 Disable Modules Output,Deaktivieren des Modul-Outputs
@@ -2152,6 +2211,7 @@ Discarded,Verworfen
 Discount,Rabatt
 Discount (%1),Rabatt (%1)
 Discount Amount,Rabattbetrag
+Discount amount is applied to subtotal only,Rabattbetrag wird nur auf die Zwischensumme angewandt
 Discount Qty Step (Buy X),Mengenrabatt (X bezahlen)
 Discount value should be 0 or greater.,Rabattwert sollte grösser als 0 sein.
 Display,Anzeigen
@@ -2161,14 +2221,17 @@ Display all instead of rotating,"Alle anzeigen, anstatt zu rotieren"
 Display Cart Summary,Einkaufswagen-Zusammenfassung anzeigen
 Display Countdown Ticker On,Countdown-Ticker anzeigen
 Display default currency,Standardanzeigewährung
+Display Delivery Time on Product Listing,Lieferzeit im Produkt-Listing anzeigen
 Display Demo Store Notice,Demoshop-Nachricht anzeigen
 Display Express Checkout in the Payment Information step,Express Checkout im Zahlungsinformations-Schritt anzeigen
 Display Full Tax Summary,Steuern vollständig anzeigen
 Display Gift Wrapping Prices,Geschenkverpackungspreise anzeigen
 Display in Suggested Terms,In empfohlenen Begriffen anzeigen
 Display item quantities,Artikelmengen anzeigen
+Display Mode,Anzeigemodus
 Display number of items in cart,Anzahl der Artikel im Warenkorb anzeigen
 Display number of items in wish list,Anzahl der Elemente des Wunschzettels anzeigen
+Display on,Anzeigen auf
 Display on Product Details Page,Auf Produktdetails-Seite anzeigen
 Display on Shopping Cart,Im Einkaufswagen anzeigen
 Display Order ID in Header,Bestellnummer im Dokumenten-Kopf anzeigen
@@ -2182,9 +2245,11 @@ Display Prices In Sales Modules,Preise im Umsatzmodul anzeigen
 Display Prices On Product View Page,Preise auf der Produktansicht anzeigen
 Display Printed Card Prices,Preise für gedruckte Karten anzeigen
 Display Product Count,Produktanzahl anzeigen
+Display Product Options In,Produktoptionen anzeigen in
 Display Product Prices,Produktpreise anzeigen
 Display Product Prices In Catalog,Anzeige von Artikelpreisen im Shop-Frontend
 Display products availability in stock on Storefront.,Anzeigen der Verfügbarkeit 'Auf Lager' im Frontend.
+Display Settings,Anzeigeeinstellungen
 Display Shipping Amount,Anzeige von Versandkosten
 Display Shipping Prices,Versandkosten anzeigen
 Display Shopping Cart Sidebar,Einkaufswagen-Sidebar anzeigen
@@ -2228,6 +2293,7 @@ Download CSS File,CSS-Datei herunterladen
 Download full report,Download des vollständigen Berichts
 Download Sample File,Beispieldatei herunterladen
 Downloadable Information,Herunterladbare Informationen
+Downloadable Product,Download-Produkt
 Downloadable Product Options,Herunterladbare Produktoptionen
 Downloadable Products,Downloadartikel
 Downloads,Downloads
@@ -2350,6 +2416,7 @@ Edit Video,Video bearbeiten
 Edit Web Site,Website bearbeiten
 Edit Wish List,Wunschzettel bearbeiten
 Edit Your Cart,Warenkorb bearbeiten
+Editorial Concept,Blattlinie
 EFT Funding (German banking),EFT-Finanzierung (Deutsche Banken)
 element comment,Element-Kommentar
 element hint,Element-Hinweis
@@ -2359,7 +2426,8 @@ Element name and destination must be specified.,Elementname- und Ziel muss angeg
 element tooltip,Element-Tooltip
 Element with ID '%1' already exists.,"Elemente mit der ID ""%1"" existieren bereits"
 Element with ID '%1' is already defined.,"Elemente mit der ID ""%1"" sind bereits definiert"
-Email,E-Mail
+Elements,Elemente
+Email,E-Mail  
 Email address,E-Mail-Adresse
 Email Address,E-Mail-Adresse
 "Email address impact. The customer uses a free email provider, or the email address is risky",E-Mail-Adressen-Auswirkung. Der Kunde verwendet einen kostenlosen E-Mail-Provider oder die E-Mail-Adresse ist riskant.
@@ -2382,6 +2450,7 @@ Email Send Failure Threshold,Grenze für fehlgeschlagenen E-Mail-Versand
 Email Sender,E-Mail-Absender
 Email Sent from Gift Card Account Management,Vom Geschenkkartenkonto-Management gesendete E-Mail
 Email Template,E-Mail-Vorlage
+"Email template chosen based on theme fallback when """"""""Default"""""""" option is selected.","E-Mail-Template wird auf Grundlage des Theme-Fallbacks gewählt, wenn """"Default"""" Option gewählt ist."
 "Email template chosen based on theme fallback when ""Default"" option is selected.","Ausgewählte E-Mail-Vorlage basiert auf Theme-Fallback, wenn die Option ""Standard"" ausgewählt ist."
 Email Templates,E-Mail-Vorlagen
 Email Templates,E-Mail-Vorlagen
@@ -2415,10 +2484,12 @@ Enable Archiving,Archivierung aktivieren
 Enable Autocomplete on login/forgot password forms,Autovervollständigung aktivieren bei Login/Passwort vergessen
 Enable Automatic Assignment to Customer Group,Aktivieren der automatischen Zuordnung zur Kundengruppe
 Enable Automatic Fetching,Automatisches Abrufen aktivieren
+Enable Block,Block aktivieren
 Enable CAPTCHA in Admin,CAPTCHA im Admin aktivieren
 Enable CAPTCHA on Storefront,CAPTCHA im Frontend aktivieren
 Enable Catalog Event Widget on Storefront,Katalogereignis-Widget im Frontend aktivieren
 Enable Catalog Events Functionality,Katalogereignisfunktionalität aktivieren
+Enable Category,Kategorie aktivieren
 Enable Chapter/Section,Kapitel/Sektion aktivieren
 Enable Charts,Tabellen aktivieren
 Enable Contact Us,"""Kontaktieren Sie uns"" aktivieren"
@@ -2429,6 +2500,7 @@ Enable Cross Border Trade,Grenzüberschreitenden Handel aktivieren
 Enable Customer Segment Functionality,Kundensegmentfunktionalität aktivieren
 Enable Express Checkout,Express Checkout aktivieren
 Enable FPT,FPT aktivieren
+Enable Free Shipping Threshold,Grenzwert für kostenlosen Versand aktivieren
 Enable Gift Registry,Geschenkeliste aktivieren
 Enable Hierarchy Functionality,Hierachiefunktionalität aktivieren
 Enable Hierarchy Metadata,Hierarchie-Metadaten aktivieren
@@ -2441,12 +2513,14 @@ Enable Negotiated Rates,Vereinbarte Preise aktivieren
 Enable New Relic Integration,New Relic Integration aktivieren
 Enable Onepage Checkout,Onepage-Checkout aktivieren
 Enable Order by SKU on My Account in Storefront,"Bestellung nach SKU in ""Mein Konto"" im Frontend aktivieren"
+Enable Page,Seite aktivieren
 Enable Pagination,Seitenumbruch aktivieren
 Enable Payflow Link,Payflow Link aktivieren
 Enable PayPal Credit,PayPal Credit® aktivieren
 Enable PayPal Guest Checkout,PayPal-Checkout für Gäste aktivieren
 Enable PayPal through Braintree,PayPal über Braintree aktivieren
-Enable Persistence,Beständigskeit aktivieren
+Enable Persistence,Persistenz aktivieren
+Enable Product,Produkt aktivieren
 Enable Qty Increments,Mengenzunahmen aktivieren
 Enable Reminder Emails,Erinnerungs-E-Mails aktivieren
 Enable Reward Points Functionality,Belohnungspunktefunktionalität aktivieren
@@ -2484,13 +2558,15 @@ End,Ende
 End Date,Enddatum
 End Date must follow Start Date.,Enddatum muss dem Startdatum folgen.
 Engine autocommit,Engine-Auto-Commit
-"Enter ""0"" to enable layered navigation for any number of results.","""0"" eingeben, um geschichtete Navigation für eine beliebige Anzahl an Ergebnissen zu aktivieren."
+"Enter ""0"" to enable layered navigation for any number of results.","""0"" eingeben, um Filternavigation für eine beliebige Anzahl an Ergebnissen zu aktivieren."
 Enter a negative number to subtract from the balance.,"Geben Sie eine negative Zahl ein, um Sie vom Saldo abzuziehen."
 Enter a New Address,Geben Sie eine neue Adresse ein
 Enter discount code,Rabattcode eingeben
 Enter Each Email on New Line,Geben Sie jede E-Mail in einer neuen Zeile ein
 Enter Email,E-Mail eingeben
 Enter gift card code,Geschenkkartencode eingeben
+Enter https protocol to use Secure URLs in Admin.,"HTTPS-Protokoll eingeben, um sichere URLs im Admin-Panel zu benutzen."
+Enter https protocol to use Secure URLs on Storefront.,"HTTPS-Protokoll eingeben, um sichere URLs im Frontend zu benutzen."
 Enter Name for New Attribute Set,Namen für neues Attributset eingeben
 Enter Name for New Product Template,Namen für neue Produktvorlage eingeben
 Enter the gift card code,Geschenkkartencode eingeben
@@ -2590,6 +2666,7 @@ ex. http://domain.com,z.B. http://domain.com
 Exact Match.,Genaue Übereinstimmung.
 Exact Match. Address and Postal Code. International,Genaue Übereinstimmung. Adresse und Postleitzahl. International
 Exact Match. Address and Postal Code. UK-specific,Genaue Übereinstimmung. Adresse und Postleitzahl. UK-spezifisch
+Example format: 200x300.,Beispielformat: 200x300
 "example: ""/sitemap/"" or ""/"" for base path (path must be writeable)","Beispiel: ""/ Sitemap /"" oder ""/"" für den Basispfad (Pfad muss beschreibbar sein)"
 example: sitemap.xml,Beispiel: sitemap.xml
 Excel XML,Excel XML
@@ -2677,6 +2754,7 @@ Failure,Fehlschlag
 Failure History Lifetime,Lebensdauer der Fehlerhistorie
 Failures,Fehler
 FALSCH,FALSCH
+FALSE,FALSCH
 FATAL ERROR:,FATALER FEHLER:
 Favicon Icon,Favicon-Icon
 Fax,Fax
@@ -2747,10 +2825,13 @@ Filter already exists in Criteria object: %1,Filter existiert bereits für Krite
 Filterable (no results),Filterbar (keine Resultate)
 Filterable (with results),Filterbar (mit Resultaten)
 Filtering by this attribute will update the product image on catalog page,Nach diesem Attribut zu filtern wird das Produktbild auf der Katalog-Seite aktualisieren
+Filters,Filter
 Final commit,Letzte Übertragung
 Final Price,Endgültiger Preis
+Financial Office,Zuständiges Finanzamt
 Find a string in client user-agent header and switch to specific design theme for that browser.,Finde einen String im Client-User-Agent-Header und wechsle auf das spezifische Design-Theme für diesen Browser.
 Find Order By,Bestellung finden nach
+Find Partners & Extensions,Partner & Extensions
 Finish Date,Enddatum
 Finished At,Abgeschlossen bei
 First,Zuerst
@@ -2795,7 +2876,6 @@ Flush Catalog Images Cache,Katalogbilder-Cache leeren
 Flush JavaScript/CSS Cache,Javascript/CSS-Cache leeren
 Flush Magento Cache,Magento-Cache leeren
 Flush Static Files Cache,Cache statischer Dateien leeren
-"Follow this link to unsubscribe <!-- This tag is for unsubscribe link  -->' '<a href=""{{var subscriber.getUnsubscriptionLink()}}"">{{var subscriber.getUnsubscriptionLink()}}' '</a>",
 "Follow this link to unsubscribe <!-- This tag is for unsubscribe link  --><a href=""{{var subscriber.getUnsubscriptionLink()}}"">{{var subscriber.getUnsubscriptionLink()}}</a>","Folgen Sie diesem Link, um sich abzumelden <!-- Dieser tag ist für den Abmeldelink --><a href=""{{var subscriber.getUnsubscriptionLink()}}"">{{var subscriber.getUnsubscriptionLink()}}</a>"
 Following Error(s) has been occurred during importing process:,Folgende(r) Fehler ist/sind beim Import aufgetreten:
 Font,Schriftart
@@ -2810,6 +2890,7 @@ For category,Für Kategorie
 For Checkout,Für Checkout
 For CMS page,Für CMS-Seite
 For correct URLs generated during cron runs please make sure that Web > Secure and Unsecure Base URLs are explicitly set.,"Um korrekte URLs während des Crons-Vorgangs zu generieren, stellen Sie bitte sicher, dass Web > sichere und unsiche Basis-URLs explizit gesetzt sind."
+For correct URLs generated during cron runs please make sure that Web > Secure and Unsecure Base URLs are explicitly set. All the times are in minutes.,"Um korrekte URLs während der Ausführung von Crons zu generieren, stellen Sie bitte sicher, dass die URLs in Web > Basis-URLs explizit gesetzt sind. Alle Zeiten sind in Minuten angegeben."
 For delivery questions.,Für Rückfragen zum Versand.
 for greater than,für mehr als
 For internal use,Für internen Gebrauch
@@ -2827,10 +2908,12 @@ For submitting a product review,Für das Absenden einer Produktbewertung
 "For the best experience on our site, be sure to turn on Local Storage in your browser.","Um unsere Website in bester Weise zu erfahren, aktivieren Sie die lokale Speicherung in Ihrem Browser."
 For the last time placed.,Bei der letzten Anfrage
 For Theme,Für das Theme
+"For Type """"Local Server"""" use relative path to Magento installation, e.g. var/export, var/import, var/export/some/dir","Für den Typ """"Local Server"""" relativen Pfad zur Magento Installation verwenden, z. B. var/export, var/import, var/export/some/dir"
 "For Type ""Local Server"" use relative path to Magento installation,
 For Type """"Local Server"""" use relative path to Magento installation e.g. var/export var/import var/export/some/dir""","Für Typ ""Lokaler Server"" benutzen Sie den relativen Pfad zur Magento-Installation, z.B. var/export , var/import , var/export/some/dir"
 "For Type ""Local Server"" use relative path to Magento installation,e.g. var/export, var/import, var/export/some/dir","Für den Typ ""Local Server"" verwenden Sie den relativen Pfad zur Magento-Installation, z.B. var/export, var/import, var/export/some/dir"
 For Virtual Quotes Only,Nur für virtuelle Angebote
+For Windows server only.,Nur für Windows Server.
 Force Sign-In,Anmelden erzwingen
 Forced,Gezwungen
 Forgot an Item?,Einen Artikel vergessen?
@@ -2914,8 +2997,8 @@ Gateway validation error,Gateway-Validierungsfehler
 Gateway XML URL,Gateway XML URL
 Gender,Geschlecht
 General,Allgemein
-General (Authorization),Allgemeine (Autorisierung)
-General (Dividend),Allgemeine (Dividende)
+General (Authorization),Allgemein (Autorisierung)
+General (Dividend),Allgemein (Dividende)
 General (Funds Transfer from PayPal Account to Another),Allgemein (Kapitaltransfer von einem PayPal-Konto auf ein anderes)
 General (Purchase with a credit card),Allgemein (Kauf mit Kreditkarte)
 General Adjustment without businessrelated event,Allgemeine Einstellung ohne unternehmensbezogenes Ereignis
@@ -2947,7 +3030,7 @@ General: Withdrawal to Non-Bank Entity,Allgemein: Widerruf an Nicht-Banken
 General. Product no longer supported,Allgemein: Produkt wird nicht mehr unterstützt
 Generate,Generieren
 Generate Gift Card Account when Order Item is,Geschenkkartenkonto generieren bei Bestellartikel
-Generate Human-Friendly Customer ID,Menschenfreundliche Kundennummer generieren
+Generate Human-Friendly Customer ID,Lesefreundliche Kundennummer generieren
 Generate Products,Produkte generieren
 Generate Schedules Every,Pläne generieren jede
 Generated under Insights in Manage data -> API Keys -> Insert Keys,Generiert unter Insights in Datenverwaltung -> API Schlüssel -> Schlüssel eingeben
@@ -3094,6 +3177,7 @@ Group Name,Gruppenname
 Group price must be a number greater than 0.,Gruppenpreis muss grösser als 0 sein.
 Group was removed,Gruppe wurde entfernt
 "Group with id ""%1"" does not exist.","Gruppe mit ID ""%1"" existiert nicht."
+Grouped Product,Gruppenprodukt
 Grouped Product Image,Gruppiertes Produktbild
 Grouped product items,Gruppiert Produkte - Artikel
 Grouped Products,Gruppierte Produkte
@@ -3115,6 +3199,7 @@ Header Template,Header-Vorlage
 Height,Höhe
 "Height, width and length should be equal or greater than %1","Höhe, Breite und Länge sollten gleich oder grösser als %1 sein."
 hello,Hallo
+"Hello,","Hallo,"
 Hello World!,Hallo Welt!
 Help,Hilfe
 Help Us Keep Magento Healthy,"Helfen Sie uns, Magento sauber zu halten"
@@ -3157,6 +3242,7 @@ HTTPS (SSL),HTTPS (SSL)
 Hub ID,Hub ID
 Hurry up to take advantage of our %promotion_name promotion!,Jetzt von unserem %promotion_name-Werbeangebot profitieren!
 Hurry up to take advantage of this promotion!,Jetzt von diesem Werbeangebot profitieren!
+I.e. redirect from http://example.com/store/ to http://www.example.com/store/,D.h. Weiterleitung von http://example.com/store/ auf http://www.example.com/store/
 I'm sorry - but we are not able to complete your transaction. Please contact us so we can assist you.,"Entschuldigung - aber wir sind nicht in der Lage, die Transaktion abzuschliessen. Bitte kontaktieren Sie uns, damit wir Ihnen helfen können."
 I'm sorry - but we were not able to process your payment. Please try another payment method or contact us so we can assist you.,"Entschuldigung - aber wir waren nicht in der Lage, Ihre Zahlung zu verarbeiten. Bitte versuchen Sie eine andere Zahlungsmethode oder kontaktieren Sie uns, damit wir Sie unterstützen."
 ID,ID
@@ -3168,8 +3254,7 @@ ID: %1,ID: %1
 Identifier,Kennung
 Identifying Fields required,Identifizierende Felder erforderlich
 Identity link URL,Identitäts-Link URL
-"Identity morphing. Multiple values of an  dentity element are linked to a value of a different identity element. For example, m ltiple phone numbers are linked to a single account number",
-If %1 %2 %3 for a subselection of items in cart matching %4 of these conditions:,Wenn %1% 2% 3 für eine Unterauswahl der Artikel im Warenkorb %4 dieser Bedingungen erfüllen:
+If %1 %2 %3 for a subselection of items in cart matching %4 of these conditions:,Wenn %1 %2 %3 für eine Unterauswahl der Artikel im Warenkorb %4 dieser Bedingungen erfüllen:
 If %1 of these conditions are %2:,Wenn %1 von diesen Bedingungen %2 sind:
 "If 0 is specified, CAPTCHA on the Login form will be always available.","Wenn 0 angegeben wird, wird CAPTCHA auf dem Login-Formular immer verfügbar sein."
 If an item is %1 in the cart with %2 of these conditions true:,Wenn ein Artikel %1 im Warenkorb ist und %2 dieser Bedingungen erfüllt sind:
@@ -3186,11 +3271,15 @@ If empty no separation.,Keine Trennung wenn leer.
 "If empty, we'll automatically set the width value in pixels.","Wenn leer, wird die Breite in Pixel automatisch gesetzt."
 "If empty, we'll use the category name here.","Wenn leer, wird der Kategoriename hier verwendet."
 "If empty, we'll use the product name here.","Wenn leer, wird der Produktname hier verwenden."
+"If enabled, can be used by functional tests for extended reporting","Kann von Funktionstests für erweiterte Berichte verwendet werden, wenn aktiviert."
 "If field is empty default value localhost will be saved.""",Bei leerem Feld wird der Standard-Localhost-Wert gespeichert.
+"If no value is specified, the system default is used. The system default may be modified by third party extensions.","Wenn kein Wert angegeben ist, wird der Systemstandard verwendet. Der Systemstandard könnte von Third-Party-Extensions modifiziert sein."
+"If no value is specified, the system default will be used. The system default may be modified by third party extensions.","Wenn kein Wert festgelegt ist, wird der System-Standard benutzt. Der System-Standard kann von Drittanbieter-Extensions verändert werden."
 "If not specified, Default Country from General Config will be used","Wenn nicht angegeben, wird das Standardland der allgemeinen Konfiguration verwendet."
 If Order Addresses match %1 of these Conditions:,Wenn Bestelladressen %1 dieser Bedingungen erfüllen:
 If Product %1 %2 and matches %3 of these Conditions:,Wenn Produkt %1 %2 und %3 dieser Bedingungen erfüllt:
 If Product is %1 in the %2 with %3 of these Conditions match:,Wenn Produkt %1 in %2 ist und %3 dieser Bedingungen erfüllt sind:
+"If set to Yes, you can log in from multiple computers into same account. Default setting No improves security.","Erlauben, sich von verschiedenen Computern mit dem selben Konto anzumelden. Standardmässige Deaktivierung erhöht die Sicherheit."
 "If the Current Frame Position does not cover Utmost Pages, will render Link to Current Position plus/minus this Value","Wenn sich die aktuelle Bildposition nicht auf ein Höchstmass an Seiten erstreckt, wird der Link auf die aktuelle Position plus/minus diesen Wert gerendert."
 "If the current frame position does not cover utmost pages, will render link to current position plus/minus this value.","Wenn sich die aktuelle Bildposition nicht auf ein Höchstmass an Seiten erstreckt, wird der Link auf die aktuelle Position plus/minus diesen Wert gerendert."
 "If the invoice was created offline, try creating an offline credit memo.","Wenn die Rechnung offline erstellt wurde, erstellen Sie eine Offline-Gutschrift."
@@ -3212,6 +3301,7 @@ If there is an account associated with %1 you will receive an email with a link 
 "If you have an account, sign in with your email address.","Wenn Sie ein Konto haben, melden Sie sich mit Ihrer E-Mail-Adresse an."
 "If you have any questions about your return, please contact us at <a href=""mailto:%support_email"">%support_email</a>.","Wenn Sie Fragen zu Ihrer Rückgabe haben, kontaktieren Sie uns bitte unter <a href=""mailto:%support_email"">%support_email</a>."
 "If you have any questions, please feel free to contact us at <a href=""mailto:%support_email"">%support_email</a> or by phone at %store_phone","Wenn Sie Fragen haben, kontaktieren Sie uns unter <a href=""mailto:%support_email"">%support_email</a>."
+"If you have not authorized this action, please contact us immediately at <a href=""mailto:%store_email"">%store_email</a>","Sollten Sie diese Änderung nicht autorisiert haben, kontaktieren Sie uns bitte umgehend unter <a href=""mailto:%store_email"">%store_email</a>"
 "If you have questions about your order, you can email us at <a href=""mailto:%store_email"">%store_email</a>","Wenn Sie Fragen zu Ihrer Bestellung haben, können Sie uns diese an <a href=""mailto:%store_email"">%store_email</a> schicken."
 "If you have questions about your order, you can email us at <a href=""mailto:%store_email"">%store_email</a>.","Wenn Sie Fragen zu Ihrer Bestellung haben, können Sie uns an <a href=""mailto:%store_email"">%store_email </a> eine E-Mail schreiben."
 "If you requested this change, reset your password here:","Wenn Sie diese Änderung beauftragt haben, setzen Sie Ihr Passwort hier neu:"
@@ -3223,7 +3313,10 @@ Image Adapter,Bild-Adapter
 Image can not be saved.,Bild kann nicht gespeichert werden
 Image Detail,Bilddetail
 Image File,Bilddatei
+Image Opacity,Deckkraft
+Image Position,Bildposition
 Image Processing Settings,Bildverarbeitungs-Einstellungen
+Image Size ,Bildgrösse
 Images,Bilder
 "Images (.gif, .jpg, .png)","Bilder (.gif, .jpg, .png)"
 Images (%1),Bilder (%1)
@@ -3246,11 +3339,14 @@ Import Settings,Importeinstellungen
 Import successfully done,Import erfolgreich abgeschlossen
 Import Tax Rates,Steuersätze importieren
 Import/Export,Import/Export
+Import/Export Tax Rates,Import/Export Steuersätze
 Important:,Wichtig:
 Important:,Wichtig:
 IMPORTANT: Be sure to save your configuration before running generation process.,"WICHTIG: Stellen Sie sicher, dass Sie Ihre Konfiguration speichern, bevor Sie den Generierungsprozess starten."
 Imported File,Importierte Datei
 ImportExport: Import Data validation - Validation strategy not found,Import/Export: Daten-Validierung importieren - Validierungs-Strategie nicht gefunden
+Imprint,Impressum
+Improves dashboard performance but provides non-realtime data.,"Verbessert die Dashboard-Performance, liefert aber keine Echtzeit-Daten."
 in,in
 In Cart,Im Warenkorb
 in rows,in Zeilen
@@ -3265,6 +3361,8 @@ inch,Zoll
 Inches,Zoll
 Incl. Tax,Inkl. Steuern
 Include FPT In Subtotal,Fixe Produktsteuer (FPT) in der Zwischensumme mit einbeziehen
+Include in Menu,Im Navigationsmenü anzeigen
+Include in Navigation Menu,Ins Navigations-Menü aufnehmen
 Include Tax In Order Total,Steuer in Gesamtsumme einschliessen
 Include Tax to Amount,Berücksichtige Steuern im Betrag
 Include Virtual Products in Price Calculation,Virtuelle Produkte in Preisberechnung einbeziehen
@@ -3503,51 +3601,6 @@ Invalid value in Store column (store does not exists?),Ungültiger Wert in Shops
 Invalid value(s) for Qty to Ship,Ungültige(r) Wert(e) für Versandmenge
 Invalid video url,Ungültige Video-URL
 Invalid XML,Ungültige XML: Erkannte Nutzung illegaler DOCTYPE
-"Invalid XML in file %1:
-Invitation Conversion to Order Reward
-Invitation for same email address
-Invitation Information
-Invitation Message
-Invitation Report by Customers
-Invitation Report by Order Conversion Rate
-Invitations
-Invitations Accepted
-Invitations Information
-Invitations Report
-Invitations Sent
-Invitation to Customer Conversions Quantity Limit
-Invitation to Order Conversions Quantity Limit
-Invitation URL
-Invited Customers Report
-Invitee Group
-Invitee Information
-Inviter Information
-Invite your friends by entering their email addresses
-Invoice # 
-IP-Address
-IPs access list separated with ' ' that can purge Varnish configuration for config file generation.","Ungültige XML in Datei %1:
-Belohnung für die Umwandlung einer Einladung zu einer Bestellung
-Einladung für die gleiche E-Mail-Adresse
-Einladungsinformationen
-Einladungsnachricht
-Einladungsbericht nach Kunden
-Einladungsbericht nach Bestellumwandlungsrate
-Einladungen
-Angenomme Einladungen
-Einladungsinformationen
-Einladungsbericht
-Gesendete Einladungen
-Limit für ""Einladung zu Kunde""-Umwandlungen
-Limit für ""Einladung zu Bestellung""-Umwandlungen
-Einladungs-URL
-Bericht über eingeladene Kunden
-Eingeladenengruppe
-Eingeladeneninformationen
-Einladerinformationen
-Laden Sie Ihre Freunde ein, indem Sie ihre E-Mail-Adressen eingeben
-Rechnung #
-IP-Adresse
-IP-Zugriffsliste mit ' getrennt, die die Varnish-Konfiguration für die Generierung einer Konfigurationsdatei löschen kann."
 Invalid XML in file %1:%2,Ungültige XML in Datei %1:%2
 Invalid XML-file: %1%2%3,Ungültige XML-Datei: %1%2%3
 Invalid XML: Detected use of illegal DOCTYPE,Ungültige XML: Erkannte Nutzung illegaler DOCTYPE
@@ -3575,6 +3628,7 @@ Invoice Date,Rechnungsdatum
 Invoice Email Sender,Rechnungs-E-Mail Absender
 Invoice Email Template,Rechnungs-E-Mail-Vorlage
 Invoice Email Template for Guest,Rechnung-E-Mail-Vorlage für Gäste
+Invoice for your %store_name order,Rechnung für Ihre Bestellung bei %store_name
 Invoice History,Rechnungshistorie
 Invoice ID,Rechnungs-ID
 Invoice Report,Rechnungsbericht
@@ -3594,6 +3648,7 @@ IPN (Instant Payment Notification) Only,Nur IPN (sofortige Zahlungsbestätigung)
 "IPs access list separated with ',' that can purge Varnish configuration for config file generation.If field is empty default value localhost will be saved.","IPs-Zugangsliste getrennt mit ',' die die Varnish-Konfiguration für die Konfigurationsdatei-Generation bereinigen kann. Wenn das Feld leer ist, wird der Standard-Localhost-Wert gespeichert."
 is,Ist
 Is Active,Ist aktiv
+Is Anchor,Ist Anker
 Is Closed,Ist geschlossen
 Is Default,Als Standard
 Is Gateway,Ist Gateway
@@ -3610,6 +3665,7 @@ Issue Number,Ausgabenummer
 "It is recommended to set this value to ""Magento_Paypal"" per store views.","Es wird empfohlen, diesen Wert auf ""Magento_Paypal"" pro Store View zu setzen."
 "It is recommended to set this value to ""PayPal"" per store views.","Es wird empfohlen, diesen Wert auf ""PayPal"" pro Store View zu setzen."
 It will take time to create a backup.,"Es wird Zeit in Anspruch nehmen, ein Backup zu erstellen."
+It's a default shipping address.,Ist die Standard-Lieferadresse.
 "It's time to <a href=""%1"">change your password</a>.","Es ist Zeit, um Ihr <a href=""%1"">Passwort zu ändern</a>."
 It's time to change your password.,"Es ist Zeit, Ihr Passwort zu ändern."
 item,Artikel
@@ -3665,6 +3721,7 @@ label,Label
 Label,Label
 label_value' 'label_value' 'frontend_label,label_value' 'label_value' 'frontend_label
 Labels,Labels
+Laden Sie Ihre Freunde ein, indem Sie ihre E-Mail-Adressen eingeben
 Landing Page,Landing-Page
 Language,Sprache
 Large,Gross
@@ -3698,7 +3755,8 @@ Last Transaction ID,Letzte Transaktions-ID
 Last Update,Letztes Update
 "Last updated: %1. To refresh last day's <a href=""%2"">statistics</a>, click <a href=""%3"">here</a>.","Letztes Update: %1. Um die <a href=""%2"">Statistik</a> des letzten Tages zu aktualisieren, <a href=""%3"">hier klicken</a>."
 "Last updated: %1. To refresh last day\'s <a href=""%2"">statistics</a>, ' 'click <a href=""%3"">here</a>.","Zuletzt aktualisiert: %1. Um die <a href=""%2"">Statistiken</a> des letzten Tages zu aktualisieren, <a href=""%3"">hier</a> klicken."
-Layered Navigation,Gestufte Navigation
+Layered Navigation,Filternavigation  
+Layered Navigation Price Step,Filternavigation Preisstufen
 Layout,Layout
 Layout building instructions.,Layout-Bauanleitung.
 Layout must be initialized,Layout muss initialisiert werden
@@ -3732,6 +3790,7 @@ Library Mail,Library Mail
 Lifetime (days),Lebensdauer (Tage)
 Lifetime Sales,Gesamteinnahmen
 Limit Sending By,Versandlimit von
+Limit the number of password reset request per hour. Use 0 to disable.,Begrenzt die Anzahl an Passwort-Reset-Anfragen pro Stunde. 0 für Deaktivierung.
 Lines Count,Zeilenanzahl
 Link,Link
 Link for Google,Link für Google
@@ -3857,6 +3916,7 @@ Manage Customer Address Attributes,Kundenadressattribute verwalten
 Manage Customer Attributes,Kundenattribute verwalten
 Manage Customers,Kundenverwaltung
 Manage Design,Design verwalten
+Manage Encryption Key,Kodierungsschlüssel verwalten
 Manage Form Types,Formulartypen verwalten
 Manage Hierarchies,Hierarchien verwalten
 Manage Items,Artikel verwalten
@@ -3883,6 +3943,7 @@ Manage Websites,Websites verwalten
 Manage Widget Instances,Widget-Instanzen verwalten
 Manual,Handbuch
 Manually,Manuell
+Manufacturer's Suggested Retail Price,Unverbindliche Preisempfehlung des Herstellers
 Mark as Read,Als gelesen markieren
 Marked as suspect. The billing or shipping address is similar to an address previously marked as suspect,Als verdächtig markiert. Die Rechnungs- oder Versandadresse ähnelt einer kürzlich als verdächtig markierten Adresse.
 Mask for Meta Description,Maske für Meta-Beschreibung
@@ -3913,6 +3974,7 @@ Max Emails Allowed to be Sent,Maximal erlaubte Anzahl an E-Mail-Versendungen
 Max file size to upload %1M,Maximale Dateigrösse für den Upload %1M
 Max image size %1M,Maximale Bildgrösse %1M
 Max Invitations Allowed to be Sent at One Time,Maximal erlaubte Anzahl von Einladungen zu einer Zeit.
+Max Number of Password Reset Requests,Maximale Anzahl an Passwort-Reset-Anfragen
 Max Products Sent in 1 Hour,Maximal versandte Produkte in 1 Stunde
 Max Recipients,Maximale Empfänger
 Max. Downloads,Max. Downloads
@@ -3921,6 +3983,7 @@ Maximum,Maximum
 Maximum %1 email addresses allowed.,Maximal %1 E-Mail-Adressen erlaubt.
 Maximum %1 email addresses.,Maximal %1 E-Mail-Adressen
 Maximum %1 registrants.,Maximal %1 Registranten
+Maximum 255 chars,Maximal 255 Zeichen
 Maximum balance is reached,Maximaler Saldo erreicht
 Maximum Display Recently Added Item(s),Maximale Anzeige kürzlich hinzugefügter Artikel
 Maximum Emails per One Run,Maximale Anzahl an E-Mails pro Ablauf
@@ -3961,6 +4024,8 @@ Maximum zip code length is 9.,Maximale Postleitzahllänge beträgt 9.
 Maximum: %1,Maximum: %1
 "May be empty or start with {{secure_base_url}}, or {{unsecure_base_url}} placeholder.","Kann leer sein oder mit {{secure_base_url}}, oder {{unsecure_base_url}}-Platzhaltern beginnen.."
 May be empty or start with {{unsecure_base_url}} placeholder.,Kann leer sein oder mit {{unsecure_base_url}}-Platzhalter beginnen.
+May start with {{secure_base_url}} or {{unsecure_base_url}} placeholder.,Kann mit {{secure_base_url}} oder {{unsecure_base_url}}-Platzhalter beginnen.
+May start with {{unsecure_base_url}} placeholder.,Kann mit {{unsecure_base_url}}-Platzhalter beginnen.
 MD5 Secret for Transactions,MD5 Secret for Transactions
 "Media (.avi, .flv, .swf)","Medien (.avi, .flv, .swf)"
 Media Gallery converter should be an instance of EntryConverterInterface.,Mediengalerie-Konverter sollte eine Instanz von EntryConverterInterface sein.
@@ -3968,7 +4033,7 @@ Media Image,Medienbild
 Media Mail,Media Mail
 Media Storage,Medienspeicher
 Medical express,Medical Express
-Medium,Mittel
+Medium,Medium
 Medium Express Box,Medium Express Box
 Memo Total,Gutschriftengesamtanzahl
 Menu,Menü
@@ -3988,6 +4053,7 @@ Merchants need to apply to PayPal for enabling billing agreements feature. Do no
 Merchants need to apply to PayPal for enabling billing agreements feature. Do not enable this option until PayPal confirms that billing agreements are enabled for your merchant account.,"Händler müssen bei PayPal angemeldet sein, um diese Zahlungsvereinbarungs-Funktion aktivieren zu können. Aktivieren Sie diese Option nicht, bis PayPal bestätigt, dass die Abrechnungsvereinbarungen für Ihr Händler-Konto aktiviert ist."
 Merchants need to apply to PayPal for enabling billing agreements feature. Do not enable this option until PayPal confirms that billing agreements are enabled for your merchant account.,"Händler müssen sich an PayPal wenden, um das Rechnungsvereinbarungs-Feature zu aktivieren. Aktivieren Sie dieses Feature nicht, bevor PayPal bestätigt, dass Rechnungsvereinbarungen für Ihr Händlerkonto aktiviert sind."
 Merge CSS Files,Zusammenfügen von CSS-Dateien
+Merge existing Synonyms,Existierende Synonyme zusammenfügen
 Merge JavaScript Files,Zusammenfügen von JavaScript-Dateien
 Message,Nachricht
 message,Nachricht
@@ -4003,28 +4069,30 @@ Messaging and Lifetime,Nachrichten und Lebensdauer
 Meta Data,Metadaten
 Meta Description,Meta-Beschreibung
 Meta Keywords,Meta-Schlüsselwörter
+Meta Title,Meta-Title
 Meter Number,Zählernummer
 "Method ""%1"" is not defined in ""%2""","Methode ""%1"" ist nicht definiert in ""%2"""
 Method %s does not exist on jQuery.decorate,Methode %s nicht auf jQuery.decorate vorhanden
 Method Name,Methodenname
-Minify CSS Files,CSS-Dateien minifizieren
-Minify Html,Html minifizieren
-Minify JavaScript Files,JavaScript-Dateien minifizieren
+Middle Name/Initial,Zweiter Vorname
+Min Time Between Password Reset Requests,Mindestdauer zwischen Passwort-Reset-Anfragen
+Minify CSS Files,CSS-Dateien verkürzen
+Minify Html,HTML verkürzen
+Minify JavaScript Files,JavaScript-Dateien verkürzen
 Minimal Query Length,Minimale Abfragelänge
 Minimal value,Minimalwert
 Minimum,Minimum
 Minimum Advertised Price,Minimaler angezeigter Verkaufspreis
 Minimum Amount,Mindestbetrag
 Minimum Balance in order to redeem: %1.,"Minimaler Saldo, um einzulösen: %1"
-Minimum of different classes of characters in password is %1. Classes of characters: Lower Case, Upper Case, Digits, Special Characters.,Das Passwort muss sich aus Bestandteilen %1 Zeichengruppen zusammensetzen. Zeichengruppen sind: Buchstaben von a-z, A-Z, Ziffern von 0 bis 9 und Sonderzeichen.
+Minimum length of this field must be equal or greater than %1 symbols. Leading and trailing spaces will be ignored.,Dieses Feld muss mindestens %1 Zeichen enthalten. Leerzeichen an Anfang und Ende werden ignoriert.
 Minimum Order Amount,Mindestbestellmenge
 Minimum order amount is %1,Mindestbestellmenge ist %1
 Minimum Order Total,Mindestbestellsumme
 Minimum Package Weight (Please consult your shipping carrier for minimum supported shipping weight),Mindestpaketgewicht (Bitte konsultieren Sie Ihren Versandanbieter bezüglich des minimal unterstützten Versandgewichts)
+Minimum Password Length,Minimale Länge des Passworts
 Minimum Qty,Minimalanzahl
 Minimum Qty Allowed in Shopping Cart,Erlaubte Minimalmenge im Einkaufswagen
-Minimum length of this field must be equal or greater than %1 symbols. Leading and trailing spaces will be ignored.,Die Länge des Passwortes sind %1 oder mehr Zeichen.
-Minimum length of this field must be equal or greater than 8 symbols. Leading and trailing spaces will be ignored.,rest
 Minimum Search query length is %1,Minimale Länge der Suchanfrage ist %1
 Minimum Text Length,Minimale Textlänge
 Minimum: %1,Minimum: %1
@@ -4122,12 +4190,14 @@ N/A. The merchant has not implemented CVV2 code handling,N/A. Der Händler hat C
 N/A. Unavailable,N/A. Nicht verfügber
 Name,Name
 name,Name der Regel
-Name and Address Options,Namens-  und Address-Optionen
+Name and Address Options,Namens- und Adress-Optionen
 Name in %1,Name in %1
 Name is required,Name wird benötigt
 Name: %name,Name: %name
 National Freight,nationale Fracht
 Near PayPal Credit checkout button,In der Nähe des PayPal Credit Checkout Button
+"Necessary only if an image has been uploaded above. Enter image height size in pixels without appending ""px"".","Nur notwendig, wenn ein Bild hochgeladen wurde. Geben Sie die Anzahl der Pixel ohne „px“ ein."
+"Necessary only if an image has been uploaded above. Enter number of pixels, without appending ""px"".","Nur notwendig, wenn ein Bild hochgeladen wurde. Geben Sie die Anzahl der Pixel ohne „px“ ein."
 Need to Confirm,Muss bestätigt werden
 Negative Balance,Negative Bilanz
 "Negative list. The account number, street add ess, email address, or IP address for this order appears on your negative list","Negativliste. Die Kontonummer, Adresse, E-Mail-Adresse oder IP-Adresse für diese Bestellung erscheint auf Ihrer Negativliste."
@@ -4184,6 +4254,7 @@ New Invoice,Neue Rechnung
 New Invoice and Shipment for Order #%1,Neue Rechnung und Sendung für Bestellung #%1
 New Invoice for Order #%1,Neue Rechnung für Bestellung #%1
 New Key,Neuer Schlüssel
+New Layout,Neues Layout
 New Memo,Neue Notiz
 New Memo for #%1,Neue Notiz für #%1
 New Messages Lifetime,Neue Nachrichtenlebensdauer
@@ -4218,7 +4289,7 @@ New Rating,Neue Bewertung
 New Related Products Rule,"Neue ""Ähnliche Produkte""-Regel"
 New Relic Account ID,New Relic Konto-ID
 New Relic API Key,New Relic API Schlüssel
-New Relic API URL,Ner Relic API URL
+New Relic API URL,New Relic API URL
 New Relic Application ID,New Relic Anwendungs-ID
 New Relic Application Name,New Relic Anwendungsname
 New Relic Reporting,New Relic Reporting
@@ -4250,6 +4321,7 @@ New Store,Neuer Shop
 New Store Design Change,Neues Store Design ändern
 New Store View,Neuer Store View
 New Subcategory,Neue Unterkategorie
+New Synonym Group,Neue Synonymgruppe
 New System Template,Neue Systemvorlage
 New Tax Rate,Neuer Steuersatz
 New Tax Rule,Neue Steuerregel
@@ -4273,7 +4345,11 @@ Newsletter Styles,Newsletter-Styles
 Newsletter Subscribers,Newsletter-Abonnenten
 Newsletter Subscription,Newsletter-Abonnement
 Newsletter Subscriptions,Newsletter Abonnements
+Newsletter Template,Newsletter-Template
 Newsletter Templates,Newsletter-Vorlagen
+Newsletter subscription confirmation,Newsletter Anmeldung Bestätigung
+Newsletter subscription success,Newsletter Anmeldung erfolgreich
+Newsletter unsubscription success,Newsletter Abmeldung erfolgreich
 Newsletters,Newsletter
 Next,Weiter
 Next Day Air,Next Day Air
@@ -4333,9 +4409,8 @@ No order(s) were released from on hold status.,Keine Bestellung(en) wurde(n) aus
 No ordered items,Keine bestellten Artikel
 No packages for request,Keine Pakete zur Anfrage
 No partners were found,Es wurden keine Partner gefunden
-No Password,kein Password
+No Password,Kein Passwort
 No Payment Methods,Keine Zahlungsmethoden
-No Payment Information Required,Keine Zahlungsinformationen erforderlich
 No permissions requested,Keine Berechtigungen angefordert
 No Product Exception.,Keine Artikelausnahme.
 No records found.,Keine Aufzeichnungen gefunden
@@ -4408,11 +4483,13 @@ Notify for Quantity Below,Benachrichtigen bei Menge unter
 Notify Low Stock RSS,Benachrichtigung bei niedrigem Bestand (RSS)
 Now accepting PayPal (150 X 40),Akzeptiert nun PayPal (150 X 40)
 Now accepting PayPal (150 X 60),Akzeptiert nun PayPal (150 X 60)
+Now Online,Jetzt online
 Now Shopping by,Einkaufen nach
 Now you can add products to your gift registry.,Jetzt können Sie Produkte zur Ihrer Geschenkeliste hinzufügen.
 Number,Nummer
 Number of Cart Line Items,Anzahl der Einkaufswagenartikel
 Number of Child Authorizations,Anzahl der Child-Genehmigungen
+"Number of different character classes required in password: Lowercase, Uppercase, Digits, Special Characters.","Anzahl an erforderlichen Zeichenklassen, die im Passwort enthalten sein müssen: Kleinbuchstaben, Grossbuchstaben, Ziffern, Sonderzeichen."
 Number of downloads must be a positive integer.,Anzahl der Downloads muss eine positive ganze Zahl sein.
 Number of Events to be Displayed in Event Slider Widget,"Anzahl der Events, die im Event Slider Widget angezeigt werden"
 Number of Items,Artikelanzahl
@@ -4425,6 +4502,7 @@ Number of Orders,Anzahl der Bestellungen
 Number of Products per Page,Anzahl der Artikel pro Seite
 Number of Products to Display,"Anzahl der Artikel, die angezeigt werden"
 Number of Products to display,"Anzahl der Artikel, die angezeigt werden"
+Number of Required Character Classes,Anzahl an erforderlichen Zeichenklassen
 Number of results,Anzahl der Ergebnisse
 Number of results (For the last time placed),Anzahl der Ergebnisse (bei der letzten Anfrage)
 Number of shopping cart line items %1 %2:,Anzahl der Einkaufswagenartikel %1 %2:
@@ -4449,6 +4527,7 @@ OAuth version %1 is not supported,OAuth-Version %1 wird nicht unterstützt
 Object DOMDocument should be created.,Objekt DOMDocument sollte erstellt werden
 Obscenities. The customer’s input contains obscene words,Obszönitäten. Die Eingabe des Kunden enthält obszöne Worte.
 of %1,von %1
+of %1,von %1
 Offline,Offline
 Offline Refunds,Offline-Rückerstattungen
 Offloader header,Offloader-Header
@@ -4467,7 +4546,6 @@ One,Eins
 "One at the time, Series","Einer zur Zeit, Nach Reihenfolge"
 "One at the time, Shuffle","Einer zur Zeit, Shuffle"
 One of the countries has invalid code.,Eines der Länder hat einen ungültigen Code.
-"One or more <a href=""%1"">indexers are invalid</a>. Make sure your <a href=""%2"" target=""_blank"">Magento cron job</a> is running.",
 One or more of the Cache Types are invalidated: %1.,Eine oder mehrere der Cache-Typen sind ungültig. %1
 One or more of the Cache Types are invalidated: %1.,Einer oder mehrere der Cache-Typen sind entkräftet: %1.
 One or more of the indexers are not valid. Please add Magento cron file to crontab or launch cron.php manually.,Einer oder mehrere der Indexer sind ungültig. Bitte fügen Sie die Magento-Crondatei zu Crontab hinzu oder führen Sie cron.php manuell aus.
@@ -4503,6 +4581,7 @@ Operation,Operation
 Operation allowed only in HTTPS,Vorgang nur in HTTPS erlaubt.
 Operation do not allow to move a parent category to any of children category,Eine Hauptkategorie darf keiner Unterkategorie zugeordnet werden.
 Operation name:,Operationname
+Operations,Geschäftsverkehr
 Option attribute ID is not specified.,Optionsattribut-ID nicht angegeben
 Option label is not specified.,Optionslabel nicht angegeben
 Option required.,Option erforderlich.
@@ -4548,6 +4627,7 @@ Order Comment Email Template,Bestellkommentar-E-Mail-Vorlage
 Order Comment Email Template for Guest,Bestellkommentar-E-Mail-Vorlage für Gäste
 Order Comments,Bestellkommentare
 Order Conversion Rate,Bestellrate
+Order Count,Bestellanzahl
 Order Count Report,Bestellanzahl-Bericht
 Order Created,Bestellung erstellt
 Order Credit Memos,Bestell-Gutschriften
@@ -4593,7 +4673,7 @@ Order tracking,Bestellverfolgung
 Order Updated,Bestellung aktualisiert
 Order Valid Period (days),Gültigskeitsdauer von Bestellungen (Tage)
 Order View,Bestellübersicht
-order-header,Bestellungs-Kopfzeile
+order-header,order-header
 Ordered,Bestellt
 ordered,Bestellt
 Ordered amount of %1,Bestellte Menge von %1
@@ -4606,6 +4686,7 @@ Orders,Bestellungen
 Orders and Returns,Bestellungen und Rücksendungen
 Orders and Returns Search Form,Suchformular für Bestellungen und Rücksendungen
 Orders Cron Settings,Bestellungs-Cron-Einstellungen
+Orders Report,Bestellungen-Bericht
 "Orders, Invoices, Credit Memos Display Settings","Anzeigeeinstellungen für Bestellungen, Rechnungen, Gutschriften"
 "Orders, Invoices, Shipments, Credit Memos Archiving","Archivierung von Bestellungen, Rechnungen, Sendungen und Gutschriften"
 Origin,Herkunft
@@ -4618,6 +4699,7 @@ Other,Andere
 Other Amount...,Andere Menge...
 Other Gift Options,Andere Geschenkoptionen
 Other items in your order,Andere Artikel in Ihrer Bestellung
+Other Settings,Andere Einstellungen
 Others,Andere
 "Our hours are <span class=""no-link"">%store_hours</span>.","Unsere Geschäftszeiten sind: <span class=""no-link"">%store_hours</span>."
 Out of stock,Nicht auf Lager
@@ -4632,6 +4714,7 @@ Owner Email,Besitzer-E-Mail
 Owner Name,Besitzername
 Owner Notification,Besitzerbenachrichtigung
 Package,Paket
+Package ready time after order submission (in hours),Versandvorbereitungszeit nach Bestelleingang (in Stunden)
 Packages,Pakete
 Packages Request Type,Pakete-Anfragetyp
 Packaging,Verpackung
@@ -4642,6 +4725,7 @@ Page Background Color,Seiten-Hintergrundfarbe
 Page blocks HTML.,Seiten-Block-HTML
 Page Cache,Seiten-Cache
 Page ID,Seiten-ID
+Page in Websites,Seite auf Websites
 Page Information,Seiteninformationen
 Page Layout,Seitenlayout
 Page Layouts,Seiten-Layouts
@@ -4700,7 +4784,8 @@ Password Help,Passwort-Hilfe
 Password is required field.,Passwort ist ein Pflichtfeld.
 Password Lifetime (days),Passwort-Lebensdauer (Tage)
 Password Options,Passwortoptionen
-Password Strength,Passwortsicherheit
+Password Reset Protection Type,Schutzart für Passwort-Reset
+Password Strength,Passwortstärke
 Password Template Email Sender,Passwortvorlage für E-Mail-Absender
 Password you set when creating account,"Passwort, das Sie während der Kontoeinrichtung gesetzt haben"
 Password:,Passwort:
@@ -4865,7 +4950,7 @@ Phrase 2 %1,Ausdruck 2 %1
 Phrase 2 with %a_lot of extra info for the brilliant %customer_name.,Ausdruck 2 mit %a_lot von zusätzlichen Informationen für den grossartigen %customer_name.
 Phrase 3,Satz 3
 Pickup Method,Versandverfahren
-Place Order,Bestellung aufgeben
+Place Order,Zahlungspflichtig bestellen
 Placed from IP,Bestellt von IP
 "Placed on <span class=""no-link"">%created_at</span>","Aufgegeben am <span class=""no-link"">%created_at</span>"
 Platinum Partners,Platin-Partner
@@ -5068,6 +5153,7 @@ Please enter at least {0} characters,Bitte geben Sie mindestens {0} Zeichen ein
 Please enter at least {0} words.,Bitte geben Sie mindestens {0} Wörter ein.
 Please enter at least 2 letters of the first name.,Bitte geben Sie mindestens zwei Buchstaben des Vornamens ein.
 Please enter at least 2 letters of the last name.,Bitte geben Sie mindestens zwei Buchstaben des Nachnamens ein.
+Please enter at least 60 and at most 31536000 (one year).,Bitte geben Sie mindestens 60 und höchstens 31536000 (ein Jahr) ein.
 Please enter at least one email address.,Bitte geben Sie mindestens eine E-Mail-Adresse ein.
 Please enter at least two letters of the name.,Bitte geben Sie mindestens zwei Buchstaben des Namens ein.
 Please enter at least two letters.,Bitte geben Sie mindestens zwei Buchstaben ein.
@@ -5091,7 +5177,7 @@ Please enter the password to confirm rollback.,"Bitte geben Sie das Passwort ein
 Please enter the phone number.,Bitte geben Sie die Telefonnummer ein.
 Please enter the quantity of items to add to cart.,Bitte geben Sie die Anzahl der Artikel zum Hinzufügen zum Warenkorb ein.
 Please enter the same value again.,Bitte geben Sie den gleichen Wert erneut ein.
-Please enter the state/province.,Bitte geben Sie den Kanton ein.
+Please enter the state/province.,Bitte geben Sie das Kanton ein.
 Please enter the street.,Bitte geben Sie die Strasse ein.
 Please enter the title.,Bitte geben Sie den Titel ein
 Please enter the zip/postal code.,Bitte geben Sie die Postleitzahl ein.
@@ -5118,6 +5204,7 @@ Please note that these settings apply to individual items in the cart not to the
 "Please note that these settings apply to individual items in the cart, not to the entire cart.","Bitte beachten Sie, dass diese Einstellungen für einzelne Artikel im Warenkorb gelten, nicht für den gesamten Warenkorb."
 Please provide filter data.,Bitte stellen Sie Filterdaten bereit.
 Please provide valid data,Bitte geben Sie gültige Daten an.
+Please put your store into maintenance mode and redeploy static files after changing strategy,Shop bitte in den Wartungsmodus versetzen und statische Dateien nach dem Ändern der Strategie neu deployen.
 Please put your store into maintenance mode during backup.,Bitte setzen Sie Ihren Shop während des Backups in den Wartungsmodus.
 Please put your store into maintenance mode during rollback processing.,Bitte setzen Sie Ihren Shop während des Rollbacks in den Wartungsmodus.
 Please reenter your search options.,Bitte geben Sie Ihre Suchoptionen erneut ein.
@@ -5263,8 +5350,8 @@ Popular Search Terms,Beliebte Suchbegriffe
 Port (25),Port (25)
 Position,Position
 Position Behavior,Positionsverhalten
-Position in Layered Navigation,Position in Layered Navigation
-Position of attribute in layered navigation block,Position des Attributs im Layered Navigation-Block
+Position in Layered Navigation,Position in Filternavigation
+Position of attribute in layered navigation block,Position des Attributs im Filternavigationsblock
 Position of Watermark for %1,Wasserzeichenposition für %1
 Positive list. The customer is on your positive list. Decision Manager Developer Guide Using the Simple Order AP  January 201 10 Appendix  Information and Reply Code,Positivliste. Der Kunde ist auf Ihrer Positivliste.
 Postage Payment to either USPS or UPS,Porto-Zahlung entweder an USPS oder UPS
@@ -5273,6 +5360,7 @@ Posted on,Veröffentlicht am
 Pounds,Pfund
 "Preapproved Payment (BillUser API, either sent or received","Im Voraus genehmigte Zahlung (BillUser API, gesendet oder empfangen)"
 Preapproved Payment ID,Vorgenehmigte Zahlungs-ID
+Prefix,Anrede
 Prefix Dropdown Options,Präfix Dropdown-Optionen
 Pregenerated product images files,Vorgenerierte Produktbilddateien
 Prepare layout problem.,Layoutvorbereitungsproblem
@@ -5407,8 +5495,8 @@ Product attribute combination,Kombination von Produktattributen
 Product Attributes,Produktattribute
 Product availability,Produktverfügbarkeit
 Product Categories,Produktkategorien
-Product Details and Comment,Produktdetails und Kommentar
 Product Details,Produktdetails
+Product Details and Comment,Produktdetails und Kommentar
 Product EAV,Produkt-EAV
 Product Eav Attributes,Produkt-EAV-Attribute
 Product Exception.,Produkt-Ausnahme
@@ -5425,6 +5513,7 @@ Product Image Placeholders,Produktbild-Platzhalter
 Product Image Watermarks,Produktbild-Wasserzeichen
 Product In Websites,Produkt in Websites
 Product Info,Produktinformationen
+Product Info Column,Produktinfo-Spalte
 Product is not loaded,Das Produkt ist nicht geladen
 Product is not salable.,Das Produkt ist nicht verkäuflich.
 Product Link Block Template,Produktlink-Block-Vorlage
@@ -5479,8 +5568,10 @@ Products,Produkte
 Products Bestsellers Report,Produkt-Bestseller-Bericht
 Products Comparison List,Produktvergleichsliste
 Products Grid Template,Produktrastervorlage
+Products in Cart,Produkte im Warenkorb
 Products in carts,Artikel in Warenkörben
 Products in Carts,Produkte in Warenkörben
+Products in Category,Produkte in dieser Kategorie
 Products in Comparison List,Artikel auf Vergleichsliste
 Products in the Comparison List (%1),Produkte in der Vergleichsliste (%1)
 Products Information,Produktinformationen
@@ -5522,11 +5613,13 @@ Provided link information is invalid.,Angegebene Link-Information ist ungültig.
 "Provided link type ""%1"" does not exist","Angegebener Link-Typ ""%1"" existiert nicht."
 Provided sample information is invalid.,Die vorgesehene Sampleinformation ist ungültig.
 Provided Zip/Postal Code seems to be invalid. Example: 12345-6789; 12345. If you believe it is the right one you can ignore this notice.,"Angegebene Postleitzahl scheint ungültig zu sein. Beispiel: 12345-6789; 12345. Wenn sie richtig eingegeben wurde, können Sie diese Warnung ignorieren."
+Provided Zip/Postal Code seems to be invalid. Example: 12345. If you believe it is the right one you can ignore this notice.,"Die angegebene Postleitzahl scheint ungültig zu sein. Beispiel: 12345. Sollte sie korrekt sein, können Sie diese Warnung ignorieren."
 Proxy Host,Proxy-Host
 Proxy Port,Proxy-Port
 Public,Öffentlich
 Public content cache lifetime in seconds. If field is empty default value 86400 will be saved.,"Cache-Bestandsdauer in Sekunden für öffentlichen Inhalt. Wenn das Feld leer ist, wird der Standwert 86400 verwendet."
 Public content cache lifetime in seconds. If field is empty default value 86400 will be saved.,"Lebensdauer des Cache für öffentlichen Inhalt in Sekunden. Wenn leer, wird der Standardwert 86400 gespeichert."
+Public content cache lifetime in seconds. If field is empty default value 86400 will be saved.,"Cache-Lebensdauer für öffentliche Inhalte. Wenn das Feld leer bleibt, wird der Standardwert 86400 verwendet."
 Public In RSS Feed,Öffentlich im RSS-Feed
 Public Key,Öffentlicher Schlüssel
 Public Wish List,Öffentlicher Wunschzettel
@@ -5592,6 +5685,7 @@ Read More,Weiterlesen
 Read-only property cannot be changed.,Schreibgeschützte Eigenschaft kann nicht geändert werden
 Reading import file,Importdatei wird gelesen
 Ready,Bereit
+Ready Time,Versandvorbereitungszeit
 Reason,Ursache
 Reason to Return,Grund für die Rückgabe
 Reauthorization,Neue Bevollmächtigung
@@ -5600,6 +5694,7 @@ Rebuild,Wiederherstellen
 Rebuild Catalog Index,Katalogindex wiederherstellen
 Rebuild Catalog product fulltext search index,Volltextsuche-Index des Katalogprodukts wiederherstellen
 Rebuild Customer grid index,Kunden-Raster-Index neuaufbauen
+Rebuild design config grid index,Designkonfigurationstabellen-Index wiederherstellen
 Rebuild Flat Catalog Category,Flat Catalog Kategorie wiederherstellen
 Rebuild Flat Catalog Product,Flat Catalog Produkt wiederherstellen
 Receive Date,Empfangsdatum
@@ -5618,8 +5713,9 @@ Recipient Name,Empfängername
 Recipient: %1.,Empfänger: %1
 Recipients,Empfänger
 Recommended,Empfohlen
-records found,Gefundene Datensätze
+records found,gefundene Datensätze
 Recovery Link Expiration Period (days),Recovery-Link-Ablaufdauer (Tage)
+Recovery Link Expiration Period (hours),Ablaufzeitraum des Wiederherstellungslinks (Stunden)
 Rectangular,Rechteckig
 Redeem Gift Card,Geschenkkarte einlösen
 Redeemable,Einlösbar
@@ -5631,6 +5727,7 @@ Redirect Type,Redirect-Typ
 Redirect URL,URL umleiten
 Redirecting...,Umleiten ...
 Refer to reward points history to see when a specific record expires.,"Beziehen Sie sich auf die Belohnungspunktehistorie, um zu sehen, wann ein bestimmter Eintrag abläuft."
+"Reference for business rules (physician, ...)","Verweis auf berufliche Regelungen (z.B. für Ärzte, Apotheker)"
 Reference ID,Referenz-ID
 Reference ID:,Referenz-ID:
 Reference Information,Referenzinformationen
@@ -5671,6 +5768,8 @@ Refunds Report,Erstattungsbericht
 Refused,Verweigert
 region,Region
 Region/State,Region/Kanton
+Register Court,Registergericht
+Register Number,Registernummer
 Registered,Registriert
 Registered a Void notification.,Eine Aufhebungs-Benachrichtigung wurde registriert.
 Registered as customer,Als Kunde registriert
@@ -5704,12 +5803,15 @@ Related Catalog Price Rules,Zugehörige Katalogpreisregeln
 Related Changes,Zugehörige Änderungen
 Related Orders,Ähnliche Bestellungen
 Related Products,Verwandte Artikel
+Related products are shown to customers in addition to the item the customer is looking at.,"Verwandte Artikel werden den Kunden zusätzlich zu dem Artikel angezeigt, den sie sich anschauen."
 Related Products Rule,Zugehörige Produktregel
 Related Products Rules,Zugehörige Produktregeln
+"Related Products, Up-Sells, and Cross-Sells","Verwandte Artikel, Up-Sells und Cross-Sells"
 Related Promotions,Zugehörige Promotions
 Related Search Terms,Zugehörige Suchbegriffe
 Relative to Web Site Base URL,Relativ zur Website-Basis-URL
 Relevance,Relevanz
+Relevant for Austrian shops,Relevant für österreichische Shops
 Reload captcha,Captcha neu laden
 Reload Data,Daten neu laden
 Remaining,Ausstehend
@@ -5796,13 +5898,14 @@ Required to display a banner,"Erforderlich, um einen Banner einzubinden"
 Reset,Zurücksetzen
 Reset a Password,Passwort zurücksetzen
 Reset Filter,Filter zurücksetzen
-Reset My Password,Passwort zurücksetzen
+Reset My Password,Mein Passwort zurücksetzen
 Reset Password,Passwort zurücksetzen
 Reset Password Template,Passwortvorlage zurücksetzen
 Reset password token expired.,Passwortzurücksetzungs-Token abgelaufen.
 Reset password token mismatch.,Passwortzurücksetzungs-Tokens stimmen nicht überein.
 Reset to Default,Auf Standardeinstellungen zurücksetzen
 Reset to Defaults,Auf Standardeinstellungen zurücksetzen
+Reset your %store_name password,Setzen Sie Ihr %store_name Passwort zurück
 Residential,Auf den Wohnsitz bezogen
 Residential Delivery,Wohnungslieferung
 Resolution,Auflösung
@@ -5812,6 +5915,9 @@ Resources,Ressourcen
 Response Code,Antwortcode
 Response info is not exist.,Antwortinformationen existieren nicht.
 Response is in the wrong format,Antwort ist im falschen Format
+Responsible for content,Verantwortlich für den Inhalt
+Responsible for content address,Verantwortlich für den Inhalt (Adresse)
+Responsible in the interests of the press law,Verantwortlich im Sinne des Presserechts
 "REST and SOAP configurations, generated WSDL file.","REST und SOAP-Konfigurationen, generierte WSDL-Datei"
 Restrict by Banner Types,Nach Bannertypen einschränken
 Restriction Mode,Einschränkungsmodus
@@ -5860,6 +5966,7 @@ Reverted,Zurückgekehrt
 Reverted from incomplete order #%1,Zurückgekehrt von unvollendeter Bestellung #%1
 Review,Bewertung
 Review & Payments,Übersicht und Zahlung
+Review &amp; Payments,Übersicht und Zahlung
 Review by,Bewertung von
 Review Details,Bewertungsdetails
 Review Order,Bestellung überprüfen
@@ -6048,13 +6155,17 @@ Save Status Assignment,Speichern der Status-Zuweisung
 Save Store,Shop speichern
 Save Store View,Store View speichern
 Save Subscription Settings,Abonnement-Einstellungen speichern
+Save Synonym Group,Synonymgruppe speichern
 Save Template,Vorlage speichern
 Save this card for future use,Diese Karte für zukünftige Verwendung speichern
 Save User,Benutzer speichern
+Save View As...,View speichern als...
 Save Web Site,Website speichern
 Schedule,Zeitplan
 Schedule Ahead for,Planen Sie voraus für
+Schedule Design Update,Design-Update planen
 Schedule Id,Zeitplan-ID
+Schedule Update From,Update planen von
 Scheduled At,Geplant am
 Scheduled Backup Settings,Einstellungen für geplantes Backup
 Scheduled Export,Geplanter Export
@@ -6067,9 +6178,11 @@ Scheduled Import/Export File History Cleanup Warnings,Geplanter Import-Export - 
 Scheduled Imports/Exports,Geplante Importe/Exporte
 Scope,Bereich
 "Scope separator ""::"" cannot be used without scope identifier.","Scope-Separator ""::"" kann nicht ohne Scope-Bezeichner verwendet werden"
+Scripts and Style Sheets,Skripte und Stylesheets
 Scroll,Scrollen
 Search,Suche
 Search By,Suchen nach
+Search by keyword,Suche nach Stichwort
 Search Engine,Suchmaschine
 Search Engine Optimization,Suchmaschinenoptimierung
 Search Engine Robots,Suchmaschinen-Robots
@@ -6084,9 +6197,12 @@ Search Results,Suchergebnisse
 Search results for: '%1',"Suchergebnisse für: ""%1"""
 Search Settings,Sucheinstellungen
 Search String,Suchbegriff
+"Search strings are either normal strings or regular exceptions (PCRE). They are matched in the same order as entered. 
+Examples: Firefox: /^mozilla/i","Suchbegriffe sind entweder normale Zeichenketten oder reguläre Ausdrücke (PCRE). Sie werden in der Reihenfolge verglichen, wie sie eingegeben werden. Beispiele: Firefox: /^mozilla/i"
 "Search strings are either normal strings or regular exceptions (PCRE). They are matched in the same order as entered. Examples:<br /><span style=""""font-family:monospace"""">Firefox<br />/^mozilla/i</span>","Suchbegriffe sind entweder normale Strings oder reguläre Ausnahmen (PCRE). Sie werden in der gleichen Reihenfolge verglichen wie eingegeben. Beispiele: <br /> <span style = ""font-family: monospace""> Firefox <br />/^mozilla/i</span>"
 "Search strings are either normal strings or regular exceptions (PCRE). They are matched in the same order as entered. Examples:<br /><span style=""font-family:monospace"">Firefox<br />/^mozilla/i</span>","Suchbegriffe sind entweder normale Strings oder reguläre Ausnahmen (PCRE). Sie werden in der gleichen Reihenfolge verglichen wie eingegeben. Beispiele: <br /> <span style = ""font-family: monospace""> Firefox <br />/^mozilla/i</span>"
 Search Suggestions Count,Anzahl der Suchvorschläge
+Search Synonyms,Synonyme
 Search Term,Suchbegriffe-Bericht
 Search Terms,Suchbegriffe
 Search Terms Report,Suchbegriffe-Bericht
@@ -6107,7 +6223,6 @@ Security validation of XML document has been failed.,Sicherheits-Validierung von
 See All (,Alles sehen
 See Details,Details ansehen
 see error log for details,Details siehe Fehlerprotokoll
-See order and shipping status,Meine Bestellungen ansehen und mehr.
 See price before order confirmation.,Vor Bestellbestätigung den Preis einsehen
 See terms,Allgemeine Geschäftsbedingungen ansehen
 Segment,Segment
@@ -6196,7 +6311,7 @@ Send Invoice Comment Email Copy To,Sende Rechnungskommentar-E-Mail in Kopie an
 Send Invoice Comments Email Copy Method,"""Sende Rechnungskommentar-E-Mail in Kopie""-Methode"
 Send Invoice Email Copy Method,"""Sende Rechnungs-E-Mail in Kopie""-Methode"
 Send Invoice Email Copy To,Sende Rechnungs-E-Mail in Kopie an
-Send Order Comment Email Copy To,Sende Bestellkommentar-E-mail in Kopie an
+Send Order Comment Email Copy To,Sende Bestellkommentar-E-Mail in Kopie an
 Send Order Comments Email Copy Method,"""Sende Bestellkommentar-E-Mail in Kopie""-Methode"
 Send Order Email Copy Method,"""Sende Bestellungs-E-Mail in Kopie""-Methode"
 Send Order Email Copy To,Sende Bestellungs-E-Mail in Kopie an
@@ -6222,6 +6337,7 @@ Sender Email,Absender-E-Mail
 Sender Name,Absendername
 Sending,Senden...
 Sent,Gesendet
+SEO & Search,SEO & Suche
 "Separate by "","".","Trenne durch "",""."
 Separate Email,Separate E-Mail
 Separately,Separat
@@ -6229,7 +6345,7 @@ Sequence with this metadata already exists,Sequenz mit diesen Metadaten existier
 "Server cannot match any of the given Accept HTTP header media type(s) from the request: ""%1"" with media types from the config of response renderer.","Der Server kann keine der gegebenen Accept HTTP-Header Medientypen der Anfrage zuordnen. ""%1"" mit Medientypen aus der Konfiguration des Response-Renderers."
 Server cannot understand Content-Type HTTP header media type %1,Der Server kann den Content-Type HTTP-Header Medientyp nicht verstehen %1
 Server internal error. See details in report api/%1,Interner Serverfehler. Details befinden sich in der Report-API %1
-Server side less compilation,Weniger Kompilierung auf Serverseite
+Server side less compilation,LESS Kompilierung auf Serverseite
 Server Type,Servertyp
 Service,Service
 Service not found,Service nicht gefunden
@@ -6248,6 +6364,8 @@ Set Items' Status to be In Stock When Order is Cancelled,"Artikel-Status auf 'Au
 Set order for existing transactions not allowed,Bestellung aufzugeben für existierende Transaktionen ist nicht erlaubt
 Set Order Status to Suspected Fraud for CVV,"Bestellstatus auf ""Betrugsverdacht bzgl. CVV (Kreditkartenverifizierung)"" setzen"
 Set Order Status to Suspected Fraud for Postcode AVS,"Bestellstatus auf ""Betrugsverdacht bzgl. AVS (Postleitzahl-Verifizierung)"" setzen"
+Set Product as New from Date,Produkt als neu ab Datum
+Set Product as New to Date,Produkt als neu bis Datum
 Set Return-Path,Return-Pfad setzen
 Set Root Category for Store,Hauptkategorie für Shop festlegen
 "Set root category for this store in the <a href=""%1"">configuration</a>.","Bestimmen Sie die Root-Kategorie für diesen Shop in der <a href=""%1"">Konfiguration</a>"
@@ -6269,12 +6387,14 @@ Share Gift Registry,Geschenkliste teilen
 Share Options,Teilen-Optionen
 Share Wish List,Wunschzettel teilen
 Shareable,Gemeinsam nutzbar
+Shareholdings,Beteiligungen
 Sharing,Teilen
 Sharing Information,Informationen zum Teilen
 Ship,Versenden
 Ship Bundle Items,Bündelartikel-Versand
 Ship Date,Versanddatum
 Ship From,Versand von
+Ship Here, Hier hin senden
 Ship To,Versenden an
 Ship to Applicable Countries,Versand in anwendbare Länder
 Ship to different address,An andere Adresse senden
@@ -6283,6 +6403,7 @@ Ship to registrant's address,An Adresse des Registranten senden
 Ship to Specific Countries,Versand in bestimmte Länder
 Ship to the recipient's address.,An Adresse des Empfängers senden
 Ship to this address,An diese Adresse senden
+Ship to:,Versenden an:
 Ship To:,Versenden an:
 Ship-to Name,Versand an Name
 Shipment,Versandmethode kann nicht aktualisiert werden.
@@ -6350,6 +6471,7 @@ Shipping Settings,Versandeinstellungen
 Shipping State/Province,Versand-Kanton / -Provinz
 Shipping To,Versand an
 Shop By,Einkaufen nach
+Shop Name,Name des Shops
 Shop now using (150 X 40),Shop nutzt jetzt (150 X 40)
 Shop now using (150 X 60),Shop nutzt jetzt (150 X 60)
 Shopping Cart,Warenkorb
@@ -6371,9 +6493,11 @@ Shopping Cart Sidebar,Einkaufswagen-Sidebar
 Shopping Cart Total,Einkaufswagensumme
 Shopping Options,Einkaufsoptionen
 Short,Kurz
+Short Description,Kurzbeschreibung
 Shortcut,Abkürzung
 Shortcut Buttons Flavor,Shortcut-Flavor
 Show,Anzeigen
+Show / Hide Editor,Editor ein-/ausblenden
 Show Actual Values,Aktuelle Werte zeigen
 Show all...,Zeige alle...
 Show Breadcrumbs for CMS Pages,"Zeige Breadcrumbs (""Brotkrümelnavigation"") für CMS-Seiten"
@@ -6382,7 +6506,7 @@ Show Content as,Inhalt anzeigen als
 Show Cross-Sell Products,Cross-Sell-Produkte anzeigen
 Show Date of Birth,Geburtstdatum zeigen
 Show Details,Details anzeigen
-Show for Current,Für derzeitige zeigen
+Show for Current,Zeigen für derzeitige
 Show Gender,Geschlecht anzeigen
 Show in navigation menu.,Im Navigationsmenü anzeigen
 Show Log,Protokoll anzeigen
@@ -6404,7 +6528,7 @@ Show Results Count for Each Suggestion,Ergebnisanzahl für jeden Vorschlag anzei
 Show Reviews,Bewertungen anzeigen
 Show Store Credit History to Customers,Shopguthabenhistorie den Kunden anzeigen
 Show Suffix,Suffix zeigen
-Show Tax/VAT Number,Steuer/MwSt.-Nummer anzeigen
+Show Tax/VAT Number,Steuernummer/Ust-IdNr. Anzeigen
 Show Upsell Products,Up-Sell-Produkte anzeigen
 Show VAT Number on Storefront,Zeige MwSt.-Nummer im Storefront
 Shuffle,Shuffle
@@ -6419,7 +6543,7 @@ Sign Out,Abmelden
 Sign Static Files,Statische Dateien registrieren
 Sign Up At,Anmelden bei
 Sign Up for Newsletter,Anmeldung zum Newsletter
-Sign Up for Our Newsletter:,Annmeldung zum Newsletter:
+Sign Up for Our Newsletter:,Anmeldung zum Newsletter:
 Sign up for price alert,Für Preisalarm anmelden
 Sign up to be notified when this product is back in stock.,"Melden Sie sich an, um benachrichtigt zu werden, wenn das Produkt wieder verfügbar ist."
 Sign-in Information,Anmeldeinformationen
@@ -6430,6 +6554,7 @@ Signed by:,Unterzeichnet von:
 Signed Up At,Angemeldet am
 Signed up for newsletter with email %1,Zum Newsletter angemeldet mit E-Mail %1
 Signed-up Point,Anmeldungs-Punkt
+Simple Product,Einfaches Produkt
 simple text,Einfacher Text
 simple text with 1 string literal placeholder %1,Einfacher Text mit einem String-Platzhalter
 simple text with 1 variable placeholder %1,Einfacher Text mit einem Variablen-Platzhalter
@@ -6446,6 +6571,7 @@ Size,Grösse
 Size for %1,Grösse für %1
 Size(bytes),Grösse (Byte)
 Skip Category Selection,Kategorie-Auswahl überspringen
+Skip error entries,Fehlerhafte Einträge überspringen
 Skip image uploading at this time,Bild-Upload zu diesem Zeitpunkt überspringen
 Skip Order Review Step,Bestellbewertungs-Schritt überspringen
 Skip price at this time,Preis zu diesem Zeitpunkt überspringen
@@ -6617,6 +6743,8 @@ Source Model,Modelquelle
 "Source model ""%1"" not found for attribute ""%2""","Source-Modell ""%1"" nicht gefunden für Attribut ""%2"""
 Special Expires On: %1,Sonderangebot läuft ab: %1
 Special Price,Sonderangebot
+Special Price From Date,Sonderpreis Ab-Datum
+Special Price To Date,Sonderpreis Bis-Datum
 Special Price: %1,Sonderpreis: %1
 Special Products,Produkte im Sonderangebot
 Specific,Spezifisch
@@ -6666,7 +6794,7 @@ State Code and Title,Statuscode und Titel
 State for the same indexer,Zustand für denselben Indizierer
 State for the same view,Zustand für die dieselbe Ansicht
 State is Required for,Kanton ist erforderlich für
-State Options,Kantonsoptionen
+State Options,Bundesländeroptionen
 State/Province,Kanton/Provinz
 State/Region,Kanton / Region
 Static,Statisch
@@ -6694,8 +6822,10 @@ Stock Availability,Lagerverfügbarkeit
 "Stock Item with id ""%1"" does not exist.","Lagerartikel mit ID ""%1"" existiert nicht."
 Stock Options,Lageroptionen
 Stock Quantity,Bestandsmenge
+Stock Status,Lagerbestand
 "Stock with id ""%1"" does not exist.","Lager mit ID ""%1"" existiert nicht."
 Stop Import,Import stoppen
+Stop on Error,Stopp bei Fehler
 Storage Configuration for Media,Speicherkonfiguration für Medien
 Storage key was not set,Speicherschlüssel wurde nicht gesetzt
 Storage Root,Hauptverzeichnis
@@ -6709,10 +6839,11 @@ Store Credit Options,Shopguthaben Optionen
 Store Credit Update Email Sender,Shopguthaben-Aktualisierungsmail Sender
 Store Credit Update Email Template,Shopguthaben-Aktualisierungsmail-Vorlage
 Store Design,Shopdesign
+Store Design Schedule,Shopdesign-Zeitplan
 Store Email Addresses,Store-E-Mail-Adressen
 Store Hours,Geschäftszeiten
 Store Hours of Operation,Shop-Geschäftszeiten
-Store Information,Shopinformaionen
+Store Information,Shopinformationen
 Store is inactive,Store ist inaktiv
 Store Name,Name des Shops
 Store Phone Number,Telefonnummer des Shops
@@ -6737,6 +6868,7 @@ Storefront Properties,Storefront-Eigenschaften
 Stores,Shops
 Stores Configuration,Shop-Konfiguration
 Stores List,Liste der Shops
+Street,Strasse
 Street Address,Adresse
 Street Address %1,Adresse %1
 Street Address 1,Adresse Strasse 1
@@ -6814,6 +6946,7 @@ Summary,Zusammenfassung
 Summary of Review,Zusammenfassung der Bewertung
 Summary of review: %1 <br/>,Zusammenfassung der Bewertung: %1 <br/>
 Summary Rating,Gesamtbewertung
+Supplementary Information for Telephone,Zusatzinformationen für Telefon
 Support,Support
 Support Module doesn't support %s operation system,Das Support-Modul unterstützt %s Operationssystem nicht
 "Supporting of American Express cards require additional agreement. Learn more at <a href=""""http://www.paypal.com/amexupdate"""">http://www.paypal.com/amexupdate</a>.","Die Unterstützung von American Express Karten erfordert zusätzliche Vereinbarungen. Erfahren Sie mehr auf <a href=""""http://www.paypal.com/amexupdate"""">http://www.paypal.com/amexupdate</a>."
@@ -6835,6 +6968,7 @@ Synchronizing %1 to %2,Synchonisiert %1 zu %2
 Synchronizing...,Synchronisiert...
 Synonym,Synonym
 Synonym For,Synonym für
+Synonyms,Synonyme
 Synthetic model update failure.,Fehler bei künstlichem Model-Update
 System,System
 System (excluding Media),System (ohne Medien)
@@ -6864,20 +6998,23 @@ Tax Class for Gift Options,Steuerklasse für Geschenkoptionen
 Tax Class for Shipping,Steuerklasse für Versand
 Tax Classes,Steuerklassen
 Tax Identifier,Steueridentifizierer
+Tax number,Steuernummer
 Tax Percent,Steueranteil (%)
-Tax Rate,Steuerrate
+Tax Rate,Steuersatz
 Tax Rate Information,Steursatz-Informationen
-Tax Rates,Steuerrate
+Tax Rates,Steuersätze
 "Tax rates at the same priority are added, others are compounded.","Die Steuersätze der gleichen Priorität werden hinzugefügt, andere sind zusammengesetzt."
-Tax Rates Export,Steuerraten Export
-Tax Rates Import,Steuerraten Import
+Tax Rates Export,Steuersätze-Export
+Tax Rates Import,Steuersätze-Import
 Tax Report,Steuerbericht
 Tax Rule Information,Steuerregel-Informationen
 Tax Rules,Steuerregeln
 Tax Titles,Steuertitel
 Tax VAT Number,Umsatzsteuer-Nr.
-Tax Zones and Rates,Steuerzonen und -raten
+Tax Zones and Rates,Steuerzonen und -sätze
 Tax/VAT number,Steuernummer/Ust-ID
+Tax/VAT Number,Steuernummer/USt-IdNr.
+Taxes,Steuern
 Telephone,Telefon
 Template,Vorlage
 Template Content,Vorlagen-Inhalt
@@ -6925,6 +7062,7 @@ Thank you for your subscription.,Vielen Dank für Ihre Anmeldung.
 "Thank you, %store_name","Vielen Dank, %store_name"
 Thanks for contacting us with your comments and questions. We'll respond to you very soon.,Vielen Dank für Ihre Kontaktaufnahme mit Ihren Kommentaren und Fragen. Wir werden Ihnen bald antworten.
 Thanks for your order. We'll email you order details and tracking information.,Vielen Dank für Ihre Bestellung. Wir werden Ihnen eine E-Mail mit Details und Tracking-Informationen zusenden.
+"Thanks,<br>%store_name","Danke,<br>%store_name"
 The '%1' cannot be set as child to itself.,%1 kann nicht als Kind von sich selbst festgelegt werden
 "The '%1' is a parent of '%2' recursively, therefore '%3' cannot be set as child to it.","%1 ist rekursiv ein Elternteil von %2, also kann %3 nicht als Kind festgelegt werden"
 The '%1' is not a child of '%2'.,%1 ist kein Kind von %2
@@ -7147,7 +7285,6 @@ The PayPal Advertising Program has been shown to generate additional purchases a
 The PayPal certificate does not exist.,Das PayPal-Zertifikat ist nicht vorhanden.
 The PayPal certificate file is empty.,Die PayPal-Zertifikatsdatei ist leer.
 The PayPal gateway rejected the request. %1,Das PayPal-Gateway hat die Anfrage abgelehnt. %1
-The PDF total model %1 must be or extend \Magento\Sales\Model\Order\Pdf\Total\DefaultTotal.,
 The priority must be between 0 and 1.,Die Priorität muss zwischen 0 und 1 liegen.
 The problems you identified have been deleted.,Die von Ihnen festgestellten Probleme wurden gelöscht.
 "The processor declined your transaction, please re-enter your payment information",Ihre Transaktion wurde abgelehnt. Bitte geben Sie Ihre Zahlungsinformationen erneut ein.
@@ -7166,6 +7303,7 @@ The Rate Percent should be a positive number.,Die Prozentrate sollte eine positi
 "The reference already exists: %1. New index: %2, old index: %3",Die Referenz existiert bereits: %1. Alter Index: %2 Neuer Index: %3
 The reference ID is not set.,Die Referenz-ID ist nicht festgelegt.
 The refund action is not available.,Die Erstattungs-Aktion ist nicht verfügbar.
+The report displays the top 5 most viewed products for each interval.,Der Bericht zeigt die 5 meist angesehenen Produkte für jedes Intervall an.
 The requested cart item doesn't exist.,Der angeforderte Warenkorb-Artikel existiert nicht.
 "The requested component (""' . . '"") is not found. ' . 'Before using, you must add the implementation.","Die angeforderte Komponente ("" . . "") wurde nicht gefunden. Sie müssen die Implementierung vor der Verwendung hinzufügen."
 The requested payment method is not available for multishipping.,Die aufgerufene Zahlungsmethode ist für Multishipping nicht verfügbar.
@@ -7259,6 +7397,7 @@ Theme JavaScript,Theme JavaScript
 Theme layout label,Theme-Layout-Label
 Theme layout title,Theme-Layout-Titel
 Theme layout update file '%1' must not declare page types.,"Theme-Layout-Updatedatei ""%1"" darf keine Seitentypen deklarieren."
+Theme Name,Theme-Name
 Theme Path,Theme-Pfad
 Theme Preview Image,Theme-Vorschaubild
 Theme Settings,Theme-Einstellungen
@@ -7291,7 +7430,7 @@ There are no subscribers selected.,Es sind keine Abonnenten ausgewählt.
 There are not enough parameters.,Es gibt nicht genügend Parameter.
 There are not websites for assign to product,"Es gibt keine Website, der dieses Produkt zugewiesen werden kann."
 There are unsaved node data. Are you sure you want to continue?,Es bestehen ungespeicherte Knotendaten. Möchten Sie wirklich fortfahren?
-"There is already an account with this email address. If you are sure that it is your email address, <a href=""%1"">click here</a> to get your password and access your account.","Es gibt bereits ein Konto mit dieser E-Mail-Adresse. Wenn Sie sicher sind, dass es sich um Ihre E-Mail-Adresse handelt <a href=""%1"">klicken Sie hier</a>, um Ihr Passwort für den Zugriff auf Ihr Konto zu erhalten."
+"There is already an account with this email address. If you are sure that it is your email address, <a href=""%1"">click here</a> to get your password and access your account.","Es gibt bereits ein Konto mit dieser E-Mail-Adresse. Wenn Sie sicher sind, dass es sich um Ihre E-Mail-Adresse handelt, <a href=""%1"">klicken Sie hier</a>, um Ihr Passwort für den Zugriff auf Ihr Konto zu erhalten."
 There is an error in one of the option rows.,Ein Fehler befindet sich in einer der Optionszeilen.
 There is an error in quantities for item %1.,Es besteht ein Mengenfehler für Artikelt %1.
 There is no balance history.,Es besteht kein Guthaben-Verlauf.
@@ -7333,6 +7472,7 @@ There was an error while loading system report data.,Es ist ein Fehler beim Lade
 There was error deleting the credit card,Beim Löschen der Kreditkarte ist ein Fehler aufgetreten.
 There was error during saving card data,Bei der Speicherung der Kartendaten ist ein Fehler aufgetreten.
 There was recently a request to change the password for your account.,"Es gab kürzlich eine Anfrage, das Passwort für Ihr Konto zu ändern."
+"These ""impulse-buy"" products appear next to the shopping cart as cross-sells to the items already in the shopping cart.","Diese „Impulskauf“-Artikel erscheinen neben dem Warenkorb als Cross-Sells zu den Artikeln, die sich bereits im Warenkorb befinden."
 This account is,Dieses Konto ist
 This account is not confirmed.,DIeses Konto ist nicht bestätigt.
 "This account is not confirmed. <a href=""%1"">Click here</a> to resend confirmation email.","DIeses Konto ist nicht bestätigt. <a href=""%1"">Klicken Sie hier</a>, um die Bestätigungs-E-Mail erneut zu verschicken."
@@ -7372,9 +7512,12 @@ This email is found more than once in the import file.,Diese E-Mail wurde mehr a
 This email template no longer exists.,Diese E-Mail-Vorlage existiert nicht mehr.
 This email will be sent instead of the Default Welcome Email after account confirmation. <br /><br />,Diese E-Mail wird nach der Konto bestätigung statt der Standard Willkommensmail gesended.
 This email will be sent instead of the Default Welcome Email if a customer was created without password. <br /><br />,"Diese E-Mail wird statt der Standard Willkommensmail gesendet, wenn ein neuer Kunde ohne Passwort angelegt wurde."
+"This email will be sent instead of the Default Welcome Email, after account confirmation.","Diese E-Mail wird anstelle der Standard-Willkommens-E-Mail versandt, nachdem das Konto bestätigt wurde."
 "This email will be sent instead of the Default Welcome Email, after account confirmation. <br /><br />Email template chosen based on theme fallback when ""Default"" option is selected.","Diese E-Mail wird nach Kontobestätigung anstelle der Standard-Willkommens-E-Mail gesendet. <br /><br /> Die E-Mail-Vorlage wird basierend auf dem Fallback-Theme gewählt, wenn die Option ""Standard"" ausgewählt ist."
+"This email will be sent instead of the Default Welcome Email, if a customer was created without password.","Diese E-Mail wird anstelle der Standard-Willkommens-E-Mail versandt, wenn ein Kunde ohne Passwort angelegt wurde."
 "This email will be sent instead of the Default Welcome Email, if a customer was created without password. <br /><br />Email template chosen based on theme fallback when ""Default"" option is selected.","Diese E-Mail wird nach Kontobestätigung anstelle der Standard-Willkommens-E-Mail gesendet, wenn ein Kundenkonto ohne Passwort erstellt wurde. <br /><br /> Die E-Mail-Vorlage wird basierend auf dem Fallback-Theme gewählt, wenn die Option ""Standard"" ausgewählt ist."
 This enables or disables SSL verification of the Magento server by UPS.,Dies aktiviert oder deaktiviert die SSL-Überprüfung der Magento-Server durch UPS.
+"This feature applies only to CMS, Catalog and Store APIs. Please consult your developers for details on potential security risks.","Dieses Feature wird nur auf CMS, Katalog und Store-APIs angewendet. Bitte fragen Sie Ihre Entwickler nach Details über eventuelle Sicherheitsrisiken."
 This feature needs be enabled first for the merchant account through PayPal technical support.,Dieses Feature muss zunächst für das Händler-Konto über den technischen PayPal-Support aktiviert sein.
 This fieldset is not empty!,Das Fieldset ist nicht leer!
 This file does not contain any data.,Diese Datei enthält keine Daten.
@@ -7405,6 +7548,8 @@ This is the wrong RMA order ID.,Dies ist die falsche Warenrücksendeauftrags(RMA
 This is used internally. Make sure you don't use spaces or more than %1 symbols.,"Dies wird intern verwendet. Stellen Sie sicher, keine Leerzeichen oder mehr als %1 Symbole zu verwenden."
 "This is your new encryption key: <span style=""font-family:monospace;"">%1</span>. ' 'Be sure to write it down and take good care of it!","Dies ist Ihr Verschlüsselungs-Key: <span style=""font-family:monospace;"">%1</span>. ' 'Versichern Sie Sich, dass Sie ihn aufschreiben und sicher verwahren!"
 "This is your new encryption key: <span style=""font-family:monospace;"">%1</span>. Be sure to write it down and take good care of it!","Das ist Ihr neuer Kodierungsschlüssel: <span style=""font-family: Monospace;"">%1</span>. Achten Sie darauf, ihn aufzuschreiben und ihn gut zu bewahren!"
+This item has no weight,Dieser Artikel hat kein Gewicht
+This item has weight,Dieser Artikel hat ein Gewicht
 This item price or quantity is not valid for checkout.,Dieser Artikelpreis oder -Menge ist nicht gültig für den Checkout.
 This may take a few moments.,Dies kann einen Moment dauern.
 This message will be shown in the shopping cart when the subtotal (after discount) is lower than the minimum allowed amount.,"Diese Meldung wird im Warenkorb angezeigt, wenn die Zwischensumme (nach Rabatt) niedriger als der zulässige Mindestwert ist."
@@ -7438,7 +7583,7 @@ This search no longer exists.,Diese Suche existiert nicht mehr.
 This sets whether catalog prices entered from Magento Admin include tax.,Enthalten die per Admin-Panel erfassten Preise bereits Steuern?
 This sets whether shipping amounts entered from Magento Admin or obtained from gateways include tax.,Enthalten die per Admin-Panel erfassten oder über Gateways abgefragten Versandkosten bereits Steuern?
 This setting will be applied when all prices in the specific price interval are equal.,"Diese Einstellung wird eingesetzt, wenn alle Preise in dem speziellen Preisintervall gleich sind."
-This setting will not be taken into account if system has more than one store view.,"Diese Einstellung wird nicht in Betracht gezogen werden, wenn das System mehr als einen Store View hat."
+This setting will not be taken into account if system has more than one store view.,"Diese Einstellung wird nicht berücksichtigt, wenn das System mehr als einen Store View hat."
 This shipping method is not available. Please specify the zip code.,Diese Versandart ist nicht verfügbar. Bitte geben Sie die Postleitzahl an.
 "This shipping method is not available. To use this shipping method, please contact us.","Diese Versandart ist nicht verfügbar. Um diese Versandmethode zu verwenden, kontaktieren Sie uns bitte."
 This sitemap no longer exists.,Diese Sitemap existiert nicht mehr
@@ -7461,6 +7606,7 @@ This Wish List has no Items,Dieser Wunschzettel verfügt über keine Artikel
 This won't take long . . .,Das wird nicht lange dauern...
 Thread Active,Thread aktiv
 Thumbnail,Thumbnail
+Tier Price,Preisstufen
 Tier Pricing,Preisstaffelung
 Tile,Kacheln
 Time,Zeit
@@ -7487,6 +7633,7 @@ to,An
 "To comply with the new e-Privacy directive, we need to ask for your consent to set the cookies.","Um die neuen Datenschutzrichtlinien zu erfüllen, müssen wir Sie um Ihre Zustimmung für Cookies fragen."
 "To create the backup, please deselect ' '""Put store into maintenance mode"" or update your permissions.","Um die Datensicherung zu erzeugen, bitte deaktivieren Sie ' ""Den Shop in den Wartungsmodus setzen"" oder aktualisieren Sie Ihre Berechtigungen."
 "To create the backup, please deselect ""Put store into maintenance mode"" or update your permissions.","Um das Backup zu erstellen, deaktivieren Sie den Wartungsmodus oder aktualisieren Sie Ihre Berechtigungen."
+To enable the option set the weight to no,"Setzen Sie das Gewicht auf 0, um diese Option zu aktivieren"
 To Fixed Value,Zu festem Wert
 "To hide an item in catalog or search results, set the status to ""Disabled"".","Um einen Artikel im Katalog und in Suchergebnissen zu verbergen, setzen Sie den Status auf ""Deaktiviert"""
 To landing page (302 Found),Zur Landeseite (302 gefunden)
@@ -7554,7 +7701,6 @@ Total: %1<br/>,Gesamt: %1<br/>
 Totals calculation is not applicable to empty cart,Summenberechnung ist nicht für leeren Korb anwendbar.
 Track history,Track-Verlauf
 Track Order,Bestellung verfolgen
-Track order history,Bestellung verfolgen
 Track this shipment,Verfolgen Sie diese Sendung
 track_summary,track_summary
 Track:,Track:
@@ -7614,6 +7760,7 @@ Trigger time is not defined,Trigger-Zeit ist nicht definiert
 Trigger unsupported event type,Nicht unterstützter Trigger-Eventtyp
 Trigger unsupported time type,Nicht unterstützter Trigger-Zeittyp
 Triggered Fraud Filters,Ausgelöste Betrugs-Filter
+TRUE,WAHR
 "Trying to override modular view file '%1' for theme '%2', which is not ancestor of theme '%3'","Es wird versucht, die Datei ""%1"" der modularen Ansicht für das Theme ""%2"" zu überschreiben, das kein Vorgänger des Themes ""%3"" ist."
 TTL for public content,TTL für öffentlichen Inhalt
 "Ttl value ""%1"" is not valid. Please use only numbers equal or greater than zero.","Ttl-Wert ""%1"" ist nicht gültig. Bitte verwenden Sie nur Zahlen gleich oder grösser als Null."
@@ -7660,8 +7807,8 @@ Unable to validate ftp account,Kann FTP-Konto nicht bestätigen
 Unable to write file into directory product/cache. Access forbidden.,Datei kann nicht in das Verzeichnis-Produkt/Cache geschrieben werden. Zugriff verweigert.
 Unassign,Abmelden
 Unassigned Attributes,Nicht zugeordnete Attribute
-Unconfirmed,Nicht bestätigt
-undefined,Undefiniert
+Unconfirmed,nicht bestätigt
+undefined,nicht definiert
 Undefined Catalog Product List Type,Undefinierter Katalogprodukt Listentyp
 Undefined product type,Undefinierter Produkttyp
 "Undefined rate from ""%1-%2"".","Undefinierter Kurs von ""%1-%2"""
@@ -7703,7 +7850,7 @@ Unknown quote total specified,Unbekannte Angebotssumme angegeben
 Unknown quote total specified.,Unbekannte Angebotssumme angegeben.
 Unknown reason. Please contact PayPal customer service.,Unbekannter Grund. Bitte kontaktieren Sie den PayPal-Kundenservice.
 Unknown service,Unbekannter Service
-Unknown State,Unbekannter Kanton
+Unknown State,Unbekanntes Kanton
 Unknown Status,Unbekannter Status
 Unknown utility: %1,Unbekannte Utility: %1
 Unknown video type,Unbekannter Video-Typ
@@ -7733,7 +7880,9 @@ Unsupported format of schema location: '%1',Nicht unterstütztes Format des Sche
 Unverifiable address. The billing or shipping address cannot be verified,Nicht verifizierbare Adresse. Die Rechnungs- oder Versandadresse kann nicht verifiziert werden.
 up to %1,bis zu %1
 Up To Date,Up To Date
+Up-Sell Products,Up-Sell-Artikel
 Up-sells,Up-sells
+Up-sells,Up-Selling
 Upcoming,bevorstehend
 Update,Aktualisieren
 Update Attributes,Attribute aktualisieren
@@ -7759,6 +7908,10 @@ Update Shopping Cart,Warenkorb aktualisieren
 Update State,Zustand aktualisieren
 Update Status,Status aktualisieren
 Update the Product,Aktualisieren Sie das Produkt.
+Update to your %store_name credit memo,Aktualisierung Ihrer Gutschrift bei %store_name
+Update to your %store_name invoice,Aktualisierung Ihrer Rechnung bei %store_name
+Update to your %store_name order,Aktualisierung Ihrer Bestellung bei %store_name
+Update to your %store_name shipment,Ihre Lieferung von %store_name wurde aktualisiert
 Update Wish List,Wunschzettel aktualisieren
 Updated,Aktualisiert
 Updated At,Aktualisiert am
@@ -7826,6 +7979,7 @@ Use {{name}} and {{description}} as Product Name and Product Description placeho
 Use {{name}} as Product Name or {{sku}} as Product SKU placeholders,Benutzen Sie {{name}} als Produktname oder {{sku}} als SKU-Platzhalter
 Use {{name}} as Product Name placeholder,Benutzen Sie {{name}} als Produktnamen-Platzhalter
 Use %s to replace the account ID in the URL,Verwenden Sie %s um die Konto-ID in der URL zu ersetzen
+Use 0 to disable account locking.,"0 verwenden, um Kontosperrung zu deaktivieren"
 Use Aggregated Data (beta),Benutzt aggregierte Daten (Beta)
 Use All Available Attributes,Alle zur Verfügung stehenden Attribute
 Use as my default billing address,Als meine Standardrechnungsadresse verwenden
@@ -7858,17 +8012,18 @@ Use HTTP Only,Nur HTTP verwenden
 Use HTTPS to Get Feed,"HTTPS verwenden, um Feed zu erhalten"
 Use in Customer Segment,Im Kundenabschnitt verwenden
 Use in Filter Options,In Filteroptionen verwenden
-Use in Layered Navigation,In Layered Navigation verwenden
+Use in Layered Navigation,In Filternavigation verwenden
 Use in Search,In Suche verwenden
 Use in Search Option,In den Suchoptionen verwenden
 Use in Search Options,In den Suchoptionen verwenden
-Use in Search Results Layered Navigation,Verwenden Sie in den Suchergebnissen Layered Navigation
+Use in Search Results Layered Navigation,In Suchergebnissen der Filternavigation verwenden
 Use JavaScript Calendar,JavaScript-Kalender verwenden
 "Use only standard alphanumeric, dashes and underscores.","Verwenden Sie nur Standard-alphanumerische Zeichen, Bindestriche und Unterstriche."
 Use Order Status As Default,Bestellstatus als Standard setzen
 Use origin weight (few requests),Ausgangsgewicht verwenden (mehrere Anfragen)
 Use parent,Vorläufer benutzen
 Use Parent,Vorläufer benutzen
+Use Parent Category Settings,Einstellungen der übergeordneten Kategorie nutzen
 Use PayPal’s free banner ads that let you advertise PayPal Credit&#174; financing as a payment option when your customers check out with PayPal.,Nutzen Sie PayPal's kostenlose Bannerwerbung für PayPal Credit&#174; Finanzierung als Bezahloption wenn Ihre Kunden mit PayPal bezahlen.
 Use PayPal’s free banner ads that let you advertise PayPal Credit&#174; financing as a payment option when your customers check out with PayPal.,Nutzen Sie PayPal's kostenlose Bannerwerbung für PayPal Credit&#174; Finanzierung als Bezahloption wenn Ihre Kunden mit PayPal bezahlen.
 Use PayPal’s free banner ads that let you advertise PayPal Credit&#174; financing as a payment option when your customers check out with PayPal.,Nutzen Sie PayPal's kostenlose Bannerwerbung für PayPal Credit&#174; Finanzierung als Bezahloption wenn Ihre Kunden mit PayPal bezahlen.
@@ -7880,12 +8035,15 @@ Use Secure URLs on Storefront,Verwenden Sie sichere URLs im Frontend
 Use Separate Process,Separaten Prozess verwenden
 Use SID on Storefront,SID im Frontend benutzen
 Use Standard,Standard verwenden
+Use Static URLs for Media Content in WYSIWYG for Catalog,Statische URLs für Medieninhalte in WYSIWYG verwenden.
 Use Store Address,Shopadresse benutzen
 Use Store Credit,"Shop-Guthaben benutzen
 "
 Use Store Credit (%1 available),Shop-Guthaben (%1 verfügbar) benutzen
+Use system value,Systemwert verwenden
 Use the gift registry shipping address,Benutzen Sie die Geschenkeliste Versandadresse
 Use the parent node hierarchy.,Benutzen Sie die Eltern-Knotenpunkt-Hierarchie.
+Use this key to retrieve collected js errors,"Diesen Schlüssel verwenden, um gesammelte JS-Fehler abzurufen."
 Use Vault,Vault benutzen
 Use Web Server Rewrites,Verwenden Sie Webserver-Rewrites
 Use Website,Website verwenden
@@ -7894,6 +8052,8 @@ Used,benutzt
 Used for Sorting in Product Listing,Wird für die Sortierung im Produkt-Listing verwendet
 Used in Product Listing,Im Produkt-Listing verwendet
 User,Benutzer
+User Agent Rules,Benutzer-Agent-Regeln
+User Content,Kunden
 User Defined,Benutzerdefiniert
 User Defined Eav Attributes,Benutzerdefinierte EAV-Attribute
 User Description,Benutzerbeschreibung
@@ -7904,8 +8064,10 @@ User Information,Benutzerinformationen
 User Name,Benutzername
 user name,Benutzername
 User Name is a required field.,Benutzername ist ein Pflichtfeld.
+User Notification Template,Vorlage für Benutzerbenachrichtigung
 User Password,Benutzerpasswort
 User Role,Benutzerrolle
+User Roles,Benutzerrollen
 User Roles Information,Benutzerrollen-Informationen
 User-Agent Exceptions,User-Agent-Ausnahmen
 User-initiated Currency Conversion,Benutzerinitiierte Währungsumrechnung
@@ -7968,6 +8130,7 @@ VAT Number,Umsatzsteuer-Identifikationsnummer
 VAT Number is valid.,Ust-ID ist gültig.
 VAT Request Date,MwSt.-Anfragedatum
 VAT Request Identifier,MwSt.-Anfrage-Identifizierer
+VAT-ID,USt-IdNr.
 Velocity. The account number was use  many times in the past 15 minutes,Geschwindigkeit. Die Kontonummer wurde mehrfach in den letzen 15 Minuten benutzt.
 Vendor,Verkäufer
 ver. %1,ver. %1
@@ -7981,7 +8144,7 @@ Version Label,Versions Etikett
 Version Revisions,Version Revisionen
 Version:,Version:
 Versions,Versionen
-Very Strong,Sehr stark
+Very Strong,Sehr Stark
 Video cant be shown due to the following reason:,Video kann aufgrund von folgenden Gründen nicht angezeigt werden:
 Video Error,Videofehler
 Video not found,Video nicht gefunden
@@ -7994,6 +8157,7 @@ View Another Order,Weitere Bestellungen ansehen
 View as,Ansicht als
 View Combined Report,Zusammengefassten Report ansehen
 View Demo,Demo ansehen
+View Details,Details 
 View Full Size,Originalgrösse anzeigen
 View Gift Registry %1,Geschenkeliste %1 ansehen
 View Invitation for %1 (ID: %2),Einladung für %1 (ID: %2) ansehen
@@ -8005,6 +8169,7 @@ View past orders,Letzte Bestellungen ansehen
 View Product,Produkt ansehen
 View Return,Rückgabe ansehen
 View Sale,Verkauf ansehen
+View speichern als…,Ansicht speichern unter…
 View Statistics For:,Statistiken für:
 View Transaction,Transaktion ansehen
 View Transaction Details,Transaktionsdetails ansehen
@@ -8020,6 +8185,7 @@ Views,Ansichten
 Virtual,Virtuell
 Virtual Only,Nur virtuell
 Virtual PayPal Debit Card Transaction,Virtuelle PayPal-Kreditkarten-Transaktion
+Virtual Product,Virtuelles Produkt
 Virtual Terminal Payment,Virtual Terminal-Zahlung
 "Virtual, Downloadable, and virtual Gift Card products cannot be added to gift registries.","Virtuelle-, Herunterladbare- und Virtuelle-Geschenkkartenprodukte können nicht zur Geschenkeliste hinzugefügt werden."
 Visibility,Sichtbarkeit
@@ -8348,7 +8514,7 @@ We don't have enough information to save the parent transaction ID.,"Wir haben n
 We don't have some of the products you want.,"Wir haben einige der Produkte nicht, die Sie wollen."
 We don't recognize or support the file extension in shipment %1.,Die Dateiendung in Lieferung %1 ist uns nicht bekannt oder wird von uns nicht unterstützt.
 We don't recognize or support the file extension in this shipment: %1.,Wir erkennen oder unterstützen die Dateierweiterung in dieser Sendung nicht: %1.
-We don't recognize or support this file extension type.,Dieser Dateierweiterungstyp kann nicht erkannt werden.
+We don't recognize or support this file extension type.,Dieser Dateierweiterungstyp kann nciht erkannt werden.
 "We don't recognize the draw line data. Please define the ""lines"" array.","Die ""draw line"" Daten konnten nicht identifiziert werden. Bitte definieren Sie die ""lines"" Array."
 We don't recognize this file extension.,Diese Dateierweiterung kann nicht erkannt werden.
 "We fetched %1 report rows from ""%2@%3.""","Wir haben %1 Berichtszeilen aus ""%2 @% 3."" abgerufen."
@@ -8379,6 +8545,9 @@ We found some problems with the data.,Es gibt einige Probleme mit den Daten.
 We had to skip DHL method %1 because we couldn't find exchange rate %2 (Base Currency).,"Wir mussten die DHL-Methode %1 überspringen, weil wir keinen Wechselkurs %2 (Basiswährung) finden konnten."
 We have archived the order.,Wir haben die Bestellung archiviert.
 We have nothing to add to this gift registry.,Dieser Geschenkeliste können wir nichts mehr hinzufügen.
+We have received a request to change the following information associated with your account at %store_name: email.,Wir haben die Anfrage erhalten die folgenden Informationen in Ihrem Konto bei %store_name zu ändern: Email.
+"We have received a request to change the following information associated with your account at %store_name: email, password.","Wir haben die Anfrage erhalten die folgenden Informationen in Ihrem Konto bei %store_name zu ändern: Email, Passwort"
+We have received a request to change the following information associated with your account at %store_name: password.,Wir haben die Anfrage erhalten die folgenden Informationen in Ihrem Konto bei %store_name zu ändern: Passwort.
 We have removed the order from the archive.,Wir haben die Bestellung aus dem Archiv entfernt.
 "We have updated your <a href=""%store_url"">%store_name</a> account and you have credit that you can use for future purchases.","Wir haben Ihr <a href=""%store_url"">%store_name</a> Konto aktualisiert und Sie besitzen Guthaben, welches Sie für zukünftige Käufe benutzen können."
 We need more information to create your shipping label(s). Please verify your store information and shipping settings.,Wir benötigen mehr Informationen um Ihre Versandetiketten zu erstellen. Bitte überprüfen Sie Ihre Shop Informationen und Versanteinstellungen.
@@ -8464,6 +8633,7 @@ What’s on your mind?,Was haben Sie für ein Problem?
 "When catalog price includes tax, enable this setting to fix the price no matter what the customer's tax rate.","Wenn der Katalogpreis Steuern beinhaltet, aktivieren Sie diese Einstellung, um den Preis unabhängig vom Steuersatz des Kunden festzusetzen."
 When passing an array of fields there must be at least one field in the array.,Bei der Übergabe eines Arrays von Feldern muss mindestens ein Feld in dem Array vorhanden sein.
 When passing in a field array there must be a matching condition array.,Bei der Übergabe in einem Feld-Array muss ein Array mit passender Bedingung vorhanden sein.
+"When the adapter was changed, please flush Catalog Images Cache.","Bitte leeren Sie den Katalogbilder-Cache, wenn der Adaper geändert wird."
 When you enable this option your site may slow down.,"Wenn Sie diese Option aktivieren, könnte dies Ihre Seite verlangsamen."
 "When you sign in to your account, you will be able to:","Wenn Sie sich mit Ihrem Konto anmelden, werden Sie in der Lage sein:"
 "Whether to create a billing agreement, if there are no active billing agreements available.","Eine Abrechnungsvereinbarung erstellen, wenn keine aktiven Abrechnungsvereinbarungen verfügbar sind."
@@ -8561,11 +8731,11 @@ You applied the custom currency symbols.,Sie haben die benutzerdefinierten Währ
 You are about to delete all products in this attribute set. Are you sure you want to do that?,"Sie sind dabei, alle Produkte dieses Attributsets zu löschen. Sind Sie sicher, dass Sie dies tun wollen?"
 You are about to delete all products in this product template. ' 'Are you sure you want to do that?,Sie sind dabei alle Produkte in dieser Produktvorlagen zu löschen. Möchten Sie dies wirklich tun?
 You are not using store credit in your shopping cart.,Sie benutzen kein Shopguthaben in Ihrem Einkaufswagen.
-You are signed out,Sie haben sich ausgeloggt
 You are signed out.,Sie haben sich ausgeloggt.
 You are trying to add a quantity for some products that doesn't match the quantity that was shipped.,"Sie versuchen, eine Menge für einige Produkte hinzuzufügen, die nicht mit der Menge übereinstimmt, die geliefert wurde."
 You assigned the order status.,Sie haben den Auftragsstatus zugeordnet.
 You can add only enabled products.,Sie können nur aktivierte Produkte hinzufügen.
+You can adjust the scope of this synonym group by selecting an option from the list.,"Sie können den Geltungsbereich dieser Synonymgruppe anpassen, indem Sie eine Option aus der Liste wählen"
 You can also share it with your friends and family by logging into your account and visiting the Gift Registry tab.,Sie können es ausserdem mit Ihren Freunden und Ihrer Familie teilen indem Sie in Ihr Konto einloggen oder den Geschenkelisten-Reiter besuchen.
 You can buy %1 only in quantities of %2 at a time.,Sie können %1 nur in Mengen von %2 kaufen.
 You can buy this product only in quantities of %1 at a time.,Sie können dieses Produkt nur in Mengen von %2 kaufen.
@@ -8715,6 +8885,7 @@ You have deleted the version.,Sie haben die Version gelöscht.
 You have entered an invalid password for current user.,Ungültiges Passwort für den aktuellen Benutzer
 You have item changes,Sie haben Artikel verändert.
 You have logged out.,Sie sind abgemeldet.
+You have no credit cards.,Sie haben keine Kreditkarten.
 You have no default billing address in your address book.,Sie haben keine Standardrechnungsadresse in Ihrem Adressbuch.
 You have no default shipping address in your address book.,Sie haben keine Standardversandadresse in Ihrem Adressbuch.
 You have no items in your shopping cart.,Sie haben keine Artikel im Warenkorb
@@ -8743,6 +8914,7 @@ You have submitted no reviews.,Sie haben noch keine Bewertungen abgegeben
 "You have successfully created the new gift registry ""%registry_name"".","Die neue Geschenkeliste ""%registry_name"" wurde erfolgreich erstellt."
 You have unassigned the order status.,Sie haben die Zuweisung des Auftragsstatus aufgehoben.
 You haven't created a gift registry yet.,Sie haben noch keine Geschenkeliste erstellt.
+You haven't selected any items!,Sie haben nichts ausgewählt!
 You matched the reminder rule.,Sie haben die Erinnerungsregel angepasst.
 You may need more permissions to access this category.,Ihre Berechtigungen reichen nicht aus um diese Kategorie anzusehen.
 You may need more permissions to access this product.,Ihre Berechtigungen reichen nicht aus um diesen Artikel anzusehen.
@@ -8874,10 +9046,14 @@ You're currently reading page,Sie lesen gerade Seite
 You're reviewing:,Sie bewerten:
 You've been sent a gift card for use at %store_name and it is now ready to be used for purchases.,Sie haben eine Geschenkkarte für %store_name erhalten. Diese kann nun für Ihre Einkäufe genutzt werden.
 You've met your limit of %1 sends in an hour.,Sie haben Ihr Limit von %1 Sendungen pro Stunde erreicht.
+Your %store_name order confirmation,Bestellbestätigung für Ihre Bestellung bei %store_name
+Your %store_name order has shipped,Ihre Bestellung bei %store_name wurde versandt
 Your balance is %1.,Ihr Kontostand beträgt %1.
 Your balance is:,Ihr Kontostand beträgt:
 Your billing agreement # is:,Ihre Abrechnungsvereinbarungsnummer ist:
 Your billing agreement # is: %1.,Ihre Rechnungsvereinbarungsnummer ist: %1.
+Your Coupon was successfully applied,Gutschein wurde hinzugefügt
+Your Coupon was successfully removed,Gutschein wurde entfernt
 Your credit card will be charged for,Ihre Kreditkarte wird belastet mit
 Your Credit Memo #%creditmemo_id for Order #%order_id,Ihre Gutschrift #%creditmemo_id für die Bestellung #%order_id
 "Your csv file must include ""sku"" and ""qty"" columns.","Ihre CSV Datei muss eine ""SKU"" sowie ""QTY"" Spalte enthalten."
@@ -8926,6 +9102,9 @@ Your web server is set up incorrectly and allows unauthorized access to sensitiv
 Your web server is set up incorrectly and allows unauthorized access to sensitive files. Please contact your hosting provider.,Ihr Webserver ist fehlerhaft eingestellt. Er erlaubt nicht autorisierten Zugriff auf vertrauliche Dateien. Bitte wenden Sie sich an Ihren Hosting-Service Anbieter.
 Your wish list has been shared.,Ihr Wunschzettel wurde geteilt.
 Your ZIP-code must be in the range 902xx-xxxx to 905-xx-xxxx,Ihre Postleitzahl muss im Bereich von 902xx-xxxx bis 905-xx-xxxx liegen.
+Your %store_name email has been changed,Ihre %store_name Email hat sich geändert
+Your %store_name email and password has been changed,Ihre %store_name Email und Passwort haben sich geändert
+Your %store_name password has been changed,Ihe %store_name Passwort hat sich geändert
 YouTube and Vimeo supported.,YouTube- und Vimeo-unterstützt.
 YouTube API Key,YouTube API Schlüssel
 Youtube API key is invalid,Youtube-API-Schlüssel ist ungültig
@@ -8933,6 +9112,7 @@ YTD,Jahresverlauf
 Zero shipping charge for '%1',"Keine Versandkosten für ""%1"""
 Zero Subtotal Checkout,Zwischensumme Kasse Null
 ZIP,PLZ
+Zip,PLZ
 ZIP Code,PLZ
 Zip/Post Code,PLZ/Postleitzahl
 ZIP/Post Code,PLZ / Postleitzahl
