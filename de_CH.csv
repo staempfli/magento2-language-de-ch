@@ -1,3 +1,9 @@
+1,1
+20,20
+30,30
+50,50
+123,123
+200,200
 " Transaction ID: ""%1""","Transaktions-ID: ""%1"""
 -- All --,-- Alle --
 -- First Please Select a Website --,-- Wählen Sie bitte zunächst eine Website --
@@ -1843,7 +1849,7 @@ Custom Design From,Benutzerdefiniertes Design von
 Custom design from,Benutzerdefiniertes Design von
 Custom Design To,Benutzerdefiniertes Design bis
 Custom design to,Benutzerdefiniertes Design bis
-Custom Design Update,Benutzerdefiniertes Design-Update 
+Custom Design Update,Benutzerdefiniertes Design-Update
 Custom Email 1,Eigene E-Mail 1
 Custom Email 2,Eigene E-Mail 2
 Custom Endpoint Hostname or IP-Address,Benutzerdefinierter Endpoint-Hostname oder IP-Adresse
@@ -2167,7 +2173,7 @@ Description Message,Beschreibungsmeldung
 Deselect All,Auswahl aufheben
 Design,Design
 Design Change,Designänderung
-Design Config Grid,Designkonfigurationstabelle 
+Design Config Grid,Designkonfigurationstabelle
 Design config must have area and store.,Design-Konfiguration muss einen Bereich und Store haben.
 Design Configuration,Design-Konfiguration
 Design Package/Theme,Design-Paket/Theme
@@ -2427,7 +2433,7 @@ element tooltip,Element-Tooltip
 Element with ID '%1' already exists.,"Elemente mit der ID ""%1"" existieren bereits"
 Element with ID '%1' is already defined.,"Elemente mit der ID ""%1"" sind bereits definiert"
 Elements,Elemente
-Email,E-Mail  
+Email,E-Mail
 Email address,E-Mail-Adresse
 Email Address,E-Mail-Adresse
 "Email address impact. The customer uses a free email provider, or the email address is risky",E-Mail-Adressen-Auswirkung. Der Kunde verwendet einen kostenlosen E-Mail-Provider oder die E-Mail-Adresse ist riskant.
@@ -2808,7 +2814,7 @@ File Format,Dateiformat
 File handler unreachable,File Handler ist nicht erreichbar
 File has been not created,Datei wurde nicht erstellt
 File history path:,Dateihistoriepfad:
-"File is valid! To start import process press ""Import"" button","Die Datei ist nicht gültig! Um den Importvorgang zu starten, drücken Sie den Button ""Import"""
+"File is valid! To start import process press ""Import"" button","Die Datei ist gültig! Um den Importvorgang zu starten, drücken Sie den Button ""Import"""
 File Mode,Dateimodus
 File Name,Dateiname
 File not found,Datei nicht gefunden
@@ -3188,7 +3194,7 @@ Guest checkout will only work with shareable.,Gäste-Checkout funktioniert nur m
 Handling Applied,Bearbeitung angewandt
 Handling Fee,Bearbeitungsgebühr
 has,hat
-Has State/Province,has Kanton/Provinz
+Has State/Province,hat Bundesland/Kanton/Provinz
 "Have a gift card? <a href=""%1"">Click here</a> to redeem it.","Haben Sie eine Geschenkkarte? <a href=""%1"">Hier klicken</a>, um sie einzulösen."
 Header,Kopfzeile
 Header (center),Header (zentral)
@@ -3324,7 +3330,7 @@ Images and Videos,Bilder und Videos
 Images Assets,Bilder Assets
 Images Cache,Bilder-Cache
 Images File Directory,Bilderdateiverzeichnis
-Import,Importoptionen
+Import,Import
 Import and Export Tax Rates,Steuersätze importieren/exportieren
 Import Behavior,Importverhalten
 Import data validation is complete.,Importdaten-Überprüfung ist abgeschlossen.
@@ -3517,8 +3523,8 @@ Invalid date,Ungültiges Datum
 Invalid date specified,Ungültiges Datum angegeben
 Invalid default date,Ungültiges Standarddatum
 Invalid default decimal value,Ungültiger Standard-Dezimalwert
-"Invalid Document 
-Invalid domain name: 
+"Invalid Document
+Invalid domain name:
 Invalid order
 Invalid product list type
 Invalid RMA
@@ -3755,7 +3761,7 @@ Last Transaction ID,Letzte Transaktions-ID
 Last Update,Letztes Update
 "Last updated: %1. To refresh last day's <a href=""%2"">statistics</a>, click <a href=""%3"">here</a>.","Letztes Update: %1. Um die <a href=""%2"">Statistik</a> des letzten Tages zu aktualisieren, <a href=""%3"">hier klicken</a>."
 "Last updated: %1. To refresh last day\'s <a href=""%2"">statistics</a>, ' 'click <a href=""%3"">here</a>.","Zuletzt aktualisiert: %1. Um die <a href=""%2"">Statistiken</a> des letzten Tages zu aktualisieren, <a href=""%3"">hier</a> klicken."
-Layered Navigation,Filternavigation  
+Layered Navigation,Filternavigation
 Layered Navigation Price Step,Filternavigation Preisstufen
 Layout,Layout
 Layout building instructions.,Layout-Bauanleitung.
@@ -4673,7 +4679,7 @@ Order tracking,Bestellverfolgung
 Order Updated,Bestellung aktualisiert
 Order Valid Period (days),Gültigskeitsdauer von Bestellungen (Tage)
 Order View,Bestellübersicht
-order-header,order-header
+order-header,Bestellungs-Kopfzeile
 Ordered,Bestellt
 ordered,Bestellt
 Ordered amount of %1,Bestellte Menge von %1
@@ -5177,7 +5183,7 @@ Please enter the password to confirm rollback.,"Bitte geben Sie das Passwort ein
 Please enter the phone number.,Bitte geben Sie die Telefonnummer ein.
 Please enter the quantity of items to add to cart.,Bitte geben Sie die Anzahl der Artikel zum Hinzufügen zum Warenkorb ein.
 Please enter the same value again.,Bitte geben Sie den gleichen Wert erneut ein.
-Please enter the state/province.,Bitte geben Sie das Kanton ein.
+Please enter the state/province.,Bitte geben Sie den Kanton ein.
 Please enter the street.,Bitte geben Sie die Strasse ein.
 Please enter the title.,Bitte geben Sie den Titel ein
 Please enter the zip/postal code.,Bitte geben Sie die Postleitzahl ein.
@@ -6197,7 +6203,7 @@ Search Results,Suchergebnisse
 Search results for: '%1',"Suchergebnisse für: ""%1"""
 Search Settings,Sucheinstellungen
 Search String,Suchbegriff
-"Search strings are either normal strings or regular exceptions (PCRE). They are matched in the same order as entered. 
+"Search strings are either normal strings or regular exceptions (PCRE). They are matched in the same order as entered.
 Examples: Firefox: /^mozilla/i","Suchbegriffe sind entweder normale Zeichenketten oder reguläre Ausdrücke (PCRE). Sie werden in der Reihenfolge verglichen, wie sie eingegeben werden. Beispiele: Firefox: /^mozilla/i"
 "Search strings are either normal strings or regular exceptions (PCRE). They are matched in the same order as entered. Examples:<br /><span style=""""font-family:monospace"""">Firefox<br />/^mozilla/i</span>","Suchbegriffe sind entweder normale Strings oder reguläre Ausnahmen (PCRE). Sie werden in der gleichen Reihenfolge verglichen wie eingegeben. Beispiele: <br /> <span style = ""font-family: monospace""> Firefox <br />/^mozilla/i</span>"
 "Search strings are either normal strings or regular exceptions (PCRE). They are matched in the same order as entered. Examples:<br /><span style=""font-family:monospace"">Firefox<br />/^mozilla/i</span>","Suchbegriffe sind entweder normale Strings oder reguläre Ausnahmen (PCRE). Sie werden in der gleichen Reihenfolge verglichen wie eingegeben. Beispiele: <br /> <span style = ""font-family: monospace""> Firefox <br />/^mozilla/i</span>"
