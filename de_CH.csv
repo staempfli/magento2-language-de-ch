@@ -1366,7 +1366,7 @@ Centimeters,Zentimeter
 CEO,Geschäftsführer
 Change,Veränderung
 Change Billing Address,Rechnungsadresse ändern
-Change Email,E-Mail-Adresse ändern
+Change Email,E-Mail ändern
 Change Encryption Key,Kodierungsschlüssel ändern
 Change Password,Passwort ändern
 Change Shipping Address,Versandadresse ändern
@@ -1393,6 +1393,10 @@ Check the status of orders,Überprüfen Sie den Status der Bestellungen
 Checkbox Text,Checkbox-Text
 "Checked rows: %1, checked entities: %2, invalid rows: %3, total errors: %4","Geprüfte Zeilen: %1, geprüft Einheiten: %2, ungültige Zeilen: %3, Gesamtfehler: %4"
 Checkout,Kasse
+Check out faster,Schneller zur Kasse gehen
+Checkout out as a new customer,Checkout als neuer Kunde
+Checkout out using your account,Checkout als registrierter Kunde
+Creating an account has many benefits:,Ein Konto zu erstellen hat viele Vorteile:
 "Checkout agreement with specified ID ""%1"" not found.","Checkout-Vereinbarung mit angegebener ID ""%1"" nicht gefunden."
 Checkout Cart Page,Warenkorb-Checkout-Seite
 Checkout Conditions,Checkout-Bedingungen
@@ -6229,6 +6233,7 @@ Security validation of XML document has been failed.,Sicherheits-Validierung von
 See All (,Alles sehen
 See Details,Details ansehen
 see error log for details,Details siehe Fehlerprotokoll
+See order and shipping status,Meine Bestellungen ansehen und mehr.
 See price before order confirmation.,Vor Bestellbestätigung den Preis einsehen
 See terms,Allgemeine Geschäftsbedingungen ansehen
 Segment,Segment
@@ -7719,6 +7724,7 @@ Tracking number %1 for %2 assigned,Tracking-Nummer %1 für %2 hinzugewiesen
 Tracking Number:,Tracking-Nummer:
 Tracking Number(s):,Tracking-Nummer(n):
 Tracking XML URL,Tracking XML URL
+Track order history,Bestellung verfolgen
 Transaction # %1 | %2,Transaktion # %1 | %2
 "Transaction %1 has been approved. Amount %2. Transaction status is ""%3""","Transaktion %1 wurde genehmigt. Betrag %2. Transaktionsstatus ist ""%3"""
 "Transaction %1 has been voided/declined. Transaction status is ""%2"". Amount %3.","Transaktion %1 wurde storniert/abgelehnt. Transaktionsstatus ist ""%2"". Betrag %3"
