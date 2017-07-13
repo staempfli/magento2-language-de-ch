@@ -4096,6 +4096,7 @@ Minimum Advertised Price,Minimaler angezeigter Verkaufspreis
 Minimum Amount,Mindestbetrag
 Minimum Balance in order to redeem: %1.,"Minimaler Saldo, um einzulösen: %1"
 Minimum length of this field must be equal or greater than %1 symbols. Leading and trailing spaces will be ignored.,Dieses Feld muss mindestens %1 Zeichen enthalten. Leerzeichen an Anfang und Ende werden ignoriert.
+"Minimum of different classes of characters in password is %1. Classes of characters: Lower Case, Upper Case, Digits, Special Characters.","Minimum der verschiedenen Arten von Zeichen im Passwort ist %1. Arten von Zeichen: Kleinbuchstaben, Grossbuchstaben, Ziffern, Sonderzeichen."
 Minimum Order Amount,Mindestbestellmenge
 Minimum order amount is %1,Mindestbestellmenge ist %1
 Minimum Order Total,Mindestbestellsumme
