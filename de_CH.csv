@@ -57,8 +57,8 @@
 (Allow),(Erlauben)
 (Copy data from: %1),(Kopiere Daten von: %1)
 (Deny),(Verweigern)
-(Excl. Tax),(Exkl. Steuern)
-(Incl. Tax),(Inkl. Steuern)
+(Excl. Tax),(Exkl. MwSt.)
+(Incl. Tax),(Inkl. MwSt.)
 (no data),(Keine Daten)
 (now),(jetzt)
 [ deleted ],[ Gelöscht ]
@@ -791,7 +791,7 @@ Apply Customer Tax,Verwende Kundensteuerklasse
 Apply Design to Products,Design auf Produkte anwenden
 Apply Discount,Rabatt anwenden
 Apply Discount Code,Rabattcode anwenden
-"Apply discount on price including tax is calculated based on store tax if ""Apply Tax after Discount"" is selected.","""Wende Rabatt auf Preise inklusive Steuern an"" basiert auf der eingestellten Shop-Steuer, wenn 'Wende Steuern nach Rabatt an' ausgewählt ist."
+"Apply discount on price including tax is calculated based on store tax if ""Apply Tax after Discount"" is selected.","""Wende Rabatt auf Preise inklusive MwSt. an"" basiert auf der eingestellten Shop-Steuer, wenn 'Wende MwSt. nach Rabatt an' ausgewählt ist."
 Apply Discount On Prices,Wende Rabatt auf Preise an
 Apply Filters,Filter anwenden
 "Apply filters in order to get results. Only first 100 records will be displayed in the grid, you will be able to download full version of the report in .csv format.","Verwenden Sie Filter, um Ergebnisse zu erhalten. Es werden nur die ersten 100 Einträge angezeigt. Die vollständige Version können Sie im .csv-Format herunterladen."
@@ -1130,7 +1130,7 @@ Blocks HTML output,Block-HTML-Ausgabe
 Bonus for first ACH Use,Bonus für die erste ACH-Nutzung
 "Bookmark with id ""%1"" does not exist.","Lesezeichen mit ID ""%1"" existiert nicht."
 Both,Beide
-Both (without and with tax),Beide (mit und ohne Steuern)
+Both (without and with tax),Beide (mit und ohne MwSt.)
 Both Selected and Rule-Based,Ausgewählt und Regelbasiert
 Bottom/Left,Unten links
 Bottom/Right,Unten rechts
@@ -1373,7 +1373,7 @@ Change Shipping Address,Versandadresse ändern
 Change Status,Status ändern
 Change status,Status ändern
 Changes have been made to this section that have not been saved.,"Es wurden Änderungen an diesem Abschnitt vorgenommen, die nicht gespeichert wurden."
-"Changing address information will not recalculate shipping, tax or other order amount.","Bei Änderung der Adressinformationen werden Versandkosten, Steuern oder andere Bestellwerte nicht neu berechnet."
+"Changing address information will not recalculate shipping, tax or other order amount.","Bei Änderung der Adressinformationen werden Versandkosten, MwSt. oder andere Bestellwerte nicht neu berechnet."
 Changing can take some time due to processing whole catalog.,"Änderungen können einige Zeit erfordern, da der gesamte Katalog verarbeitet werden muss."
 Chapter,Kapitel
 Chapter/Section,Kapitel/Sektion
@@ -2234,7 +2234,7 @@ Display default currency,Standardanzeigewährung
 Display Delivery Time on Product Listing,Lieferzeit im Produkt-Listing anzeigen
 Display Demo Store Notice,Demoshop-Nachricht anzeigen
 Display Express Checkout in the Payment Information step,Express Checkout im Zahlungsinformations-Schritt anzeigen
-Display Full Tax Summary,Steuern vollständig anzeigen
+Display Full Tax Summary,MwSt. vollständig anzeigen
 Display Gift Wrapping Prices,Geschenkverpackungspreise anzeigen
 Display in Suggested Terms,In empfohlenen Begriffen anzeigen
 Display item quantities,Artikelmengen anzeigen
@@ -2647,8 +2647,8 @@ error123,Fehler123
 error345,Fehler345
 Errors in Cron Schedules Queue,Fehler in Cron-Zeitplan-Warteschlange
 Escape HTML Entities,"HTML-Entities ""escapen"" (bestimmte Zeichen ersetzen)"
-Estimate Shipping and Tax,Geschätzte Steuern und Versandgebühren
-Estimate Tax,Geschätzte Steuern
+Estimate Shipping and Tax,Geschätzte MwSt. und Versandgebühren
+Estimate Tax,Geschätzte MwSt.
 Europack,Europack
 Europe First Priority,Europa First Priorität
 European Union Countries,EU-Länder
@@ -2689,8 +2689,8 @@ Exception occurred during order load,Ausnahme während des Ladens der Bestellung
 Exception.,Ausnahme.
 Excessive address change. The customer changed the billing address two or more times in the last six months,Hohe Anzahl an Adressänderungen. Der Kunde hat seine Rechnungsadresse in den letzten 6 Monaten zweimal oder öfter geändert.
 Excessive name changes. The customer changed the name two or more times in the last six months,Hohe Anzahl an Namensänderungen. Der Kunde hat seinen Namen in den letzten 6 Monaten zweimal oder öfter geändert.
-Excl. Tax,Exkl. Steuern
-Excl. tax:,Zzgl. Steuern:
+Excl. Tax,Exkl. MwSt.
+Excl. tax:,Zzgl. MwSt.:
 Exclude,Ausschliessen
 Exclude from Navigation Menu,Vom Navigationsmenü ausschliessen
 Exclude media folder from backup,Medienordner aus dem Backup ausschliessen
@@ -2698,7 +2698,7 @@ Excluding FPT,Ausschliesslich FPT
 "Excluding FPT, FPT description, final price","Ausschliesslich FPT, FPT-Beschreibung, Endpreis"
 Excluding FPT. Including FPT description and final price,Ausschliesslich FPT. Einschliesslich FPT-Beschreibung und Endpreis.
 "Excluding prefix, suffix and separators.","Ohne Präfix, Suffix und Trennzeichen."
-Excluding Tax,Exklusive Steuern
+Excluding Tax,Exklusive MwSt.
 exec function is disabled.,exec-Funktion ist deaktiviert
 Executed At,Ausgeführt bei
 Execution Time,Durchführungszeit
@@ -2872,7 +2872,7 @@ Fixed,Fest
 Fixed amount discount,Fester Rabattbetrag je Artikel
 Fixed amount discount for whole cart,Fester Rabattbetrag für gesamten Warenkorb
 Fixed Product Tax,Feste Produktsteuer
-Fixed Product Taxes,Feste Produktsteuern
+Fixed Product Taxes,Feste Mwst.
 Fixture base directory '%1' does not exist.,"Fixture-Basisverzeichnis ""%1"" existiert nicht."
 Fixture String,Fixture-String
 fl,fl
@@ -3160,12 +3160,12 @@ Grand Total,Gesamtsumme
 grand total,Gesamtsumme
 Grand Total (Base),Gesamtsumme (Basis)
 Grand Total (Excl. Tax),Gesamtpreis (exkl. MwSt.)
-Grand Total (Excl.Tax),Gesamtsumme (exkl. Steuern)
+Grand Total (Excl.Tax),Gesamtsumme (exkl. MwSt.)
 Grand Total (Incl. Tax),Gesamtpreis (inkl. MwSt.)
-Grand Total (Incl.Tax),Gesamtsumme (inkl. Steuern)
+Grand Total (Incl.Tax),Gesamtsumme (inkl. MwSt.)
 Grand Total (Purchased),Gesamtsumme (gekauft)
-Grand Total Excl. Tax,Gesamtsumme zzgl. Steuern
-Grand Total Incl. Tax,Gesamtsumme inkl. Steuern
+Grand Total Excl. Tax,Gesamtsumme zzgl. MwSt.
+Grand Total Incl. Tax,Gesamtsumme inkl. MwSt.
 Grand Total to be Charged,Berechnete Gesamtsumme
 Grand Total:,Gesamtsumme:
 greater than,Mehr als
@@ -3365,21 +3365,21 @@ In stock,Auf Lager
 In Stock,Auf Lager
 In stock alert! We wanted you to know that these products are now available:,"Verfügbarkeitsbenachrichtigung! Wir wollten Sie wissen lassen, dass diese Produkte ab sofort verfügbar sind:"
 Inactive,Inaktiv
-Inc. Tax,Inkl. Steuern
+Inc. Tax,Inkl. MwSt.
 Incentive,Anreiz
 inch,Zoll
 Inches,Zoll
-Incl. Tax,Inkl. Steuern
+Incl. Tax,Inkl. MwSt.
 Include FPT In Subtotal,Fixe Produktsteuer (FPT) in der Zwischensumme mit einbeziehen
 Include in Menu,Im Navigationsmenü anzeigen
 Include in Navigation Menu,Ins Navigations-Menü aufnehmen
 Include Tax In Order Total,Steuer in Gesamtsumme einschliessen
-Include Tax to Amount,Berücksichtige Steuern im Betrag
+Include Tax to Amount,Berücksichtige MwSt. im Betrag
 Include Virtual Products in Price Calculation,Virtuelle Produkte in Preisberechnung einbeziehen
-Including and Excluding Tax,Inklusive und exklusive Steuern
+Including and Excluding Tax,Inklusive und exklusive MwSt.
 Including FPT and FPT description,Einschliesslich FPT und FPT-Beschreibung
 Including FPT only,Einschliesslich FPT
-Including Tax,Inklusive Steuern
+Including Tax,Inklusive MwSt.
 Incoming Message,Einkommende Nachricht
 Incompatible argument type: Required type: %1. Actual type: %2; File: %3%4%5,Inkompatibler Argumenttyp: Benötigter Typ: %1 Gegebener Typ: %2 Datei: %3%4%5
 Incompatible parameter type [%1 $%2] in %3::%4. It must be compatible with %5,"Inkompatibler Parametertyp [%1 $%2] in %3::%4, muss mit %5 kompatibel sein."
@@ -3889,7 +3889,7 @@ Low Stock Report,Bericht über niedrigen Bestand
 Machinable,Automatisch
 Magento,Magento
 Magento Admin Panel,Magento Admin Panel
-"Magento has a thriving ecosystem of technology partners to help merchants and brands deliver the best possible customer experiences. They are recognized as experts in eCommerce, search, email marketing, payments, tax, fraud, optimization and analytics, fulfillment, and more. Visit the Magento Partner Directory to see all of our trusted partners.","Magento hat ein blühendes Ökosystem von Technologiepartnern, um Händlern und Marken zu helfen, das bestmögliche Kundenerlebnis zu liefern. Sie werden als Experten im eCommerce, Suche, E-Mail Marketing, Zahlungen, Steuern, Betrug, Optimierung und Analyse, Erfüllung und mehr anerkannt. Besuchen Sie das Magento-Partnerverzeichnis von allen unseren Partnern"
+"Magento has a thriving ecosystem of technology partners to help merchants and brands deliver the best possible customer experiences. They are recognized as experts in eCommerce, search, email marketing, payments, tax, fraud, optimization and analytics, fulfillment, and more. Visit the Magento Partner Directory to see all of our trusted partners.","Magento hat ein blühendes Ökosystem von Technologiepartnern, um Händlern und Marken zu helfen, das bestmögliche Kundenerlebnis zu liefern. Sie werden als Experten im eCommerce, Suche, E-Mail Marketing, Zahlungen, MwSt., Betrug, Optimierung und Analyse, Erfüllung und mehr anerkannt. Besuchen Sie das Magento-Partnerverzeichnis von allen unseren Partnern"
 Magento Marketplace,Magento-Marktplatz
 Magento root directory,Magento-Rootverzeichnis
 Magento Web API,Magento Web API
@@ -4675,8 +4675,8 @@ Order Summary,Zusammenfassung der Bestellung
 Order Taxes Report Grouped by Tax Rate,"Bericht über Bestellungssteuern, gruppiert nach Steuersätzen"
 Order Taxes Report Grouped by Tax Rates,"Bericht über Bestellungssteuern, gruppiert nach Steuersätzen"
 Order Total,Bestellsumme
-Order Total Excl. Tax,Gesamtbetrag exkl. Steuern
-Order Total Incl. Tax,Gesamtbetrag inkl. Steuern
+Order Total Excl. Tax,Gesamtbetrag exkl. MwSt.
+Order Total Incl. Tax,Gesamtbetrag inkl. MwSt.
 Order Total Report,Bestellsummen-Bericht
 Order total will be displayed before you submit the order,"Auftragssumme wird angezeigt, bevor Sie die Bestellung aufgeben"
 Order Totals,Bestellsumme
@@ -5105,7 +5105,7 @@ Please enter a review summary.,Bitte geben Sie eine Zusammenfassung der Bewertun
 Please enter a review.,Bitte geben Sie eine Bewertung ein.
 Please enter a sender name.,Bitte geben Sie einen Absendernamen ein.
 Please enter a store ID to send email notifications.,"Bitte geben Sie eine Store-ID ein, um E-Mail-Benachrichtigungen zu senden."
-Please enter a TAX/VAT number.,Bitte geben Sie eine Steuernummer ein.
+Please enter a TAX/VAT number.,Bitte geben Sie eine MwSt. Nummer ein.
 Please enter a template name.,Bitte geben Sie einen Vorlagennamen ein.
 Please enter a tracking number.,Bitte Tracking-Nummer eingeben.
 Please enter a transaction ID to authorize this payment.,"Bitte geben Sie eine Transaktions-ID an, um diese Zahlung zu autorisieren."
@@ -5390,9 +5390,9 @@ Price (percentage),Preis (Prozentsatz)
 Price Alert Email Template,Preisalarm E-Mail Vorlage
 Price change alert! We wanted you to know that prices have changed for these products:,"Preisänderungsbenachrichtigung! Wir wollten Sie wissen lassen, dass sich die Preise für diese Produkte verändert haben:"
 Price Display Settings,Preis-Anzeigeeinstellungen
-Price Excl. Tax,Preis exkl. Steuern
+Price Excl. Tax,Preis exkl. MwSt.
 Price in cart,Preis im Warenkorb
-Price Incl. Tax,Preis inkl. Steuern
+Price Incl. Tax,Preis inkl. MwSt.
 Price Navigation Step Calculation,Preisnavigationsschritt-Berechnung
 Price Range,Preisklasse
 Price Rule,Preisregel
@@ -6445,8 +6445,8 @@ Shipping (Excl. Tax),Versandkosten (exkl. MwSt.)
 Shipping (Incl. Tax),Versandkosten (inkl. MwSt.)
 Shipping & Handling,Versand & Bearbeitung
 Shipping & Handling (%1),Versand & Bearbeitung (%1)
-Shipping & Handling (Excl.Tax),Liefer- und Versandkosten (exkl. Steuern)
-Shipping & Handling (Incl.Tax),Liefer- und Versandkosten (inkl. Steuern)
+Shipping & Handling (Excl.Tax),Liefer- und Versandkosten (exkl. MwSt.)
+Shipping & Handling (Incl.Tax),Liefer- und Versandkosten (inkl. MwSt.)
 Shipping &amp; Handling,Versand und Bearbeitung
 Shipping &amp; Handling Information,Versand- und Bearbeitungs-Hinweise
 Shipping Address,Versandadresse
@@ -6540,7 +6540,7 @@ Show Results Count for Each Suggestion,Ergebnisanzahl für jeden Vorschlag anzei
 Show Reviews,Bewertungen anzeigen
 Show Store Credit History to Customers,Shopguthabenhistorie den Kunden anzeigen
 Show Suffix,Suffix zeigen
-Show Tax/VAT Number,Steuernummer/Ust-IdNr. Anzeigen
+Show Tax/VAT Number,Mwst. Nummer/Ust-IdNr. Anzeigen
 Show Upsell Products,Up-Sell-Produkte anzeigen
 Show VAT Number on Storefront,Zeige MwSt.-Nummer im Storefront
 Shuffle,Shuffle
@@ -6933,10 +6933,10 @@ Subscription Options,Abonnement-Optionen
 "Subscription Payment, either payment sent or payment received","Abonnement-Zahlung, entweder Zahlung getätigt oder Zahlung erhalten"
 Subtotal,Zwischensumme
 subtotal,Zwischensumme
-Subtotal (Excl. Tax),Zwischensumme (zzgl. Steuern)
-Subtotal (Excl.Tax),Zwischensumme (exkl. Steuern)
-Subtotal (Incl. Tax),Zwischensumme (inkl. Steuern)
-Subtotal (Incl.Tax),Zwischensumme (inkl. Steuern)
+Subtotal (Excl. Tax),Zwischensumme (zzgl. MwSt.)
+Subtotal (Excl.Tax),Zwischensumme (exkl. MwSt.)
+Subtotal (Incl. Tax),Zwischensumme (inkl. MwSt.)
+Subtotal (Incl.Tax),Zwischensumme (inkl. MwSt.)
 Subtotal after discount,Zwischensumme nach Rabatt
 Subtotal Only,Zwischensumme
 Subtotal:,Zwischensumme:
@@ -7010,7 +7010,7 @@ Tax Class for Gift Options,Steuerklasse für Geschenkoptionen
 Tax Class for Shipping,Steuerklasse für Versand
 Tax Classes,Steuerklassen
 Tax Identifier,Steueridentifizierer
-Tax number,Steuernummer
+Tax number,MwSt. Nummer
 Tax Percent,Steueranteil (%)
 Tax Rate,Steuersatz
 Tax Rate Information,Steursatz-Informationen
@@ -7024,9 +7024,9 @@ Tax Rules,Steuerregeln
 Tax Titles,Steuertitel
 Tax VAT Number,Umsatzsteuer-Nr.
 Tax Zones and Rates,Steuerzonen und -sätze
-Tax/VAT number,Steuernummer/Ust-ID
-Tax/VAT Number,Steuernummer/USt-IdNr.
-Taxes,Steuern
+Tax/VAT number,MwSt. Nummer/Ust-ID
+Tax/VAT Number,MwSt. Nummer/USt-IdNr.
+Taxes,MwSt.
 Telephone,Telefon
 Template,Vorlage
 Template Content,Vorlagen-Inhalt
@@ -7592,8 +7592,8 @@ This role no longer exists.,Diese Rolle existiert nicht mehr.
 This rule is assigned to %1 automated reminder rule(s). ' 'Deleting this rule will automatically unassign it.,"Diese Regel ist %1 automatischen Erinnerungsregel(n) zugewiesen. ' Das Löschen dieser Regel führt automatisch dazu, dass diese nicht mehr zugewiesen sind."
 This rule no longer exists.,Diese Regel existiert nicht mehr.
 This search no longer exists.,Diese Suche existiert nicht mehr.
-This sets whether catalog prices entered from Magento Admin include tax.,Enthalten die per Admin-Panel erfassten Preise bereits Steuern?
-This sets whether shipping amounts entered from Magento Admin or obtained from gateways include tax.,Enthalten die per Admin-Panel erfassten oder über Gateways abgefragten Versandkosten bereits Steuern?
+This sets whether catalog prices entered from Magento Admin include tax.,Enthalten die per Admin-Panel erfassten Preise bereits MwSt.?
+This sets whether shipping amounts entered from Magento Admin or obtained from gateways include tax.,Enthalten die per Admin-Panel erfassten oder über Gateways abgefragten Versandkosten bereits MwSt.?
 This setting will be applied when all prices in the specific price interval are equal.,"Diese Einstellung wird eingesetzt, wenn alle Preise in dem speziellen Preisintervall gleich sind."
 This setting will not be taken into account if system has more than one store view.,"Diese Einstellung wird nicht berücksichtigt, wenn das System mehr als einen Store View hat."
 This shipping method is not available. Please specify the zip code.,Diese Versandart ist nicht verfügbar. Bitte geben Sie die Postleitzahl an.
@@ -7686,7 +7686,7 @@ Total Amount,Gesamtbetrag
 Total Due,Gesamtgebühr
 Total for this address,Gesamtbetrag für diese Adresse
 Total Fulfilled Quantity,Gesamte abgeleistete Summe
-Total Incl. Tax,Gesamtpreis inkl. Steuern
+Total Incl. Tax,Gesamtpreis inkl. MwSt.
 Total Invoiced,Gesamt in Rechnung gestellt
 Total Invoiced VS Paid Report,"""Gesamt in Rechnung gestellt vs. Bezahlt""-Bericht"
 Total Invoiced vs. Paid Report,"""Gesamt in Rechnung gestellt vs. Bezahlt""-Bericht"
@@ -7706,7 +7706,7 @@ Total Shipped Report,Gesamtversand-Bericht
 Total Shipping,Gesamtversand
 Total Shipping Charges,Versand-Gebühren gesamt
 Total shopping cart items quantity %1 %2:,Anzahl der Artikel im Einkaufswagen: %1 %2
-Total Tax,Steuern gesamt
+Total Tax,MwSt. gesamt
 Total Weight,Gesamtgewicht
 Total:,Gesamt:
 Total: %1<br/>,Gesamt: %1<br/>
@@ -9043,7 +9043,7 @@ You updated your password.,Sie haben Ihr Passwort aktualisiert.
 You use an empty set.,Sie verwenden eine leere Menge
 "You used coupon code ""%1"".","Sie haben den Gutscheincode ""%1"" verwendet."
 You voided the credit memo.,Sie haben die Gutschrift storniert.
-You will be charged tax.,Es werden Steuern erhoben.
+You will be charged tax.,Es werden MwSt. erhoben.
 You will be redirected to the payment system website.,Sie werden zur Zahlungssystem-Webseite umgeleitet.
 You will be redirected to the PayPal website when you place an order.,"Sie werden auf die PayPal-Website umgeleitet, wenn Sie eine Bestellung aufgeben."
 You will be redirected to the PayPal website.,Sie werden auf die PayPal-Website umgeleitet.
@@ -9053,7 +9053,7 @@ You will have to sign in after you save your custom admin path.,"Sie müssen sic
 You will no longer receive price alerts for this product.,Sie werden keine weiteren Preisbenachrichtigungen zu diesem Produkt erhalten.
 You will no longer receive stock alerts for this product.,Sie werden keine weiteren Verfügbarkeitsbenachrichtigungen zu diesem Produkt erhalten.
 You will no longer receive stock alerts.,Sie werden Verfügbarkeitsbenachrichtigungen nicht mehr erhalten.
-You will not be charged tax.,Es werden keine Steuern erhoben.
+You will not be charged tax.,Es werden keine MwSt. erhoben.
 You will see the order total before you submit the order.,"Sie werden die Auftragssumme sehen, bevor Sie die Bestellung aufgeben."
 You're currently reading page,Sie lesen gerade Seite
 You're reviewing:,Sie bewerten:
