@@ -1294,8 +1294,8 @@ Carrier,Beförderer
 "Carrier with such method not found: %1, %2","Beförderer mit solchem Verfahren nicht gefunden: %1, %2"
 Carrier:,Beförderer:
 Carrier/Method,Beförderer/Methode
+Cart,Warenkorb
 Cart %1 doesn't contain item  %2,Warenkorb %1 enthält nicht den Artikel %2
-Cart %1 doesn't contain products,Einkaufswagen 1% enthält keine Produkte
 Cart Attribute,Warenkorb-Attribut
 Cart contains virtual product(s) only. Shipping address is not applicable.,Warenkorb enthält nur virtuelle Produkte. Versandadresse ist nicht anwendbar.
 Cart contains virtual product(s) only. Shipping method is not applicable.,Warenkorb enthält nur virtuelle Produkte. Versandmethode ist nicht anwendbar.
@@ -5715,6 +5715,7 @@ Recent statistics have been updated.,Die aktuellen Statistiken wurden aktualisie
 Recently Compared,Zuletzt verglichen
 Recently Compared Products,Zuletzt verglichene Artikel
 Recently Compared Products (%1),Kürzlich verglichene Produkte (%1)
+Recently Ordered,Kürzlich bestellt
 Recently Viewed,Zuletzt angesehen
 Recently Viewed Products,Zuletzt angesehene Artikel
 Recently Viewed Products (%1),Kürzlich angesehene Produkte (%1)
@@ -6875,6 +6876,7 @@ store(%1) scope,Shop(%1)-Bereich
 Store(s) affected:,Betroffene(r) Store(s):
 Store(s) affected:,betroffene Shops:
 Stored Card,Gespeicherte Karte
+Stored Payment Methods,Zahlungsmethoden
 Storefront,Frontend
 Storefront Properties,Storefront-Eigenschaften
 Stores,Shops
@@ -8746,12 +8748,13 @@ You are about to delete all products in this product template. ' 'Are you sure y
 You are not using store credit in your shopping cart.,Sie benutzen kein Shopguthaben in Ihrem Einkaufswagen.
 You are signed out.,Sie haben sich ausgeloggt.
 You are trying to add a quantity for some products that doesn't match the quantity that was shipped.,"Sie versuchen, eine Menge für einige Produkte hinzuzufügen, die nicht mit der Menge übereinstimmt, die geliefert wurde."
+You aren't subscribed to our newsletter., Sie sind nicht für unser Newsletter angemeldet.
 You assigned the order status.,Sie haben den Auftragsstatus zugeordnet.
 You can add only enabled products.,Sie können nur aktivierte Produkte hinzufügen.
 You can adjust the scope of this synonym group by selecting an option from the list.,"Sie können den Geltungsbereich dieser Synonymgruppe anpassen, indem Sie eine Option aus der Liste wählen"
 You can also share it with your friends and family by logging into your account and visiting the Gift Registry tab.,Sie können es ausserdem mit Ihren Freunden und Ihrer Familie teilen indem Sie in Ihr Konto einloggen oder den Geschenkelisten-Reiter besuchen.
 You can buy %1 only in quantities of %2 at a time.,Sie können %1 nur in Mengen von %2 kaufen.
-You can buy this product only in quantities of %1 at a time.,Sie können dieses Produkt nur in Mengen von %2 kaufen.
+You can buy this product only in quantities of %1 at a time.,Sie können dieses Produkt nur in Mengen von %1 kaufen.
 You can buy up to %1 of these per purchase.,Sie können bis zu %1 dieser Produkte pro Bestellung kaufen.
 "You can check the status of your order by <a href=""%account_url"">logging into your account</a>.","Sie können den Status Ihrer Bestellung per <a href=""%account_url"">Login zu Ihrem Konto</a> überprüfen."
 "You can check the status of your return <a href=""%form_url"">using your order number</a>.","Sie können den Status Ihrer Rücksendung verfolgen indem Sie <a href=""%form_url"">Ihre Bestellnummer hier eingeben</a>."
