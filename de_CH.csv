@@ -1296,6 +1296,7 @@ Carrier:,Beförderer:
 Carrier/Method,Beförderer/Methode
 Cart,Warenkorb
 Cart %1 doesn't contain item  %2,Warenkorb %1 enthält nicht den Artikel %2
+Cart %1 doesn't contain products,Einkaufswagen 1% enthält keine Produkte
 Cart Attribute,Warenkorb-Attribut
 Cart contains virtual product(s) only. Shipping address is not applicable.,Warenkorb enthält nur virtuelle Produkte. Versandadresse ist nicht anwendbar.
 Cart contains virtual product(s) only. Shipping method is not applicable.,Warenkorb enthält nur virtuelle Produkte. Versandmethode ist nicht anwendbar.
