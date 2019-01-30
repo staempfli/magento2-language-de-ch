@@ -1,3 +1,4 @@
 .~lock*
 *~
 *.swp
+/nbproject/private/
