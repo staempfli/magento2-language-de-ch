@@ -6536,7 +6536,7 @@ Show Results Count for Each Suggestion,Ergebnisanzahl für jeden Vorschlag anzei
 Show Reviews,Bewertungen anzeigen
 Show Store Credit History to Customers,Shopguthabenhistorie den Kunden anzeigen
 Show Suffix,Suffix zeigen
-Show Tax/VAT Number,Mwst. Nummer/Ust-IdNr. Anzeigen
+Show Tax/VAT Number,Mwst.-Nummer/Ust-IdNr. Anzeigen
 Show Upsell Products,Up-Sell-Produkte anzeigen
 Show VAT Number on Storefront,Zeige MwSt.-Nummer im Storefront
 Shuffle,Shuffle
@@ -6999,7 +6999,7 @@ Target Rule,Zielregel
 Target Rule Index.,Zielregel Index
 Target Rule/Product,Ziel Regel/Produkt
 Tax,MwSt.
-Tax Amount,Steuerbetrag
+Tax Amount,MwSt.-Total
 Tax Calculation Based On,Steuerberechnung basierend auf
 Tax Calculation Method Based On,Steuerberechnungsmethode basiert auf
 Tax Class,Steuerklasse
@@ -7019,7 +7019,7 @@ Tax Report,Steuerbericht
 Tax Rule Information,Steuerregel-Informationen
 Tax Rules,Steuerregeln
 Tax Titles,Steuertitel
-Tax VAT Number,Umsatzsteuer-Nr.
+Tax VAT Number,MwSt.-Nr.
 Tax Zones and Rates,Steuerzonen und -sätze
 Tax/VAT number,MwSt. Nummer/Ust-ID
 Tax/VAT Number,MwSt. Nummer/USt-IdNr.
