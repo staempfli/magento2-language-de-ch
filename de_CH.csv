@@ -7004,7 +7004,7 @@ Target Product,Zielprodukt
 Target Rule,Zielregel
 Target Rule Index.,Zielregel Index
 Target Rule/Product,Ziel Regel/Produkt
-Tax,Steuer
+Tax,MwSt.
 Tax Amount,Steuerbetrag
 Tax Calculation Based On,Steuerberechnung basierend auf
 Tax Calculation Method Based On,Steuerberechnungsmethode basiert auf
@@ -7014,9 +7014,9 @@ Tax Class for Shipping,Steuerklasse für Versand
 Tax Classes,Steuerklassen
 Tax Identifier,Steueridentifizierer
 Tax number,MwSt. Nummer
-Tax Percent,Steueranteil (%)
-Tax Rate,Steuersatz
-Tax Rate Information,Steursatz-Informationen
+Tax Percent,MwSt.-Anteil (%)
+Tax Rate,MwSt.-Satz
+Tax Rate Information,MwSt.-Satz-Informationen
 Tax Rates,Steuersätze
 "Tax rates at the same priority are added, others are compounded.","Die Steuersätze der gleichen Priorität werden hinzugefügt, andere sind zusammengesetzt."
 Tax Rates Export,Steuersätze-Export
