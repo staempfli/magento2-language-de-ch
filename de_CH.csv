@@ -1376,7 +1376,7 @@ Charge-off,Abbuchung
 Chargeback,Rückbuchung
 "Chart is disabled. To enable the chart, click <a href=""%1"">here</a>.","Diagramm ist deaktiviert. Um das Diagramm zu aktivieren, klicken Sie <a href=""%1"">hier</a>."
 Check / Money Order,Rechnung / Geld-Bestellung
-Check &quot;Remember Me&quot; to access your shopping cart on this computer even if you are not signed in.,"Markieren Sie &quot;Angemeldet bleiben&quot; ,um auf den Warenkorb auf diesem Computer zugreifen, auch wenn Sie nicht angemeldet sind."
+Check &quot;Remember Me&quot; to access your shopping cart on this computer even if you are not signed in.,"Mit dieser Option bleiben Sie auf diesem Gerät immer angemeldet."
 Check Data,Daten prüfen
 Check Gift Card status and balance,Geschenkkartenstatus und -guthaben überprüfen
 Check here to link an RSS feed to your Wish List.,Einen RSS-Feed mit Ihrem Wunschzettel verknüpfen.
@@ -2566,7 +2566,7 @@ Engine autocommit,Engine-Auto-Commit
 "Enter ""0"" to enable layered navigation for any number of results.","""0"" eingeben, um Filternavigation für eine beliebige Anzahl an Ergebnissen zu aktivieren."
 Enter a negative number to subtract from the balance.,"Geben Sie eine negative Zahl ein, um Sie vom Saldo abzuziehen."
 Enter a New Address,Geben Sie eine neue Adresse ein
-Enter discount code,Rabattcode eingeben
+Enter discount code,Rabattcode einlösen
 Enter Each Email on New Line,Geben Sie jede E-Mail in einer neuen Zeile ein
 Enter Email,E-Mail eingeben
 Enter gift card code,Geschenkkartencode eingeben
