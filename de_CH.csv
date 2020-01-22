@@ -8731,6 +8731,7 @@ Yes (PayPal recommends this option),Ja (PayPal empfiehlt diese Option)
 "Yes, for Specified Customer Groups","Ja, für festgelegte Kundengruppen."
 Yes. Matched Address and five-didgit ZIP,Ja. Übereinstimmende Adresse und fünfstellige PLZ
 Yes/No,Ja/Nein
+"You added %1 to your <a href=""%2"">shopping cart</a>.","Sie haben %1 zu Ihrem <a href=""%2"">Warenkorb</a> hinzugefügt."
 You added %1 product to your shopping cart.,Sie haben %1 Produkt zu Ihrem Einkaufswagen hinzugefügt.
 You added %1 products to your shopping cart.,Sie haben %1 Produkte zu Ihrem Einkaufswagen hinzugefügt.
 You added %1 to your shopping cart.,Sie haben %1 zu Ihrem Warenkorb hinzugefügt.
