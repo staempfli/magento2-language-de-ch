@@ -1,9 +1,3 @@
-1,1
-20,20
-30,30
-50,50
-123,123
-200,200
 " Transaction ID: ""%1""","Transaktions-ID: ""%1"""
 -- All --,-- Alle --
 -- First Please Select a Website --,-- Wählen Sie bitte zunächst eine Website --
@@ -790,7 +784,7 @@ Apply custom Shipping Policy,Benutzerdefinierte Versandbedingungen anwenden
 Apply Customer Tax,Verwende Kundensteuerklasse
 Apply Design to Products,Design auf Produkte anwenden
 Apply Discount,Rabatt anwenden
-Apply Discount Code,Rabattcode anwenden
+Apply Discount Code,Rabattcode einlösen
 "Apply discount on price including tax is calculated based on store tax if ""Apply Tax after Discount"" is selected.","""Wende Rabatt auf Preise inklusive MwSt. an"" basiert auf der eingestellten Shop-Steuer, wenn 'Wende MwSt. nach Rabatt an' ausgewählt ist."
 Apply Discount On Prices,Wende Rabatt auf Preise an
 Apply Filters,Filter anwenden
@@ -1382,7 +1376,7 @@ Charge-off,Abbuchung
 Chargeback,Rückbuchung
 "Chart is disabled. To enable the chart, click <a href=""%1"">here</a>.","Diagramm ist deaktiviert. Um das Diagramm zu aktivieren, klicken Sie <a href=""%1"">hier</a>."
 Check / Money Order,Rechnung / Geld-Bestellung
-Check &quot;Remember Me&quot; to access your shopping cart on this computer even if you are not signed in.,"Markieren Sie &quot;Angemeldet bleiben&quot; ,um auf den Warenkorb auf diesem Computer zugreifen, auch wenn Sie nicht angemeldet sind."
+Check &quot;Remember Me&quot; to access your shopping cart on this computer even if you are not signed in.,"Mit dieser Option bleiben Sie auf diesem Gerät immer angemeldet."
 Check Data,Daten prüfen
 Check Gift Card status and balance,Geschenkkartenstatus und -guthaben überprüfen
 Check here to link an RSS feed to your Wish List.,Einen RSS-Feed mit Ihrem Wunschzettel verknüpfen.
@@ -2572,7 +2566,7 @@ Engine autocommit,Engine-Auto-Commit
 "Enter ""0"" to enable layered navigation for any number of results.","""0"" eingeben, um Filternavigation für eine beliebige Anzahl an Ergebnissen zu aktivieren."
 Enter a negative number to subtract from the balance.,"Geben Sie eine negative Zahl ein, um Sie vom Saldo abzuziehen."
 Enter a New Address,Geben Sie eine neue Adresse ein
-Enter discount code,Rabattcode eingeben
+Enter discount code,Rabattcode einlösen
 Enter Each Email on New Line,Geben Sie jede E-Mail in einer neuen Zeile ein
 Enter Email,E-Mail eingeben
 Enter gift card code,Geschenkkartencode eingeben
@@ -6542,7 +6536,7 @@ Show Results Count for Each Suggestion,Ergebnisanzahl für jeden Vorschlag anzei
 Show Reviews,Bewertungen anzeigen
 Show Store Credit History to Customers,Shopguthabenhistorie den Kunden anzeigen
 Show Suffix,Suffix zeigen
-Show Tax/VAT Number,Mwst. Nummer/Ust-IdNr. Anzeigen
+Show Tax/VAT Number,Mwst.-Nummer/Ust-IdNr. Anzeigen
 Show Upsell Products,Up-Sell-Produkte anzeigen
 Show VAT Number on Storefront,Zeige MwSt.-Nummer im Storefront
 Shuffle,Shuffle
@@ -7004,8 +6998,8 @@ Target Product,Zielprodukt
 Target Rule,Zielregel
 Target Rule Index.,Zielregel Index
 Target Rule/Product,Ziel Regel/Produkt
-Tax,Steuer
-Tax Amount,Steuerbetrag
+Tax,MwSt.
+Tax Amount,MwSt.-Total
 Tax Calculation Based On,Steuerberechnung basierend auf
 Tax Calculation Method Based On,Steuerberechnungsmethode basiert auf
 Tax Class,Steuerklasse
@@ -7014,9 +7008,9 @@ Tax Class for Shipping,Steuerklasse für Versand
 Tax Classes,Steuerklassen
 Tax Identifier,Steueridentifizierer
 Tax number,MwSt. Nummer
-Tax Percent,Steueranteil (%)
-Tax Rate,Steuersatz
-Tax Rate Information,Steursatz-Informationen
+Tax Percent,MwSt.-Anteil (%)
+Tax Rate,MwSt.-Satz
+Tax Rate Information,MwSt.-Satz-Informationen
 Tax Rates,Steuersätze
 "Tax rates at the same priority are added, others are compounded.","Die Steuersätze der gleichen Priorität werden hinzugefügt, andere sind zusammengesetzt."
 Tax Rates Export,Steuersätze-Export
@@ -7025,7 +7019,7 @@ Tax Report,Steuerbericht
 Tax Rule Information,Steuerregel-Informationen
 Tax Rules,Steuerregeln
 Tax Titles,Steuertitel
-Tax VAT Number,Umsatzsteuer-Nr.
+Tax VAT Number,MwSt.-Nr.
 Tax Zones and Rates,Steuerzonen und -sätze
 Tax/VAT number,MwSt. Nummer/Ust-ID
 Tax/VAT Number,MwSt. Nummer/USt-IdNr.
@@ -8737,6 +8731,7 @@ Yes (PayPal recommends this option),Ja (PayPal empfiehlt diese Option)
 "Yes, for Specified Customer Groups","Ja, für festgelegte Kundengruppen."
 Yes. Matched Address and five-didgit ZIP,Ja. Übereinstimmende Adresse und fünfstellige PLZ
 Yes/No,Ja/Nein
+"You added %1 to your <a href=""%2"">shopping cart</a>.","Sie haben %1 zu Ihrem <a href=""%2"">Warenkorb</a> hinzugefügt."
 You added %1 product to your shopping cart.,Sie haben %1 Produkt zu Ihrem Einkaufswagen hinzugefügt.
 You added %1 products to your shopping cart.,Sie haben %1 Produkte zu Ihrem Einkaufswagen hinzugefügt.
 You added %1 to your shopping cart.,Sie haben %1 zu Ihrem Warenkorb hinzugefügt.
